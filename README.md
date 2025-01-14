@@ -1,6 +1,6 @@
 # Awesome Controllabe Speech Synthesis
 
-This is an evolving repo for this awesome paper [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602).
+This is an evolving repo for the paper [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602).
 
 ![summary](./images/sec1_summary_cap.png)
 ![pipeline](./images/sec2_pipeline_cap.png)
