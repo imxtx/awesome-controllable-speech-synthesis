@@ -2,9 +2,18 @@
 
 This is an evolving repo for the paper [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602).
 
-![summary](./images/sec1_summary_cap.png)
-![pipeline](./images/sec2_pipeline_cap.png)
-![control strategies](./images/sec5_control_strategies_cap.png)
+<p align="center">
+    <img src="./images/sec1_summary.jpg" width="1000"/>
+</p>
+<p align="center">
+    <img src="./images/sec2_pipeline.jpg" width="1000"/>
+</p>
+<p align="center">
+    <img src="./images/sec5_control_strategies.jpg" width="1000"/>
+</p>
+<p align="center">
+<img src="./images/sec6_challenges.jpg" width="500"/>
+</p>
 
 ## 🚀 Non-autoregressive Controllable TTS
 
@@ -144,10 +153,10 @@ Common objective and subjective evaluation metrics:
 ## 📚 Citations
 
 ```latex
-@article{xie2024controllablespeechsynthesisera,
-    title={Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey}, 
-    author={Tianxin Xie and Yan Rong and Pengfei Zhang and Li Liu},
-    journal={arXiv preprint arXiv:2412.06602}
-    year={2024},
+@article{xie2024towards,
+  title={Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey},
+  author={Xie, Tianxin and Rong, Yan and Zhang, Pengfei and Liu, Li},
+  journal={arXiv preprint arXiv:2412.06602},
+  year={2024}
 }
 ```
