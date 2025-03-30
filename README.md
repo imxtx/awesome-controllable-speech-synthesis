@@ -26,7 +26,11 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## 🚀 Non-autoregressive Controllable TTS
 
-In non-autoregressive TTS models, the model generates the entire output sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ at once, conditioned on the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$. The probability distribution for generating the sequence is: $$P(\mathbf{y} | \mathbf{x}) = P(\mathbf{y} | \mathbf{x}, \theta),$$ where $P(\mathbf{y} | \mathbf{x})$ is the likelihood of the output sequence $\mathbf{y}$ given the input $\mathbf{x}$, and $\theta$ represents the parameters of the model (e.g., weights). Since the output sequence is predicted simultaneously, the model learns to capture dependencies in a way that does not rely on previously generated outputs.
+In non-autoregressive TTS models, the model generates the entire output sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ at once, conditioned on the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$. The probability distribution for generating the sequence is:
+
+$$P(\mathbf{y} | \mathbf{x}) = P(\mathbf{y} | \mathbf{x}, \theta),$$
+
+where $P(\mathbf{y} | \mathbf{x})$ is the likelihood of the output sequence $\mathbf{y}$ given the input $\mathbf{x}$, and $\theta$ represents the parameters of the model (e.g., weights). Since the output sequence is predicted simultaneously, the model learns to capture dependencies in a way that does not rely on previously generated outputs.
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -86,7 +90,11 @@ In non-autoregressive TTS models, the model generates the entire output sequence
 
 ## 🎞️ Autoregressive Controllable TTS
 
-For an autoregressive model in TTS, the probability of the speech frame sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ given the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$ can be modeled as: $$P(\mathbf{y} | \mathbf{x}) = \prod_{t=1}^{T} P(y_t | y_{<t}, \mathbf{x}),$$ where $y_t$ is the predicted output frame at time step $t$, $y_{<t} = (y_1, \dots, y_{t-1})$ are the previous frames, and $\mathbf{x}$ is the input feature sequence. Each frame $y_t$ is predicted conditioned on all previous frames and the input sequence $\mathbf{x}$. Autoregressive models are powerful in TTS modeling but tend to be slower in generation time compared to non-autoregressive models, making them suitable for applications where quality is prioritized over real-time performance.
+For an autoregressive model in TTS, the probability of the speech frame sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ given the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$ can be modeled as:
+
+$$P(\mathbf{y} | \mathbf{x}) = \prod_{t=1}^{T} P(y_t | y_{<t}, \mathbf{x}),$$
+
+where $y_t$ is the predicted output frame at time step $t$, $y_{<t} = (y_1, \dots, y_{t-1})$ are the previous frames, and $\mathbf{x}$ is the input feature sequence. Each frame $y_t$ is predicted conditioned on all previous frames and the input sequence $\mathbf{x}$. Autoregressive models are powerful in TTS modeling but tend to be slower in generation time compared to non-autoregressive models, making them suitable for applications where quality is prioritized over real-time performance.
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
