@@ -26,12 +26,6 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## 🚀 Non-autoregressive Controllable TTS
 
-In non-autoregressive TTS models, the model generates the entire output sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ at once, conditioned on the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$. The probability distribution for generating the sequence is:
-
-$$P(\mathbf{y} | \mathbf{x}) = P(\mathbf{y} | \mathbf{x}, \theta),$$
-
-where $P(\mathbf{y} | \mathbf{x})$ is the likelihood of the output sequence $\mathbf{y}$ given the input $\mathbf{x}$, and $\theta$ represents the parameters of the model (e.g., weights). Since the output sequence is predicted simultaneously, the model learns to capture dependencies in a way that does not rely on previously generated outputs.
-
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[FastSpeech](https://proceedings.neurips.cc/paper_files/paper/2019/hash/f63f65b503e22cb970527f23c9ad7db1-Abstract.html)||||✓|✓|||||Transformer|WaveGlow|MelS|2019.05|
@@ -86,15 +80,9 @@ where $P(\mathbf{y} | \mathbf{x})$ is the likelihood of the output sequence $\ma
 |[MS$^{2}$KU-VTTS](https://arxiv.org/abs/2410.14101)||||||||✓|✓|Diffusion|BigvGAN|MelS|2024.10|
 |[MaskGCT](https://arxiv.org/abs/2409.00750)|✓|||✓||✓||||Masked Generative Transformers|DAC + Vocos|Token|2024.10|
 
-*Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume=Loudness, Spe(ed)=Duration, Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram respectively.
+*Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume, Spe(ed), Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively.
 
 ## 🎞️ Autoregressive Controllable TTS
-
-For an autoregressive model in TTS, the probability of the speech frame sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ given the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$ can be modeled as:
-
-$$P(\mathbf{y} | \mathbf{x}) = \prod_{t=1}^{T} P(y_t | y_{<t}, \mathbf{x}),$$
-
-where $y_t$ is the predicted output frame at time step $t$, $y_{<t} = (y_1, \dots, y_{t-1})$ are the previous frames, and $\mathbf{x}$ is the input feature sequence. Each frame $y_t$ is predicted conditioned on all previous frames and the input sequence $\mathbf{x}$. Autoregressive models are powerful in TTS modeling but tend to be slower in generation time compared to non-autoregressive models, making them suitable for applications where quality is prioritized over real-time performance.
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -134,7 +122,7 @@ where $y_t$ is the predicted output frame at time step $t$, $y_{<t} = (y_1, \dot
 |[Takin](https://arxiv.org/abs/2409.12139)|✓|✓||✓|✓|✓|✓||✓|LLM|HiFi-Codec|Token|2024.09|
 |[HALL-E](https://arxiv.org/abs/2410.04380)|✓|||||✓||||LLM|EnCodec|Token|2024.10|
 
-*Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume=Loudness, Spe(ed)=Duration, Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram respectively.
+*Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume, Spe(ed), Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively.
 
 ## 💾 Datsets
 
@@ -161,8 +149,6 @@ A summary of open-source datasets for controllable TTS:
 
 ## 📏 Evaluation Metrics
 
-Common objective and subjective evaluation metrics (GT: Ground truth, $\downarrow$: Lower is better, $\uparrow$: Higher is better.):
-
 | Metric | Type | Eval Target | GT Required |
 |:---:|:---:|:---:|:---:|
 | Mel-Cepstral Distortion (MCD) $\downarrow$ | Objective | Acoustic similarity | ✓ |
@@ -175,3 +161,5 @@ Common objective and subjective evaluation metrics (GT: Ground truth, $\downarro
 | Comparison Mean Opinion Score (CMOS) $\uparrow$ | Subjective | Preference | |
 | AB Test | Subjective | Preference | |
 | ABX Test | Subjective | Perceptual similarity | ✓ |
+
+GT: Ground truth, $\downarrow$: Lower is better, $\uparrow$: Higher is better.
