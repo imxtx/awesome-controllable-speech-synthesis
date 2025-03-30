@@ -26,14 +26,16 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## 🚀 Non-autoregressive Controllable TTS
 
+Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code**.
+
+- [FastSpeech](https://proceedings.neurips.cc/paper_files/paper/2019/hash/f63f65b503e22cb970527f23c9ad7db1-Abstract.html), Zero-shot (✗), Controllability (Speed, Prosody), Transformer, WaveGlow, MelS, 2019.05, [Code (unofficial)](https://github.com/xcmyz/FastSpeech)
+- [FastSpeech 2](https://arxiv.org/abs/2006.04558), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody), Transformer, Parallel WaveGAN, MelS, 2020.06, [Code (unofficial)](https://github.com/ming024/FastSpeech2)
+- [FastPitch](https://ieeexplore.ieee.org/abstract/document/9413889), Zero-shot (✗), Controllability (Pitch, Prosody), Transformer, WaveGlow, MelS, 2020.06, [Code](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/SpeechSynthesis/FastPitch)
+- [Parallel Tacotron](https://ieeexplore.ieee.org/abstract/document/9414718), Zero-shot (✗), Controllability (Prosody), Transformer + CNN, WaveRNN, MelS, 2020.10
+- [StyleTagging-TTS](https://arxiv.org/abs/2104.00436), Zero-shot (✓), Controllability (Timbre, Emotion), Transformer + CNN, HiFi-GAN, MelS, 2021.04
+
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[FastSpeech](https://proceedings.neurips.cc/paper_files/paper/2019/hash/f63f65b503e22cb970527f23c9ad7db1-Abstract.html)||||✓|✓|||||Transformer|WaveGlow|MelS|2019.05|
-|[DWAPI](https://ieeexplore.ieee.org/abstract/document/9072171)||✓|||✓||✓|||DNN|Straight|MelS + F0 + Intensity|2020.04|
-|[FastSpeech 2](https://arxiv.org/abs/2006.04558)||✓|✓|✓|✓|||||Transformer|Parallel WaveGAN|MelS|2020.06|
-|[FastPitch](https://ieeexplore.ieee.org/abstract/document/9413889)||✓|||✓|||||Transformer|WaveGlow|MelS|2020.06|
-|[Parallel Tacotron](https://ieeexplore.ieee.org/abstract/document/9414718)|||||✓|||||Transformer + CNN|WaveRNN|MelS|2020.10|
-|[StyleTagging-TTS](https://arxiv.org/abs/2104.00436)|✓|||||✓|✓|||Transformer + CNN|HiFi-GAN|MelS|2021.04|
 |[SC-GlowTTS](https://arxiv.org/abs/2104.05557)|✓|||||✓||||Transformer + Conv|HiFi-GAN|MelS|2021.06|
 |[Meta-StyleSpeech](https://proceedings.mlr.press/v139/min21b.html)|✓|||||✓||||Transformer|MelGAN|MelS|2021.06|
 |[DelightfulTTS](https://arxiv.org/abs/2110.12612)||✓||✓|✓|||||Transformer + CNN|HiFiNet|MelS|2021.11|
