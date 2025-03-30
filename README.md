@@ -1,6 +1,15 @@
 # Awesome Controllabe Speech Synthesis
 
-This is an evolving repo for the paper [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602).
+This is an evolving repo for the survey: [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602). If you find our survey useful for your research, please 📚cite📚 the following paper:
+
+```latex
+@article{xie2024towards,
+  title={Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey},
+  author={Xie, Tianxin and Rong, Yan and Zhang, Pengfei and Liu, Li},
+  journal={arXiv preprint arXiv:2412.06602},
+  year={2024}
+}
+```
 
 <p align="center">
     <img src="./images/sec1_summary.jpg" width="1000"/>
@@ -16,6 +25,8 @@ This is an evolving repo for the paper [Towards Controllable Speech Synthesis in
 </p>
 
 ## 🚀 Non-autoregressive Controllable TTS
+
+In non-autoregressive TTS models, the model generates the entire output sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ at once, conditioned on the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$. The probability distribution for generating the sequence is: $$P(\mathbf{y} | \mathbf{x}) = P(\mathbf{y} | \mathbf{x}, \theta),$$ where $P(\mathbf{y} | \mathbf{x})$ is the likelihood of the output sequence $\mathbf{y}$ given the input $\mathbf{x}$, and $\theta$ represents the parameters of the model (e.g., weights). Since the output sequence is predicted simultaneously, the model learns to capture dependencies in a way that does not rely on previously generated outputs.
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -74,6 +85,8 @@ This is an evolving repo for the paper [Towards Controllable Speech Synthesis in
 *Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume=Loudness, Spe(ed)=Duration, Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram respectively.
 
 ## 🎞️ Autoregressive Controllable TTS
+
+For an autoregressive model in TTS, the probability of the speech frame sequence $\mathbf{y} = (y_1, y_2, \dots, y_T)$ given the input sequence $\mathbf{x} = (x_1, x_2, \dots, x_T)$ can be modeled as: $$P(\mathbf{y} | \mathbf{x}) = \prod_{t=1}^{T} P(y_t | y_{<t}, \mathbf{x}),$$ where $y_t$ is the predicted output frame at time step $t$, $y_{<t} = (y_1, \dots, y_{t-1})$ are the previous frames, and $\mathbf{x}$ is the input feature sequence. Each frame $y_t$ is predicted conditioned on all previous frames and the input sequence $\mathbf{x}$. Autoregressive models are powerful in TTS modeling but tend to be slower in generation time compared to non-autoregressive models, making them suitable for applications where quality is prioritized over real-time performance.
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -140,23 +153,17 @@ A summary of open-source datasets for controllable TTS:
 
 ## 📏 Evaluation Metrics
 
-Common objective and subjective evaluation metrics:
+Common objective and subjective evaluation metrics (GT: Ground truth, $\downarrow$: Lower is better, $\uparrow$: Higher is better.):
 
-|Metric|Type|Eval Target|GT Required|
+| Metric | Type | Eval Target | GT Required |
 |:---:|:---:|:---:|:---:|
-|[MCD](https://www.cs.cmu.edu/~./awb/papers/sltu2008/kominek_black.sltu_2008.pdf)|Objective|Acoustic similarity|✓|
-|[PESQ](https://ieeexplore.ieee.org/abstract/document/941023)|Objective|Perceptual quality|✓|
-|[WER](https://en.wikipedia.org/wiki/Word_error_rate)|Objective|Intelligibility|✓|
-|[MOS](https://en.wikipedia.org/wiki/Mean_opinion_score)|Subjective|Preference||
-|[CMOS](https://link.springer.com/chapter/10.1007/978-3-642-19551-8_23)|Subjective|Preference||
-
-## 📚 Citations
-
-```latex
-@article{xie2024towards,
-  title={Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey},
-  author={Xie, Tianxin and Rong, Yan and Zhang, Pengfei and Liu, Li},
-  journal={arXiv preprint arXiv:2412.06602},
-  year={2024}
-}
-```
+| Mel-Cepstral Distortion (MCD) $\downarrow$ | Objective | Acoustic similarity | ✓ |
+| Frequency Domain Score Difference (FDSD) $\downarrow$ | Objective | Acoustic similarity | ✓ |
+| Word Error Rate (WER) $\downarrow$ | Objective | Intelligibility | ✓ |
+| Cosine Similarity $\downarrow$ | Objective | Speaker similarity | ✓ |
+| Perceptual Evaluation of Speech Quality (PESQ) $\uparrow$ | Objective | Perceptual quality | ✓ |
+| Signal-to-Noise Ratio (SNR) $\uparrow$ | Objective | Perceptual quality | ✓ |
+| Mean Opinion Score (MOS) $\uparrow$ | Subjective | Preference | |
+| Comparison Mean Opinion Score (CMOS) $\uparrow$ | Subjective | Preference | |
+| AB Test | Subjective | Preference | |
+| ABX Test | Subjective | Perceptual similarity | ✓ |
