@@ -26,7 +26,7 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## 🚀 Non-autoregressive Controllable TTS
 
-Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code**.
+Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo/checkpoint**.
 
 - [FastSpeech](https://proceedings.neurips.cc/paper_files/paper/2019/hash/f63f65b503e22cb970527f23c9ad7db1-Abstract.html), Zero-shot (✗), Controllability (Speed, Prosody), Transformer, [WaveGlow](https://github.com/NVIDIA/waveglow), MelS, 2019.05, [Code (unofficial)](https://github.com/xcmyz/FastSpeech)
 - [FastSpeech 2](https://arxiv.org/abs/2006.04558), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody), Transformer, [Parallel WaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN), MelS, 2020.06, [Code (unofficial)](https://github.com/ming024/FastSpeech2)
@@ -35,18 +35,18 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [StyleTagging-TTS](https://arxiv.org/abs/2104.00436), Zero-shot (✓), Controllability (Timbre, Emotion), Transformer + CNN, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2021.04, [Demo](https://gannnn123.github.io/styletaggingtts-demo/)
 - [SC-GlowTTS](https://arxiv.org/abs/2104.05557), Zero-shot (✓), Controllability (Timbre), Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2021.06, [Demo & Checkpoint](https://github.com/Edresson/SC-GlowTTS)
 - [Meta-StyleSpeech](https://proceedings.mlr.press/v139/min21b.html), Zero-shot (✓), Controllability (Timbre), Transformer, [MelGAN](https://arxiv.org/abs/1910.06711), MelS, 2021.06, [Demo](https://stylespeech.github.io/)
-- [DelightfulTTS](https://arxiv.org/abs/2110.12612), Zero-shot (✗), Controllability (Pitch, Speed, Prosody), Transformer + CNN, [HiFiNet]((https://arxiv.org/abs/2110.12612)), MelS, 2021.11, [Demo](https://cognitivespeech.github.io/delightfultts)
+- [DelightfulTTS](https://arxiv.org/abs/2110.12612), Zero-shot (✗), Controllability (Pitch, Speed, Prosody), Transformer + CNN, [HiFiNet](https://github.com/yl4579/HiFTNet), MelS, 2021.11, [Demo](https://cognitivespeech.github.io/delightfultts)
 - [YourTTS](https://proceedings.mlr.press/v162/casanova22a.html), Zero-shot (✓), Controllability (Timbre), Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), LinS, 2021.12, [Demo & Checkpoint](https://github.com/Edresson/YourTTS)
 - [StyleTTS](https://arxiv.org/abs/2205.15439), Zero-shot (✓), Controllability (Timbre), CNN + RNN, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2022.05, [Code](https://github.com/yl4579/StyleTTS)
+- [GenerSpeech](https://proceedings.neurips.cc/paper_files/paper/2022/hash/4730d10b22261faa9a95ebf7497bc556-Abstract-Conference.html), Zero-shot (✓), Controllability (Timbre), Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2022.05, [Demo](https://generspeech.github.io/)
+- [Cauliflow](https://arxiv.org/abs/2206.14165), Zero-shot (✗), Controllability (Speed, Prosody), BERT + Flow, [UP WaveNet](https://arxiv.org/abs/2102.01106), MelS, 2022.06
+- [CLONE](https://arxiv.org/abs/2207.06088), Zero-shot (✗), Controllability (Pitch, Speed, Prosody), Transformer + CNN, [WaveNet](https://arxiv.org/abs/1609.03499), MelS + LinS, 2022.07, [Demo](https://xcmyz.github.io/CLONE/)
+- [PromptTTS](https://ieeexplore.ieee.org/abstract/document/10096285), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Bert + Transformer, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2022.11, [Demo](https://speechresearch.github.io/prompttts/)
+- [Grad-StyleSpeech](https://ieeexplore.ieee.org/abstract/document/10095515), Zero-shot (✓), Controllability (Timbre), Score-based Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2022.11, [Demo](https://nardien.github.io/grad-stylespeech-demo/)
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[GenerSpeech](https://proceedings.neurips.cc/paper_files/paper/2022/hash/4730d10b22261faa9a95ebf7497bc556-Abstract-Conference.html)|✓|||||✓||||Transformer + Flow-based|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2022.05|
-|[NaturalSpeech 2](https://arxiv.org/abs/2304.09116)|✓|||||✓||||Diffusion|Codec Decoder|Token|2022.05|
-|[Cauliflow](https://arxiv.org/abs/2206.14165)||||✓|✓|||||BERT + Flow|UP WaveNet|MelS|2022.06|
-|[CLONE](https://arxiv.org/abs/2207.06088)||✓||✓|✓|||||Transformer + CNN|WaveNet|MelS + LinS|2022.07|
-|[PromptTTS](https://ieeexplore.ieee.org/abstract/document/10096285)||✓|✓|✓||✓|✓||✓|Transformer|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2022.11|
-|[Grad-StyleSpeech](https://ieeexplore.ieee.org/abstract/document/10095515)|✓|||||✓||||Score-based Diffusion|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2022.11|
+|[NaturalSpeech 2](https://arxiv.org/abs/2304.09116)|✓|||||✓||||Diffusion|Codec Decoder|Token|2023.04|
 |[PromptStyle](https://arxiv.org/abs/2305.19522)|✓|✓|||✓|✓|✓||✓|VITS|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2023.05|
 |[StyleTTS 2](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3eaad2a0b62b5ed7a2e66c2188bb1449-Abstract-Conference.html)|✓||||✓|✓|✓|||Diffusion + GAN|[HiFi-GAN](https://github.com/jik876/hifi-gan) / iSTFTNet|MelS|2023.06|
 |[VoiceBox](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2d8911db9ecedf866015091b28946e15-Abstract-Conference.html)|✓|||||✓||||Flow Matching Diffusion|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2023.06|
