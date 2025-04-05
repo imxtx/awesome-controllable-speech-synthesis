@@ -58,14 +58,14 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [HierSpeech++](https://arxiv.org/abs/2311.12454), Zero-shot (✓), Controllability (Timbre), Transformer + VAE + Flow, [BigVGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2023.11, [Demo](https://sh-lee-prml.github.io/HierSpeechpp-demo/), [Code](https://github.com/sh-lee-prml/HierSpeechpp)
 - [Audiobox](https://arxiv.org/abs/2312.15821), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Environment, Description), Transformer + Flow, [EnCodec](https://github.com/facebookresearch/encodec), MelS, 2023.12, [Demo](https://audiobox.metademolab.com/)
 - [FlashSpeech](https://dl.acm.org/doi/abs/10.1145/3664647.3681044), Zero-shot (✓), Controllability (Timbre), Latent Consistency Model, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2024.04, [Demo](https://flashspeech.github.io/), [Code](https://github.com/zhenye234/FlashSpeech)
+- [NaturalSpeech 3](https://arxiv.org/abs/2403.03100), Zero-shot (✓), Controllability (Speed, Prosody, Timbre), Transformer + Diffusion, [FACodec](https://github.com/lifeiteng/naturalspeech3_facodec), Token, 2024.04, [Demo](https://speechresearch.github.io/naturalspeech3/)
+- [InstructTTS](https://ieeexplore.ieee.org/abstract/document/10534832), Zero-shot (✗), Controllability (Pitch, Speed, Prosody, Timbre, Emotion, Description), Transformer + Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token, 2024.05, [Demo](https://dongchaoyang.top/InstructTTS/)
+- [ControlSpeech](https://arxiv.org/abs/2406.01205), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Transformer + Diffusion, [FACodec](https://github.com/lifeiteng/naturalspeech3_facodec), Token, 2024.06, [Demo](https://controlspeech.github.io/), [Code](https://github.com/jishengpeng/ControlSpeech)
+- [AST-LDM](https://arxiv.org/abs/2406.12688), Zero-shot (✗), Controllability (Timbre, Environment, Description), Diffusion + VAE, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2024.06, [Demo](https://ast-ldm.github.io/demo/)
+- [SimpleSpeech](https://arxiv.org/abs/2406.02328), Zero-shot (✓), Controllability (Timbre), Transformer + Diffusion, [SQ Codec](https://arxiv.org/abs/2406.02328), Token, 2024.06, [Demo](https://simplespeech.github.io/simplespeechDemo/), [Code](https://github.com/yangdongchao/SimpleSpeech)
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[NaturalSpeech 3](https://arxiv.org/abs/2403.03100)|✓|||✓|✓|✓||||Diffusion|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2024.04|
-|[InstructTTS](https://ieeexplore.ieee.org/abstract/document/10534832)||✓||✓|✓|✓|✓||✓|Transformer + Diffusion|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.05|
-|[ControlSpeech](https://arxiv.org/abs/2406.01205)|✓|✓|✓|✓|✓|✓|✓||✓|Transformer + Diffusion|FACodec Decoder|Token|2024.06|
-|[AST-LDM](https://arxiv.org/abs/2406.12688)||||||✓||✓|✓|Diffusion|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2024.06|
-|[SimpleSpeech](https://arxiv.org/abs/2406.02328)|✓|||||✓||||Transformer Diffusion|SQ Decoder|Token|2024.06|
 |[DiTTo-TTS](https://arxiv.org/abs/2406.11427)|✓|||✓||✓||||DiT|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2024.06|
 |[E2 TTS](https://arxiv.org/abs/2406.18009)|✓|||||✓||||Flow Matching Transformer|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.06|
 |[MobileSpeech](https://arxiv.org/abs/2402.09378)|✓|||||✓||||ConFormer Decoder|Vocos|Token|2024.06|
