@@ -63,14 +63,14 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [ControlSpeech](https://arxiv.org/abs/2406.01205), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Transformer + Diffusion, [FACodec](https://github.com/lifeiteng/naturalspeech3_facodec), Token, 2024.06, [Demo](https://controlspeech.github.io/), [Code](https://github.com/jishengpeng/ControlSpeech)
 - [AST-LDM](https://arxiv.org/abs/2406.12688), Zero-shot (✗), Controllability (Timbre, Environment, Description), Diffusion + VAE, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2024.06, [Demo](https://ast-ldm.github.io/demo/)
 - [SimpleSpeech](https://arxiv.org/abs/2406.02328), Zero-shot (✓), Controllability (Timbre), Transformer + Diffusion, [SQ Codec](https://arxiv.org/abs/2406.02328), Token, 2024.06, [Demo](https://simplespeech.github.io/simplespeechDemo/), [Code](https://github.com/yangdongchao/SimpleSpeech)
+- [DiTTo-TTS](https://arxiv.org/abs/2406.11427), Zero-shot (✓), Controllability (Speed, Timbre), DiT + VAE, [BigVGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2024.06, [Demo](https://ditto-tts.github.io/)
+- [E2 TTS](https://arxiv.org/abs/2406.18009), Zero-shot (✓), Controllability (Timbre), Transformer + Flow, [BigVGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2024.06, [Demo](https://www.microsoft.com/en-us/research/project/e2-tts/), [Code (unofficial)](https://github.com/lucidrains/e2-tts-pytorch)
+- [MobileSpeech](https://arxiv.org/abs/2402.09378), Zero-shot (✓), Controllability (Timbre), Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.06, [Demo](https://mobilespeech.github.io/)
+- [DEX-TTS](https://arxiv.org/abs/2406.19135), Zero-shot (✓), Controllability (Timbre), Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2024.06, [Code](https://github.com/winddori2002/DEX-TTS)
+- [ArtSpeech](https://dl.acm.org/doi/abs/10.1145/3664647.3681097), Zero-shot (✓), Controllability (Timbre), RNN + CNN, [HiFI-GAN](https://github.com/jik876/hifi-gan), MelS, 2024.07, [Demo](https://zhongxu-wang.github.io/artspeeech.demopage/), [Code](https://github.com/Zhongxu-Wang/ArtSpeech)
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[DiTTo-TTS](https://arxiv.org/abs/2406.11427)|✓|||✓||✓||||DiT|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2024.06|
-|[E2 TTS](https://arxiv.org/abs/2406.18009)|✓|||||✓||||Flow Matching Transformer|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.06|
-|[MobileSpeech](https://arxiv.org/abs/2402.09378)|✓|||||✓||||ConFormer Decoder|Vocos|Token|2024.06|
-|[DEX-TTS](https://arxiv.org/abs/2406.19135)|✓|||||✓||||Diffusion|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2024.06|
-|[ArtSpeech](https://dl.acm.org/doi/abs/10.1145/3664647.3681097)|✓|||||✓||||RNN + CNN|[HiFI-GAN](https://github.com/jik876/hifi-gan)|MelS|2024.07|
 |[CCSP](https://dl.acm.org/doi/abs/10.1145/3664647.3681348)|✓|||||✓||||Diffusion|Codec Decoder|Token|2024.07|
 |[SimpleSpeech 2](https://arxiv.org/abs/2408.13893)|✓|||✓||✓||||Flow-based Transformer Diffusion|SQ Decoder|Token|2024.08|
 |[E1 TTS](https://arxiv.org/abs/2409.09351)|✓|||||✓||||DiT|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2024.09|
@@ -79,7 +79,7 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 |[NansyTTS](https://arxiv.org/abs/2409.17452)|✓|✓||✓|✓|✓|||✓|Transformer|NANSY++|MelS|2024.09|
 |[NanoVoice](https://arxiv.org/abs/2409.15760)|✓|||||✓||||Diffusion|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.09|
 |[MS$^{2}$KU-VTTS](https://arxiv.org/abs/2410.14101)||||||||✓|✓|Diffusion|[BigvGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.10|
-|[MaskGCT](https://arxiv.org/abs/2409.00750)|✓|||✓||✓||||Masked Generative Transformers|DAC + Vocos|Token|2024.10|
+|[MaskGCT](https://arxiv.org/abs/2409.00750)|✓|||✓||✓||||Masked Generative Transformers|DAC + [Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.10|
 
 *Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume, Spe(ed), Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively.
 
@@ -108,15 +108,15 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 |[ClaM-TTS](https://arxiv.org/abs/2404.02781)|✓|||||✓||||LLM|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS+Token|2024.04|
 |[RALL-E](https://arxiv.org/abs/2404.03204)|✓|||||✓||||LLM|SoundStream|Token|2024.05|
 |[ARDiT](https://arxiv.org/abs/2406.05551)|✓|||✓||✓||||Decoder-only Diffusion Transformer|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.06|
-|[VALL-E R](https://arxiv.org/abs/2406.07855)|✓|||||✓||||LLM|Vocos|Token|2024.06|
-|[VALL-E 2](https://arxiv.org/abs/2406.05370)|✓|||||✓||||LLM|Vocos|Token|2024.06|
+|[VALL-E R](https://arxiv.org/abs/2406.07855)|✓|||||✓||||LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.06|
+|[VALL-E 2](https://arxiv.org/abs/2406.05370)|✓|||||✓||||LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.06|
 |[Seed-TTS](https://arxiv.org/abs/2406.02430)|✓|||||✓|✓|||LLM + Diffusion Transformer|/|Token|2024.06|
 |[VoiceCraft](https://arxiv.org/abs/2403.16973)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.06|
 |[XTTS](https://arxiv.org/abs/2406.04904)|✓|||||✓||||LLM + GAN|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS+Token|2024.06|
 |[CosyVoice](https://arxiv.org/abs/2407.05407)|✓|✓||✓|✓|✓|✓||✓|LLM + Conditional Flow Matching|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.07|
 |[MELLE](https://arxiv.org/abs/2407.08551)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2024.07|
 |[Bailing TTS](https://arxiv.org/abs/2408.00284)|✓|||||✓||||LLM + Diffusion Transformer|/|Token|2024.08|
-|[VoxInstruct](https://dl.acm.org/doi/abs/10.1145/3664647.3681680)|✓|✓|✓|✓|✓|✓|✓||✓|LLM|Vocos|Token|2024.08|
+|[VoxInstruct](https://dl.acm.org/doi/abs/10.1145/3664647.3681680)|✓|✓|✓|✓|✓|✓|✓||✓|LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.08|
 |[Emo-DPO](https://arxiv.org/abs/2409.10157)|||||||✓||✓|LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.09|
 |[FireRedTTS](https://arxiv.org/abs/2409.03283)|✓||||✓|✓||||LLM + Conditional Flow Matching|[BigVGAN](https://github.com/NVIDIA/BigVGAN)-v2|Token|2024.09|
 |[CoFi-Speech](https://arxiv.org/abs/2409.11630)|✓|||||✓||||LLM|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2024.09|
