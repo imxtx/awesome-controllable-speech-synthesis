@@ -68,15 +68,14 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [MobileSpeech](https://arxiv.org/abs/2402.09378), Zero-shot (✓), Controllability (Timbre), Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.06, [Demo](https://mobilespeech.github.io/)
 - [DEX-TTS](https://arxiv.org/abs/2406.19135), Zero-shot (✓), Controllability (Timbre), Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2024.06, [Code](https://github.com/winddori2002/DEX-TTS)
 - [ArtSpeech](https://dl.acm.org/doi/abs/10.1145/3664647.3681097), Zero-shot (✓), Controllability (Timbre), RNN + CNN, [HiFI-GAN](https://github.com/jik876/hifi-gan), MelS, 2024.07, [Demo](https://zhongxu-wang.github.io/artspeeech.demopage/), [Code](https://github.com/Zhongxu-Wang/ArtSpeech)
+- [CCSP](https://dl.acm.org/doi/abs/10.1145/3664647.3681348), Zero-shot (✓), Controllability (Timbre), Diffusion, [RVQ-based Codec]((https://dl.acm.org/doi/abs/10.1145/3664647.3681348)), Token, 2024.07, [Demo](https://ccsp2024.github.io/demo/)
+- [SimpleSpeech 2](https://arxiv.org/abs/2408.13893), Zero-shot (✓), Controllability (Speed, Timbre), Flow-based DiT, [SQ Codec](https://arxiv.org/abs/2406.02328), Token, 2024.08, [Demo](https://dongchaoyang.top/SimpleSpeech2_demo/), [Code](https://github.com/yangdongchao/SimpleSpeech)
+- [E1 TTS](https://arxiv.org/abs/2409.09351), Zero-shot (✓), Controllability (Timbre), DiT + Flow, [BigVGAN](https://github.com/NVIDIA/BigVGAN), Token + MelS, 2024.09, [Demo](https://e1tts.github.io/)
+- [StyleTTS-ZS](https://arxiv.org/abs/2409.10058), Zero-shot (✓), Controllability (Timbre), Flow-based Diffusion + GAN, [Mel-based Decoder](https://arxiv.org/abs/2409.10058), MelS, 2024.09, [Demo](https://styletts-zs.github.io/)
+- [NansyTTS](https://arxiv.org/abs/2409.17452), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Description), Transformer, [NANSY++](https://arxiv.org/abs/2409.17452), MelS, 2024.09, [Demo](https://r9y9.github.io/projects/nansyttspp/)
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[CCSP](https://dl.acm.org/doi/abs/10.1145/3664647.3681348)|✓|||||✓||||Diffusion|Codec Decoder|Token|2024.07|
-|[SimpleSpeech 2](https://arxiv.org/abs/2408.13893)|✓|||✓||✓||||Flow-based Transformer Diffusion|SQ Decoder|Token|2024.08|
-|[E1 TTS](https://arxiv.org/abs/2409.09351)|✓|||||✓||||DiT|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2024.09|
-|[VoiceGuider](https://arxiv.org/abs/2409.15759)|✓|||||✓||||Diffusion|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.09|
-|[StyleTTS-ZS](https://arxiv.org/abs/2409.10058)|✓|||||✓||||Diffusion + GAN|HifiGAN / iSTFTNet|Token|2024.09|
-|[NansyTTS](https://arxiv.org/abs/2409.17452)|✓|✓||✓|✓|✓|||✓|Transformer|NANSY++|MelS|2024.09|
 |[NanoVoice](https://arxiv.org/abs/2409.15760)|✓|||||✓||||Diffusion|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.09|
 |[MS$^{2}$KU-VTTS](https://arxiv.org/abs/2410.14101)||||||||✓|✓|Diffusion|[BigvGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.10|
 |[MaskGCT](https://arxiv.org/abs/2409.00750)|✓|||✓||✓||||Masked Generative Transformers|DAC + [Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.10|
