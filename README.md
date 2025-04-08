@@ -73,12 +73,14 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [E1 TTS](https://arxiv.org/abs/2409.09351), Zero-shot (✓), Controllability (Timbre), DiT + Flow, [BigVGAN](https://github.com/NVIDIA/BigVGAN), Token + MelS, 2024.09, [Demo](https://e1tts.github.io/)
 - [StyleTTS-ZS](https://arxiv.org/abs/2409.10058), Zero-shot (✓), Controllability (Timbre), Flow-based Diffusion + GAN, [Mel-based Decoder](https://arxiv.org/abs/2409.10058), MelS, 2024.09, [Demo](https://styletts-zs.github.io/)
 - [NansyTTS](https://arxiv.org/abs/2409.17452), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Description), Transformer, [NANSY++](https://arxiv.org/abs/2409.17452), MelS, 2024.09, [Demo](https://r9y9.github.io/projects/nansyttspp/)
-
-|Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[NanoVoice](https://arxiv.org/abs/2409.15760)|✓|||||✓||||Diffusion|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.09|
-|[MS$^{2}$KU-VTTS](https://arxiv.org/abs/2410.14101)||||||||✓|✓|Diffusion|[BigvGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.10|
-|[MaskGCT](https://arxiv.org/abs/2409.00750)|✓|||✓||✓||||Masked Generative Transformers|DAC + [Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.10|
+- [NanoVoice](https://arxiv.org/abs/2409.15760), Zero-shot (✓), Controllability (Timbre), Diffusion, [BigVGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2024.09
+- [MS$^{2}$KU-VTTS](https://arxiv.org/abs/2410.14101), Zero-shot (✗), Controllability (Environment, Description), Diffusion, [BigvGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2024.10
+- [EmoSphere++](https://arxiv.org/abs/2411.02625), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion), Transformer + Flow, [BigVGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2024.11, [Demo](https://choddeok.github.io/EmoSphere-Demo/), [Code](https://github.com/Choddeok/EmoSpherepp)
+- [EmoDubber](https://arxiv.org/abs/2412.08988), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion), Transformer + Flow, [Flow-based Vocoder](https://arxiv.org/abs/2412.08988), MelS, 2024.12, [Demo](https://galaxycong.github.io/EmoDub/)
+- [HED](https://arxiv.org/abs/2412.12498), Zero-shot (✓), Controllability (Emotion), Flow-based Diffusion, [Vocos](https://github.com/gemelo-ai/vocos), MelS, 2024.12, [Demo](https://shinshoji01.github.io/HED-Demo/)
+- [DiffStyleTTS](https://arxiv.org/abs/2412.03388), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody, Timbre), Transformer + Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01, [Demo](https://xuan3986.github.io/DiffStyleTTS/)
+- [DrawSpeech](https://arxiv.org/abs/2501.04256), Zero-shot (✗), Controllability (Energy, Prosody), Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01, [Demo](https://happycolor.github.io/DrawSpeech/), [Code](https://github.com/HappyColor/DrawSpeech_PyTorch)
+- [ProEmo](https://arxiv.org/abs/2501.06276), Zero-shot (✗), Controllability (Pitch, Energy, Emotion, Description), Transformer, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01
 
 *Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume, Spe(ed), Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively.
 
