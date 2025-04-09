@@ -26,7 +26,9 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## 🚀 Non-autoregressive Controllable TTS
 
-Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo/checkpoint**.
+Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo**.
+
+> *NOTE*: MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively. Among today’s TTS systems, MelS, latent features (from VAEs, diffusion models, and other flow-based methods), and various types of discrete tokens are the most commonly used acoustic representations.
 
 - [FastSpeech](https://proceedings.neurips.cc/paper_files/paper/2019/hash/f63f65b503e22cb970527f23c9ad7db1-Abstract.html), Zero-shot (✗), Controllability (Speed, Prosody), Transformer, [WaveGlow](https://github.com/NVIDIA/waveglow), MelS, 2019.05, [Code (unofficial)](https://github.com/xcmyz/FastSpeech)
 - [FastSpeech 2](https://arxiv.org/abs/2006.04558), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody), Transformer, [Parallel WaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN), MelS, 2020.06, [Code (unofficial)](https://github.com/ming024/FastSpeech2)
@@ -45,7 +47,7 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [Grad-StyleSpeech](https://ieeexplore.ieee.org/abstract/document/10095515), Zero-shot (✓), Controllability (Timbre), Score-based Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2022.11, [Demo](https://nardien.github.io/grad-stylespeech-demo/)
 - [NaturalSpeech 2](https://arxiv.org/abs/2304.09116), Zero-shot (✓), Controllability (Timbre), Diffusion, [RVQ-based Codec](https://arxiv.org/abs/2304.09116), Token, 2023.04, [Demo](https://speechresearch.github.io/naturalspeech2/), [Code (unofficial)](https://github.com/lucidrains/naturalspeech2-pytorch)
 - [PromptStyle](https://arxiv.org/abs/2305.19522), Zero-shot (✓), Controllability (Pitch, Prosody, Timbre, Emotion, Description), [VITS](https://arxiv.org/abs/2106.06103) + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2023.05, [Demo](https://promptstyle.github.io/PromptStyle)
-- [StyleTTS 2](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3eaad2a0b62b5ed7a2e66c2188bb1449-Abstract-Conference.html), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion), Flow-based Diffusion + GAN, [HiFi-GAN](https://github.com/jik876/hifi-gan) / [iSTFTNet](https://github.com/rishikksh20/iSTFTNet-pytorch), MelS, 2023.06
+- [StyleTTS 2](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3eaad2a0b62b5ed7a2e66c2188bb1449-Abstract-Conference.html), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion), Flow-based Diffusion + GAN, [HiFi-GAN](https://github.com/jik876/hifi-gan) / [iSTFTNet](https://github.com/rishikksh20/iSTFTNet-pytorch), MelS, 2023.06, [Demo](https://styletts2.github.io/), [Code](https://github.com/yl4579/StyleTTS2)
 - [VoiceBox](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2d8911db9ecedf866015091b28946e15-Abstract-Conference.html), Zero-shot (✓), Controllability (Timbre), Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2023.06, [Demo](https://voicebox.metademolab.com/), [Code (unofficial)](https://github.com/lucidrains/voicebox-pytorch)
 - [MegaTTS 2](https://openreview.net/forum?id=mvMI3N4AvD), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion), Decoder-only Transformer + GAN, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2023.07, [Demo](https://boostprompt.github.io/boostprompt/), [Code (unofficial)](https://github.com/LSimon95/megatts2)
 - [PromptTTS 2](https://arxiv.org/abs/2309.02285), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Description), Diffusion, [RVQ-based Codec]((https://arxiv.org/abs/2309.02285)), Latent Feature, 2023.09, [Demo](https://speechresearch.github.io/prompttts2/)
@@ -82,17 +84,20 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [DrawSpeech](https://arxiv.org/abs/2501.04256), Zero-shot (✗), Controllability (Energy, Prosody), Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01, [Demo](https://happycolor.github.io/DrawSpeech/), [Code](https://github.com/HappyColor/DrawSpeech_PyTorch)
 - [ProEmo](https://arxiv.org/abs/2501.06276), Zero-shot (✗), Controllability (Pitch, Energy, Emotion, Description), Transformer, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01
 
-*Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume, Spe(ed), Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively.
-
 ## 🎞️ Autoregressive Controllable TTS
+
+Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo**.
+
+> *NOTE*: MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively. Among today’s TTS systems, MelS, latent features (from VAEs, diffusion models, and other flow-based methods), and various types of discrete tokens are the most commonly used acoustic representations.
+
+- [Prosody-Tacotron](https://proceedings.mlr.press/v80/skerry-ryan18a.html), Zero-shot (✗), Controllability (Pitch, Prosody), RNN, [WaveNet](https://arxiv.org/abs/1609.03499), MelS, 2018.03, [Demo](https://google.github.io/tacotron/publications/end_to_end_prosody_transfer/)
+- [GST-Tacotron](https://ieeexplore.ieee.org/abstract/document/8639682), Zero-shot (✗), Controllability (Pitch, Prosody), CNN + RNN, [Griffin-Lim](https://pytorch.org/audio/main/generated/torchaudio.transforms.GriffinLim.html), LinS, 2018.03, [Demo](https://google.github.io/tacotron/publications/global_style_tokens/), [Code (unofficial)](https://github.com/KinglittleQ/GST-Tacotron)
+- [GMVAE-Tacotron](https://arxiv.org/abs/1810.07217), Zero-shot (✗), Controllability (Pitch, Speed, Prosody, Description), VAE, [WaveRNN](https://github.com/fatchord/WaveRNN), MelS, 2018.12, [Demo](https://google.github.io/tacotron/publications/gmvae_controllable_tts/), [Code (unofficial)](https://github.com/rishikksh20/gmvae_tacotron)
+- [VAE-Tacotron](https://ieeexplore.ieee.org/abstract/document/8683623), Zero-shot (✗), Controllability (Pitch, Speed, Prosody), VAE, [WaveNet](https://arxiv.org/abs/1609.03499), MelS, 2019.02, [Code (unoffcial 1)](https://github.com/yanggeng1995/vae_tacotron), [Code (unoffcial 2)](https://github.com/xcmyz/VAE-Tacotron)
+- [DurIAN](https://arxiv.org/abs/1909.01700), Zero-shot (✗), Controllability (Pitch, Speed, Prosody), CNN + RNN, [MB-WaveRNN]((https://arxiv.org/abs/1909.01700)), MelS, 2019.09, [Demo](https://tencent-ailab.github.io/durian/), [Code (unofficial)](https://github.com/ivanvovk/durian-pytorch)
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[Prosody-Tacotron](https://proceedings.mlr.press/v80/skerry-ryan18a.html)||✓|||✓|||||RNN|WaveNet|MelS|2018.03|
-|[GST-Tacotron](https://ieeexplore.ieee.org/abstract/document/8639682)||✓|||✓|||||CNN + RNN|Griffin-Lim|LinS|2018.03|
-|[GMVAE-Tacotron](https://arxiv.org/abs/1810.07217)||✓||✓|✓|||✓||CNN + RNN|WaveRNN|MelS|2018.12|
-|[VAE-Tacotron](https://ieeexplore.ieee.org/abstract/document/8683623)||✓||✓|✓|||||CNN + RNN|WaveNet|MelS|2019.02|
-|[DurIAN](https://arxiv.org/abs/1909.01700)||✓||✓|✓|||||CNN + RNN|MB-WaveRNN|MelS|2019.09|
 |[Flowtron](https://arxiv.org/abs/2005.05957)||✓||✓|✓|||||CNN + RNN|[WaveGlow](https://github.com/NVIDIA/waveglow)|MelS|2020.07|
 |[MsEmoTTS](https://ieeexplore.ieee.org/abstract/document/9693186)||✓|||✓||✓|||CNN + RNN|WaveRNN|MelS|2022.01|
 |[VALL-E](https://arxiv.org/abs/2301.02111)|✓|||||✓||||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2023.01|
