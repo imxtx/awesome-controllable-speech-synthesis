@@ -82,7 +82,7 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [HED](https://arxiv.org/abs/2412.12498), Zero-shot (✓), Controllability (Emotion), Flow-based Diffusion, [Vocos](https://github.com/gemelo-ai/vocos), MelS, 2024.12, [Demo](https://shinshoji01.github.io/HED-Demo/)
 - [DiffStyleTTS](https://arxiv.org/abs/2412.03388), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody, Timbre), Transformer + Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01, [Demo](https://xuan3986.github.io/DiffStyleTTS/)
 - [DrawSpeech](https://arxiv.org/abs/2501.04256), Zero-shot (✗), Controllability (Energy, Prosody), Diffusion, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01, [Demo](https://happycolor.github.io/DrawSpeech/), [Code](https://github.com/HappyColor/DrawSpeech_PyTorch)
-- [ProEmo](https://arxiv.org/abs/2501.06276), Zero-shot (✗), Controllability (Pitch, Energy, Emotion, Description), Transformer, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01
+- [ProEmo](https://arxiv.org/abs/2501.06276), Zero-shot (✗), Controllability (Pitch, Energy, Emotion, Description), Transformer, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2025.01, [Code](https://github.com/ZhangShaozuo/FastSpeech2PromptGuidance)
 
 ## 🎞️ Autoregressive Controllable TTS
 
@@ -95,19 +95,29 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [GMVAE-Tacotron](https://arxiv.org/abs/1810.07217), Zero-shot (✗), Controllability (Pitch, Speed, Prosody, Description), VAE, [WaveRNN](https://github.com/fatchord/WaveRNN), MelS, 2018.12, [Demo](https://google.github.io/tacotron/publications/gmvae_controllable_tts/), [Code (unofficial)](https://github.com/rishikksh20/gmvae_tacotron)
 - [VAE-Tacotron](https://ieeexplore.ieee.org/abstract/document/8683623), Zero-shot (✗), Controllability (Pitch, Speed, Prosody), VAE, [WaveNet](https://arxiv.org/abs/1609.03499), MelS, 2019.02, [Code (unoffcial 1)](https://github.com/yanggeng1995/vae_tacotron), [Code (unoffcial 2)](https://github.com/xcmyz/VAE-Tacotron)
 - [DurIAN](https://arxiv.org/abs/1909.01700), Zero-shot (✗), Controllability (Pitch, Speed, Prosody), CNN + RNN, [MB-WaveRNN]((https://arxiv.org/abs/1909.01700)), MelS, 2019.09, [Demo](https://tencent-ailab.github.io/durian/), [Code (unofficial)](https://github.com/ivanvovk/durian-pytorch)
+- [MsEmoTTS](https://ieeexplore.ieee.org/abstract/document/9693186), Zero-shot (✓), Controllability (Pitch, Prosody, Emotion), CNN + RNN, [WaveRNN](https://arxiv.org/abs/1711.10433), MelS, 2022.01, [Demo](https://leiyi420.github.io/MsEmoTTS/)
+- [SC VALL-E](https://arxiv.org/abs/2307.10550), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2023.07, [Demo](https://0913ktg.github.io/), [Code](https://github.com/0913ktg/SC_VALL-E)
+- [Salle](https://ieeexplore.ieee.org/abstract/document/10445879), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2023.08, [Demo](https://sall-e.github.io/)
+- [Seed-TTS](https://arxiv.org/abs/2406.02430), Zero-shot (✓), Controllability (Timbre, Emotion), Decoder-only Transformer + DiT, Unknown, Latent Feature, 2024.06, [Demo](https://bytedancespeech.github.io/seedtts_tech_report/)
+- [CosyVoice](https://arxiv.org/abs/2407.05407), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token, 2024.07, [Demo](https://fun-audio-llm.github.io/), [Code](https://github.com/FunAudioLLM/CosyVoice)
+- [VoxInstruct](https://dl.acm.org/doi/abs/10.1145/3664647.3681680), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.08, [Demo](https://voxinstruct.github.io/VoxInstruct/), [Code](https://github.com/thuhcsi/VoxInstruct)
+- [Emo-DPO](https://arxiv.org/abs/2409.10157), Zero-shot (✗), Controllability (Emotion), LLM, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token + MelS, 2024.09, [Demo](https://xiaoxue1117.github.io/Emo-tts-dpo/)
+
+- [Takin](https://arxiv.org/abs/2409.12139), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Emotion, Description), LLM, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token + MelS, 2024.09, [Demo](https://everest-ai.github.io/takinaudiollm/)
+- [KALL-E](https://arxiv.org/abs/2412.16846), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion), Decoder-only Transformer, [WaveVAE]((https://arxiv.org/abs/2412.16846)), Latent Feature, 2024.12, [Demo](https://zxf-icpc.github.io/kalle/)
+- [FleSpeech](https://arxiv.org/abs/2501.04644), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Flow-based DiT, WaveGAN, Latent Feature, 2025.01, [Demo](https://kkksuper.github.io/FleSpeech/)
+- [Step-Audio](https://arxiv.org/abs/2502.11946), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [Flow-based Vocoder], Token, 2025.02, [Code](https://github.com/stepfun-ai/Step-Audio)
+- [Vevo](https://openreview.net/forum?id=anQDiQZhDP), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion), Decoder-only Transformer, [BigVGAN](https://github.com/NVIDIA/BigVGAN), Token + MelS, 2025.02, [Demo](https://versavoice.github.io/), [Code](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo)
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Flowtron](https://arxiv.org/abs/2005.05957)||✓||✓|✓|||||CNN + RNN|[WaveGlow](https://github.com/NVIDIA/waveglow)|MelS|2020.07|
-|[MsEmoTTS](https://ieeexplore.ieee.org/abstract/document/9693186)||✓|||✓||✓|||CNN + RNN|WaveRNN|MelS|2022.01|
 |[VALL-E](https://arxiv.org/abs/2301.02111)|✓|||||✓||||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2023.01|
 |[SpearTTS](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)|✓|||||✓||||LLM|SoundStream|Token|2023.02|
 |[VALL-E X](https://arxiv.org/abs/2303.03926)|✓|||||✓||||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2023.03|
 |[Make-a-voice](https://arxiv.org/abs/2305.19269)|✓|||||✓||||LLM|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2023.05|
 |[TorToise](https://arxiv.org/abs/2305.07243)||||||✓||||Transformer + DDPM|Univnet|MelS|2023.05|
 |[MegaTTS](https://arxiv.org/abs/2306.03509)|✓|||||✓||||LLM + GAN|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2023.06|
-|[SC VALL-E](https://arxiv.org/abs/2307.10550)|✓|✓||✓|✓|✓|✓|||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2023.07|
-|[Salle](https://ieeexplore.ieee.org/abstract/document/10445879)||✓|✓|✓|✓|✓|✓||✓|LLM|Codec Decoder|Token|2023.08|
 |[UniAudio](https://arxiv.org/abs/2310.00704)|✓|✓||✓|✓|✓|||✓|LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2023.10|
 |[ELLA-V](https://arxiv.org/abs/2401.07333)|✓|||||✓||||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2024.01|
 |[BaseTTS](https://arxiv.org/abs/2402.08093)|✓|||||✓||||LLM|UnivNet|Token|2024.02|
@@ -116,17 +126,12 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 |[ARDiT](https://arxiv.org/abs/2406.05551)|✓|||✓||✓||||Decoder-only Diffusion Transformer|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.06|
 |[VALL-E R](https://arxiv.org/abs/2406.07855)|✓|||||✓||||LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.06|
 |[VALL-E 2](https://arxiv.org/abs/2406.05370)|✓|||||✓||||LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.06|
-|[Seed-TTS](https://arxiv.org/abs/2406.02430)|✓|||||✓|✓|||LLM + Diffusion Transformer|/|Token|2024.06|
 |[VoiceCraft](https://arxiv.org/abs/2403.16973)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.06|
 |[XTTS](https://arxiv.org/abs/2406.04904)|✓|||||✓||||LLM + GAN|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS+Token|2024.06|
-|[CosyVoice](https://arxiv.org/abs/2407.05407)|✓|✓||✓|✓|✓|✓||✓|LLM + Conditional Flow Matching|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.07|
 |[MELLE](https://arxiv.org/abs/2407.08551)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2024.07|
 |[Bailing TTS](https://arxiv.org/abs/2408.00284)|✓|||||✓||||LLM + Diffusion Transformer|/|Token|2024.08|
-|[VoxInstruct](https://dl.acm.org/doi/abs/10.1145/3664647.3681680)|✓|✓|✓|✓|✓|✓|✓||✓|LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.08|
-|[Emo-DPO](https://arxiv.org/abs/2409.10157)|||||||✓||✓|LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.09|
 |[FireRedTTS](https://arxiv.org/abs/2409.03283)|✓||||✓|✓||||LLM + Conditional Flow Matching|[BigVGAN](https://github.com/NVIDIA/BigVGAN)-v2|Token|2024.09|
 |[CoFi-Speech](https://arxiv.org/abs/2409.11630)|✓|||||✓||||LLM|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2024.09|
-|[Takin](https://arxiv.org/abs/2409.12139)|✓|✓||✓|✓|✓|✓||✓|LLM|HiFi-Codec|Token|2024.09|
 |[HALL-E](https://arxiv.org/abs/2410.04380)|✓|||||✓||||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2024.10|
 
 *Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume, Spe(ed), Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively.
@@ -152,7 +157,7 @@ A summary of open-source datasets for controllable TTS:
 |[MSceneSpeech](https://arxiv.org/abs/2407.14006)|13|13|||||||||✓||||zh|2024.07|
 |[SpeechCraft](https://dl.acm.org/doi/abs/10.1145/3664647.3681674)|2,391|3,200|✓|✓|✓|✓|✓|✓|✓||✓|✓|||en,zh|2024.08|
 
-*Abbreviations*: Pit(ch), Ene(rgy)=volume=loudness, Spe(ed)=duration, Gen(der), Emo(tion), Emp(hasis), Acc(ent), Dia(logue), Env(ironment), Des(cription).
+*Abbreviations*: Pit(ch), Ene(rgy)=volume, Spe(ed), Gen(der), Emo(tion), Emp(hasis), Acc(ent), Dia(logue), Env(ironment), Des(cription).
 
 ## 📏 Evaluation Metrics
 
