@@ -101,8 +101,13 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [SpearTTS](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [SoundStream](https://github.com/wesbz/SoundStream), Token, 2023.02, [Demo](https://google-research.github.io/seanet/speartts/examples/), [Code (unofficial)](https://github.com/lucidrains/spear-tts-pytorch)
 - [VALL-E X](https://arxiv.org/abs/2303.03926), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2023.03, [Demo](https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e-x/), [Code (unofficial)](https://github.com/Plachtaa/VALL-E-X)
 - [Make-a-voice](https://arxiv.org/abs/2305.19269), Zero-shot (✓), Controllability (Timbre), Encoder-decoder Transformer, [Unit-based Vocoder](https://arxiv.org/abs/2305.19269), Token, 2023.05, [Demo](https://make-a-voice.github.io/)
+- [TorToise](https://arxiv.org/abs/2305.07243), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer + Diffusion, [UnivNet](https://arxiv.org/abs/2106.07889), MelS, 2023.05, [Code](https://github.com/neonbjb/tortoise-tts)
+- [MegaTTS](https://arxiv.org/abs/2306.03509), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer + GAN, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2023.06, [Demo](https://mega-tts.github.io/demo-page/)
 - [SC VALL-E](https://arxiv.org/abs/2307.10550), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2023.07, [Demo](https://0913ktg.github.io/), [Code](https://github.com/0913ktg/SC_VALL-E)
 - [Salle](https://ieeexplore.ieee.org/abstract/document/10445879), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2023.08, [Demo](https://sall-e.github.io/)
+- [UniAudio](https://arxiv.org/abs/2310.00704), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Description), Decoder-only Transformer, [UniAudio Codec](https://github.com/yangdongchao/UniAudio/tree/main/codec), Token, 2023.10, [Demo](https://dongchaoyang.top/UniAudio_demo/), [Code](https://github.com/yangdongchao/UniAudio)
+- [ELLA-V](https://arxiv.org/abs/2401.07333), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2024.01, [Demo](https://ereboas.github.io/ELLAV/)
+- [BaseTTS](https://arxiv.org/abs/2402.08093), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [Speechcode Decoder]((https://arxiv.org/abs/2402.08093)), Token, 2024.02, [Demo](https://www.amazon.science/base-tts-samples/)
 - [Seed-TTS](https://arxiv.org/abs/2406.02430), Zero-shot (✓), Controllability (Timbre, Emotion), Decoder-only Transformer + DiT, *Unknown Vocoder*, Latent Feature, 2024.06, [Demo](https://bytedancespeech.github.io/seedtts_tech_report/)
 - [CosyVoice](https://arxiv.org/abs/2407.05407), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token, 2024.07, [Demo](https://fun-audio-llm.github.io/), [Code](https://github.com/FunAudioLLM/CosyVoice)
 - [VoxInstruct](https://dl.acm.org/doi/abs/10.1145/3664647.3681680), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.08, [Demo](https://voxinstruct.github.io/VoxInstruct/), [Code](https://github.com/thuhcsi/VoxInstruct)
@@ -115,11 +120,6 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[TorToise](https://arxiv.org/abs/2305.07243)||||||✓||||Transformer + DDPM|Univnet|MelS|2023.05|
-|[MegaTTS](https://arxiv.org/abs/2306.03509)|✓|||||✓||||LLM + GAN|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2023.06|
-|[UniAudio](https://arxiv.org/abs/2310.00704)|✓|✓||✓|✓|✓|||✓|LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2023.10|
-|[ELLA-V](https://arxiv.org/abs/2401.07333)|✓|||||✓||||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2024.01|
-|[BaseTTS](https://arxiv.org/abs/2402.08093)|✓|||||✓||||LLM|UnivNet|Token|2024.02|
 |[ClaM-TTS](https://arxiv.org/abs/2404.02781)|✓|||||✓||||LLM|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS+Token|2024.04|
 |[RALL-E](https://arxiv.org/abs/2404.03204)|✓|||||✓||||LLM|SoundStream|Token|2024.05|
 |[ARDiT](https://arxiv.org/abs/2406.05551)|✓|||✓||✓||||Decoder-only Diffusion Transformer|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.06|
