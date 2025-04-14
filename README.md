@@ -117,14 +117,14 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [FleSpeech](https://arxiv.org/abs/2501.04644), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Flow-based DiT, WaveGAN, Latent Feature, 2025.01, [Demo](https://kkksuper.github.io/FleSpeech/)
 - [Step-Audio](https://arxiv.org/abs/2502.11946), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [Flow-based Vocoder], Token, 2025.02, [Code](https://github.com/stepfun-ai/Step-Audio)
 - [Vevo](https://openreview.net/forum?id=anQDiQZhDP), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion), Decoder-only Transformer, [BigVGAN](https://github.com/NVIDIA/BigVGAN), Token + MelS, 2025.02, [Demo](https://versavoice.github.io/), [Code](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo)
+- [CLaM-TTS](https://arxiv.org/abs/2404.02781), Zero-shot (✓), Controllability (Timbre), Encoder-decoder Transformer, [BigVGAN](https://github.com/NVIDIA/BigVGAN), Token + MelS, 2024.04, [Demo](https://clam-tts.github.io/)
+- [RALL-E](https://arxiv.org/abs/2404.03204), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [SoundStream](https://github.com/wesbz/SoundStream), Token, 2024.05, [Demo](https://ralle-demo.github.io/RALL-E/)
+- [ARDiT](https://arxiv.org/abs/2406.05551), Zero-shot (✓), Controllability (Speed, Timbre), Decoder-only DiT, [BigVGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2024.06, [Demo](https://zjlww.github.io/ardit-web/)
+- [VALL-E R](https://arxiv.org/abs/2406.07855), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.06, [Demo](https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e-r/)
+- [VALL-E 2](https://arxiv.org/abs/2406.05370), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.06, [Demo](https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e-2/), [Code (unofficial 1)](https://github.com/open-mmlab/Amphion/tree/main/egs/tts/VALLE_V2), [Code (unofficial 2)](https://github.com/ex3ndr/supervoice-vall-e-2)
 
 |Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[ClaM-TTS](https://arxiv.org/abs/2404.02781)|✓|||||✓||||LLM|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS+Token|2024.04|
-|[RALL-E](https://arxiv.org/abs/2404.03204)|✓|||||✓||||LLM|SoundStream|Token|2024.05|
-|[ARDiT](https://arxiv.org/abs/2406.05551)|✓|||✓||✓||||Decoder-only Diffusion Transformer|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|MelS|2024.06|
-|[VALL-E R](https://arxiv.org/abs/2406.07855)|✓|||||✓||||LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.06|
-|[VALL-E 2](https://arxiv.org/abs/2406.05370)|✓|||||✓||||LLM|[Vocos](https://github.com/gemelo-ai/vocos)|Token|2024.06|
 |[VoiceCraft](https://arxiv.org/abs/2403.16973)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.06|
 |[XTTS](https://arxiv.org/abs/2406.04904)|✓|||||✓||||LLM + GAN|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS+Token|2024.06|
 |[MELLE](https://arxiv.org/abs/2407.08551)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2024.07|
