@@ -109,10 +109,16 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [ELLA-V](https://arxiv.org/abs/2401.07333), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2024.01, [Demo](https://ereboas.github.io/ELLAV/)
 - [BaseTTS](https://arxiv.org/abs/2402.08093), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [Speechcode Decoder]((https://arxiv.org/abs/2402.08093)), Token, 2024.02, [Demo](https://www.amazon.science/base-tts-samples/)
 - [Seed-TTS](https://arxiv.org/abs/2406.02430), Zero-shot (✓), Controllability (Timbre, Emotion), Decoder-only Transformer + DiT, *Unknown Vocoder*, Latent Feature, 2024.06, [Demo](https://bytedancespeech.github.io/seedtts_tech_report/)
+- [VoiceCraft](https://arxiv.org/abs/2403.16973), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token, 2024.06, [Code](https://github.com/jasonppy/VoiceCraft)
+- [XTTS](https://arxiv.org/abs/2406.04904), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer + GAN, [HiFi-GAN-based Vococder](https://arxiv.org/abs/2406.04904), Token + MelS, 2024.06, [Demo](https://edresson.github.io/XTTS/), [Code](https://github.com/coqui-ai/TTS/blob/dev/docs/source/models/xtts.md)
 - [CosyVoice](https://arxiv.org/abs/2407.05407), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token, 2024.07, [Demo](https://fun-audio-llm.github.io/), [Code](https://github.com/FunAudioLLM/CosyVoice)
+- [MELLE](https://arxiv.org/abs/2407.08551), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [HiFi-GAN](https://github.com/jik876/hifi-gan), MelS, 2024.07. [Demo](https://www.microsoft.com/en-us/research/project/vall-e-x/melle/)
 - [VoxInstruct](https://dl.acm.org/doi/abs/10.1145/3664647.3681680), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.08, [Demo](https://voxinstruct.github.io/VoxInstruct/), [Code](https://github.com/thuhcsi/VoxInstruct)
 - [Emo-DPO](https://arxiv.org/abs/2409.10157), Zero-shot (✗), Controllability (Emotion), LLM, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token + MelS, 2024.09, [Demo](https://xiaoxue1117.github.io/Emo-tts-dpo/)
+- [FireRedTTS](https://arxiv.org/abs/2409.03283), Zero-shot (✓), Controllability (Prosody, Timbre), Decoder-only Transformer + Flow, [BigVGAN](https://github.com/NVIDIA/BigVGAN)-v2, Token + MelS, 2024.09, [Demo](https://fireredteam.github.io/demos/firered_tts/), [Code](https://github.com/FireRedTeam/FireRedTTS)
+- [CoFi-Speech](https://arxiv.org/abs/2409.11630), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [BigVGAN](https://github.com/NVIDIA/BigVGAN), Token + MelS, 2024.09, [Demo](https://hhguo.github.io/DemoCoFiSpeech/)
 - [Takin](https://arxiv.org/abs/2409.12139), Zero-shot (✓), Controllability (Pitch, Speed, Prosody, Timbre, Emotion, Description), Decoder-only Transformer + Flow, [HiFi-GAN](https://github.com/jik876/hifi-gan), Token + MelS, 2024.09, [Demo](https://everest-ai.github.io/takinaudiollm/)
+- [HALL-E](https://arxiv.org/abs/2410.04380), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [EnCodec](https://github.com/facebookresearch/encodec), Token, 2024.10
 - [KALL-E](https://arxiv.org/abs/2412.16846), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion), Decoder-only Transformer, [WaveVAE]((https://arxiv.org/abs/2412.16846)), Latent Feature, 2024.12, [Demo](https://zxf-icpc.github.io/kalle/)
 - [FleSpeech](https://arxiv.org/abs/2501.04644), Zero-shot (✓), Controllability (Pitch, Energy, Speed, Prosody, Timbre, Emotion, Description), Flow-based DiT, WaveGAN, Latent Feature, 2025.01, [Demo](https://kkksuper.github.io/FleSpeech/)
 - [Step-Audio](https://arxiv.org/abs/2502.11946), Zero-shot (✓), Controllability (Prosody, Timbre, Emotion, Description), Decoder-only Transformer, [Flow-based Vocoder], Token, 2025.02, [Code](https://github.com/stepfun-ai/Step-Audio)
@@ -122,18 +128,6 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [ARDiT](https://arxiv.org/abs/2406.05551), Zero-shot (✓), Controllability (Speed, Timbre), Decoder-only DiT, [BigVGAN](https://github.com/NVIDIA/BigVGAN), MelS, 2024.06, [Demo](https://zjlww.github.io/ardit-web/)
 - [VALL-E R](https://arxiv.org/abs/2406.07855), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.06, [Demo](https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e-r/)
 - [VALL-E 2](https://arxiv.org/abs/2406.05370), Zero-shot (✓), Controllability (Timbre), Decoder-only Transformer, [Vocos](https://github.com/gemelo-ai/vocos), Token, 2024.06, [Demo](https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e-2/), [Code (unofficial 1)](https://github.com/open-mmlab/Amphion/tree/main/egs/tts/VALLE_V2), [Code (unofficial 2)](https://github.com/ex3ndr/supervoice-vall-e-2)
-
-|Method|ZS|Pit.|Ene.|Spe.|Pro.|Tim.|Emo.|Env.|Des.|Acoustic<br>Model|Vocoder|Acoustic<br>Feature|Release<br>Time|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[VoiceCraft](https://arxiv.org/abs/2403.16973)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|Token|2024.06|
-|[XTTS](https://arxiv.org/abs/2406.04904)|✓|||||✓||||LLM + GAN|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS+Token|2024.06|
-|[MELLE](https://arxiv.org/abs/2407.08551)|✓|||||✓||||LLM|[HiFi-GAN](https://github.com/jik876/hifi-gan)|MelS|2024.07|
-|[Bailing TTS](https://arxiv.org/abs/2408.00284)|✓|||||✓||||LLM + Diffusion Transformer|/|Token|2024.08|
-|[FireRedTTS](https://arxiv.org/abs/2409.03283)|✓||||✓|✓||||LLM + Conditional Flow Matching|[BigVGAN](https://github.com/NVIDIA/BigVGAN)-v2|Token|2024.09|
-|[CoFi-Speech](https://arxiv.org/abs/2409.11630)|✓|||||✓||||LLM|[BigVGAN](https://github.com/NVIDIA/BigVGAN)|Token|2024.09|
-|[HALL-E](https://arxiv.org/abs/2410.04380)|✓|||||✓||||LLM|[EnCodec](https://github.com/facebookresearch/encodec)|Token|2024.10|
-
-*Abbreviations*: Z(ero-)S(hot), Pit(ch), Ene(rgy)=Volume, Spe(ed), Pro(sody), Tim(bre), Emo(tion), Env(ironment), Des(cription). Timbre involves gender and age. MelS and LinS represent Mel Spectrogram and Linear Spectrogram, respectively.
 
 ## 💾 Datsets
 
