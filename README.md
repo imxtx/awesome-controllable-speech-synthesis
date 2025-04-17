@@ -5,7 +5,7 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 ```latex
 @article{xie2024towards,
   title={Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey},
-  author={Xie, Tianxin and Rong, Yan and Zhang, Pengfei and Liu, Li},
+  author={Xie, Tianxin and Rong, Yan and Zhang, Pengfei and Wang, Wenwu and Liu, Li},
   journal={arXiv preprint arXiv:2412.06602},
   year={2024}
 }
