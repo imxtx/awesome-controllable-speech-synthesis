@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Controllable Speech Synthesis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6d4daf;
+            --secondary-color: #fd7e14;
+            --success-color: #198754;
+            --info-color: #0dcaf0;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .hero-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            margin: 1rem 0;
+            padding: 1rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-section {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-section .form-label {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .filter-section h5 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .paper-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .paper-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .paper-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .paper-title:hover {
+            color: #5a32a3;
+            text-decoration: underline;
+        }
+
+        .control-badge {
+            font-size: 0.75rem;
+            margin: 0.1rem;
+            padding: 0.25rem 0.5rem;
+            color: white;
+        }
+
+        .year-badge {
+            background: var(--secondary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        .zero-shot-badge {
+            background: var(--success-color);
+            color: white;
+        }
+
+        .non-zero-shot-badge {
+            background: var(--danger-color);
+            color: white;
+        }
+
+        .category-header {
+            background: linear-gradient(135deg, var(--primary-color), #5a32a3);
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem 0 1rem 0;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .stats-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 0.3rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .stats-number {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .filter-btn {
+            margin: 0.1rem;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+        }
+
+        .filter-btn.active {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white;
+        }
+
+        .paper-meta {
+            font-size: 0.9rem;
+            color: #6c757d;
+            margin-top: 0.5rem;
+        }
+
+        .paper-links {
+            margin-top: 0;
+            text-align: right;
+        }
+
+        .paper-links a {
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+            text-decoration: none;
+            color: #0883c5;
+        }
+
+        .paper-links a:hover {
+            text-decoration: underline;
+            opacity: 1;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark"
+        style="background: rgba(0, 0, 0, 0.2); backdrop-filter: blur(10px);">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-megaphone-fill me-2"></i>
+                Awesome Controllable Speech Synthesis
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#papersContainer">Papers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="row">
+                <h4 class="fw-bold text-primary mb-3">
+                    <i class="bi bi-graph-up-arrow me-2"></i>
+                    Towards Controllable Speech Synthesis in the Era of Large Language Models
+                </h4>
+                <div class="col-md-8">
+                    <p class="lead text-muted mb-3">
+                        A comprehensive survey of controllable speech synthesis methods with filtering capabilities by
+                        year, architecture, and controllability types.
+                    </p>
+
+                    <!-- Authors Section -->
+                    <p class="text-muted mb-3">
+                        <i class="bi bi-people-fill me-2"></i>Authors: <strong>Tianxin Xie</strong>, Yan Rong, Pengfei
+                        Zhang, Wenwu Wang,
+                        Li Liu (corresponding author)
+                    </p>
+
+                    <div class="d-flex gap-3">
+                        <a href="https://arxiv.org/abs/2412.06602" class="btn btn-primary btn-sm" target="_blank">
+                            <i class="bi bi-file-earmark-text me-2"></i>Read Paper
+                        </a>
+                        <a href="https://github.com/imxtx/awesome-controllable-speech-synthesis"
+                            class="btn btn-outline-primary btn-sm" target="_blank">
+                            <i class="bi bi-github me-2"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="stats-card">
+                                <div class="stats-number" id="totalPapers">0</div>
+                                <div class="text-muted">Total Papers</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stats-card">
+                                <div class="stats-number" id="zeroShotPapers">0</div>
+                                <div class="text-muted">Zero-shot</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stats-card">
+                                <div class="stats-number" id="nonAutoregressivePapers">0</div>
+                                <div class="text-muted">Non-autoregressive</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stats-card">
+                                <div class="stats-number" id="autoregressivePapers">0</div>
+                                <div class="text-muted">Autoregressive</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <h5 class="mb-3"><i class="bi bi-funnel me-2"></i>Filter Papers</h5>
+
+            <!-- Year and Architecture Filters Row -->
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <label class="form-label fw-semibold">Year:</label>
+                    <div class="d-flex flex-wrap">
+                        <button class="btn btn-outline-secondary filter-btn active" data-filter="year"
+                            data-value="all">All Years</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2025">2025</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2024">2024</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2023">2023</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2022">2022</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2021">2021</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2020">2020</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2019">2019</button>
+                        <button class="btn btn-outline-secondary filter-btn" data-filter="year"
+                            data-value="2018">2018</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label fw-semibold">Architecture:</label>
+                    <div class="d-flex flex-wrap">
+                        <button class="btn btn-outline-warning filter-btn active" data-filter="architecture"
+                            data-value="all">All Architectures</button>
+                        <button class="btn btn-outline-warning filter-btn" data-filter="architecture"
+                            data-value="non-autoregressive">Non-autoregressive</button>
+                        <button class="btn btn-outline-warning filter-btn" data-filter="architecture"
+                            data-value="autoregressive">Autoregressive</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controllability and Zero-shot Filters Row -->
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <label class="form-label fw-semibold">Controllability:</label>
+                    <div class="d-flex flex-wrap">
+                        <button class="btn btn-outline-primary filter-btn active" data-filter="control"
+                            data-value="all">All Types</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="pitch">Pitch</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="energy">Energy</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="speed">Speed</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="prosody">Prosody</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="timbre">Timbre</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="emotion">Emotion</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="environment">Environment</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="control"
+                            data-value="description">Description</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label fw-semibold">Zero-shot Capability:</label>
+                    <div class="d-flex flex-wrap">
+                        <button class="btn btn-outline-success filter-btn active" data-filter="zeroShot"
+                            data-value="all">All</button>
+                        <button class="btn btn-outline-success filter-btn" data-filter="zeroShot"
+                            data-value="yes">Zero-shot (✓)</button>
+                        <button class="btn btn-outline-success filter-btn" data-filter="zeroShot"
+                            data-value="no">Non-zero-shot (✗)</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clear Filters -->
+            <button class="btn btn-outline-danger btn-sm" id="clearFilters">
+                <i class="bi bi-x-circle me-1"></i>Clear All Filters
+            </button>
+        </div>
+
+        <!-- Papers Container -->
+        <div id="papersContainer">
+            <!-- All Papers Section -->
+            <div class="category-header">
+                <i class="bi bi-collection me-2"></i>
+                Papers
+            </div>
+            <div id="allPapers"></div>
+        </div>
+
+        <!-- Loading -->
+        <div class="loading" id="loading">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Loading papers...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Paper data
+        const papers = {
+            nonAutoregressive: [
+                {
+                    title: "ProEmo",
+                    url: "https://arxiv.org/abs/2501.06276",
+                    authors: "Shaozuo Zhang, Tianyu Zhao, Yunlin Chen, Dong Yu",
+                    zeroShot: false,
+                    architecture: "non-autoregressive",
+                    controllability: ["pitch", "energy", "emotion", "description"],
+                    year: 2025,
+                    acousticModel: "Transformer",
+                    vocoder: "HiFi-GAN",
+                    acousticFeature: "MelS",
+                    releaseDate: "2025.01",
+                    code: "https://github.com/ZhangShaozuo/FastSpeech2PromptGuidance",
+                    demo: null
+                },
+                {
+                    title: "DrawSpeech",
+                    url: "https://arxiv.org/abs/2501.04256",
+                    authors: "Yongchao Liu, Yifan Chen, Yuxuan Wang, Yu Zhang",
+                    zeroShot: false,
+                    architecture: "non-autoregressive",
+                    controllability: ["energy", "prosody"],
+                    year: 2025,
+                    acousticModel: "Diffusion",
+                    vocoder: "HiFi-GAN",
+                    acousticFeature: "MelS",
+                    releaseDate: "2025.01",
+                    code: "https://github.com/HappyColor/DrawSpeech_PyTorch",
+                    demo: "https://happycolor.github.io/DrawSpeech/"
+                },
+                {
+                    title: "DiffStyleTTS",
+                    url: "https://arxiv.org/abs/2412.03388",
+                    authors: "Xuan Li, Zhenhui Ye, Guangzhi Sun, Kai Yu",
+                    zeroShot: false,
+                    architecture: "non-autoregressive",
+                    controllability: ["pitch", "energy", "speed", "prosody", "timbre"],
+                    year: 2025,
+                    acousticModel: "Transformer + Diffusion",
+                    vocoder: "HiFi-GAN",
+                    acousticFeature: "MelS",
+                    releaseDate: "2025.01",
+                    code: null,
+                    demo: "https://xuan3986.github.io/DiffStyleTTS/"
+                },
+                {
+                    title: "HED",
+                    url: "https://arxiv.org/abs/2412.12498",
+                    authors: "Shinshoji, et al.",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["emotion"],
+                    year: 2024,
+                    acousticModel: "Flow-based Diffusion",
+                    vocoder: "Vocos",
+                    acousticFeature: "MelS",
+                    releaseDate: "2024.12",
+                    code: null,
+                    demo: "https://shinshoji01.github.io/HED-Demo/"
+                },
+                {
+                    title: "EmoDubber",
+                    url: "https://arxiv.org/abs/2412.08988",
+                    authors: "Galaxy Cong, et al.",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["prosody", "timbre", "emotion"],
+                    year: 2024,
+                    acousticModel: "Transformer + Flow",
+                    vocoder: "Flow-based Vocoder",
+                    acousticFeature: "MelS",
+                    releaseDate: "2024.12",
+                    code: null,
+                    demo: "https://galaxycong.github.io/EmoDub/"
+                },
+                {
+                    title: "EmoSphere++",
+                    url: "https://arxiv.org/abs/2411.02625",
+                    authors: "Choddeok, et al.",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["prosody", "timbre", "emotion"],
+                    year: 2024,
+                    acousticModel: "Transformer + Flow",
+                    vocoder: "BigVGAN",
+                    acousticFeature: "MelS",
+                    releaseDate: "2024.11",
+                    code: "https://github.com/Choddeok/EmoSpherepp",
+                    demo: "https://choddeok.github.io/EmoSphere-Demo/"
+                },
+                {
+                    title: "ControlSpeech",
+                    url: "https://arxiv.org/abs/2406.01205",
+                    authors: "Jisheng Peng, et al.",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["pitch", "energy", "speed", "prosody", "timbre", "emotion", "description"],
+                    year: 2024,
+                    acousticModel: "Transformer + Diffusion",
+                    vocoder: "FACodec",
+                    acousticFeature: "Token",
+                    releaseDate: "2024.06",
+                    code: "https://github.com/jishengpeng/ControlSpeech",
+                    demo: "https://controlspeech.github.io/"
+                },
+                {
+                    title: "NaturalSpeech 3",
+                    url: "https://arxiv.org/abs/2403.03100",
+                    authors: "Microsoft Research",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["speed", "prosody", "timbre"],
+                    year: 2024,
+                    acousticModel: "Transformer + Diffusion",
+                    vocoder: "FACodec",
+                    acousticFeature: "Token",
+                    releaseDate: "2024.04",
+                    code: null,
+                    demo: "https://speechresearch.github.io/naturalspeech3/"
+                },
+                {
+                    title: "Audiobox",
+                    url: "https://arxiv.org/abs/2312.15821",
+                    authors: "Meta AI",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["pitch", "speed", "prosody", "timbre", "environment", "description"],
+                    year: 2023,
+                    acousticModel: "Transformer + Flow",
+                    vocoder: "EnCodec",
+                    acousticFeature: "MelS",
+                    releaseDate: "2023.12",
+                    code: null,
+                    demo: "https://audiobox.metademolab.com/"
+                },
+                {
+                    title: "VoiceBox",
+                    url: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/2d8911db9ecedf866015091b28946e15-Abstract-Conference.html",
+                    authors: "Meta AI",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["timbre"],
+                    year: 2023,
+                    acousticModel: "Transformer + Flow",
+                    vocoder: "HiFi-GAN",
+                    acousticFeature: "MelS",
+                    releaseDate: "2023.06",
+                    code: null,
+                    demo: "https://voicebox.metademolab.com/"
+                },
+                {
+                    title: "StyleTTS 2",
+                    url: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/3eaad2a0b62b5ed7a2e66c2188bb1449-Abstract-Conference.html",
+                    authors: "Yinghao Aaron Li, et al.",
+                    zeroShot: true,
+                    architecture: "non-autoregressive",
+                    controllability: ["prosody", "timbre", "emotion"],
+                    year: 2023,
+                    acousticModel: "Flow-based Diffusion + GAN",
+                    vocoder: "HiFi-GAN / iSTFTNet",
+                    acousticFeature: "MelS",
+                    releaseDate: "2023.06",
+                    code: "https://github.com/yl4579/StyleTTS2",
+                    demo: "https://styletts2.github.io/"
+                },
+                {
+                    title: "FastSpeech 2",
+                    url: "https://arxiv.org/abs/2006.04558",
+                    authors: "Yi Ren, et al.",
+                    zeroShot: false,
+                    architecture: "non-autoregressive",
+                    controllability: ["pitch", "energy", "speed", "prosody"],
+                    year: 2020,
+                    acousticModel: "Transformer",
+                    vocoder: "Parallel WaveGAN",
+                    acousticFeature: "MelS",
+                    releaseDate: "2020.06",
+                    code: null,
+                    demo: null
+                }
+            ],
+            autoregressive: [
+                {
+                    title: "EmoVoice: LLM-based Emotional Text-To-Speech Model with Freestyle Text Prompting",
+                    url: "https://arxiv.org/abs/2504.12867",
+                    authors: "Guanrou Yang, Chen Yang, Qian Chen, Ziyang Ma, Wenxi Chen, Wen Wang, Tianrui Wang, Yifan Yang, Zhikang Niu, Wenrui Liu, Fan Yu, Zhihao Du, Zhifu Gao, ShiLiang Zhang, Xie Chen",
+                    zeroShot: false,
+                    architecture: "autoregressive",
+                    controllability: ["emotion", "description"],
+                    year: 2025,
+                    acousticModel: "Decoder-only Transformer",
+                    vocoder: "HiFi-GAN",
+                    acousticFeature: "Token",
+                    releaseDate: "2025.04",
+                    code: null,
+                    demo: "https://anonymous.4open.science/w/EmoVoice-DF55/"
+                },
+                {
+                    title: "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens",
+                    url: "https://arxiv.org/abs/2503.01710",
+                    authors: "Xinsheng Wang, Mingqi Jiang, Ziyang Ma, Ziyu Zhang, Songxiang Liu, Linqin Li, Zheng Liang, Qixi Zheng, Rui Wang, Xiaoqin Feng, Weizhen Bian, Zhen Ye, Sitong Cheng, Ruibin Yuan, Zhixian Zhao, Xinfa Zhu, Jiahao Pan, Liumeng Xue, Pengcheng Zhu, Yunlin Chen, Zhifei Li, Xie Chen, Lei Xie, Yike Guo, Wei Xue",
+                    zeroShot: true,
+                    architecture: "autoregressive",
+                    controllability: ["pitch", "speed", "prosody", "timbre"],
+                    year: 2025,
+                    acousticModel: "Decoder-only Transformer",
+                    vocoder: "BiCodec",
+                    acousticFeature: "Token",
+                    releaseDate: "2025.03",
+                    code: "https://github.com/SparkAudio/Spark-TTS",
+                    demo: null
+                },
+                {
+                    title: "Vevo: Controllable Zero-Shot Voice Imitation with Self-Supervised Disentanglement",
+                    url: "https://openreview.net/forum?id=anQDiQZhDP",
+                    authors: "Xueyao Zhang, Xiaohui Zhang, Kainan Peng, Zhenyu Tang, Vimal Manohar, Yingru Liu, Jeff Hwang, Dangna Li, Yuhao Wang, Julian Chan, Yuan Huang, Zhizheng Wu, Mingbo Ma",
+                    zeroShot: true,
+                    architecture: "autoregressive",
+                    controllability: ["pitch", "energy", "speed", "prosody", "timbre", "emotion"],
+                    year: 2025,
+                    acousticModel: "Decoder-only Transformer",
+                    vocoder: "BigVGAN",
+                    acousticFeature: "Token + MelS",
+                    releaseDate: "2025.02",
+                    code: "https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo",
+                    demo: "https://versavoice.github.io/"
+                },
+                {
+                    title: "VALL-E X",
+                    url: "https://arxiv.org/abs/2303.03926",
+                    authors: "Microsoft Research",
+                    zeroShot: true,
+                    architecture: "autoregressive",
+                    controllability: ["timbre"],
+                    year: 2023,
+                    acousticModel: "Decoder-only Transformer",
+                    vocoder: "EnCodec",
+                    acousticFeature: "Token",
+                    releaseDate: "2023.03",
+                    code: null,
+                    demo: "https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e-x/"
+                },
+                {
+                    title: "VALL-E",
+                    url: "https://arxiv.org/abs/2301.02111",
+                    authors: "Microsoft Research",
+                    zeroShot: true,
+                    architecture: "autoregressive",
+                    controllability: ["timbre"],
+                    year: 2023,
+                    acousticModel: "Decoder-only Transformer",
+                    vocoder: "EnCodec",
+                    acousticFeature: "Token",
+                    releaseDate: "2023.01",
+                    code: null,
+                    demo: "https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e/"
+                },
+                {
+                    title: "Flowtron",
+                    url: "https://arxiv.org/abs/2005.05957",
+                    authors: "Rafael Valle, et al.",
+                    zeroShot: false,
+                    architecture: "autoregressive",
+                    controllability: ["pitch", "speed", "prosody"],
+                    year: 2020,
+                    acousticModel: "CNN + RNN",
+                    vocoder: "WaveGlow",
+                    acousticFeature: "MelS",
+                    releaseDate: "2020.07",
+                    code: "https://github.com/NVIDIA/flowtron",
+                    demo: "https://nv-adlr.github.io/Flowtron"
+                }
+            ]
+        };
+
+        // Filter state
+        let currentFilters = {
+            year: 'all',
+            architecture: 'all',
+            control: 'all',
+            zeroShot: 'all'
+        };
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function () {
+            renderPapers();
+            setupEventListeners();
+            updateStats();
+        });
+
+        function setupEventListeners() {
+            // Filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const filterType = this.dataset.filter;
+                    const filterValue = this.dataset.value;
+
+                    // Update active state
+                    document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Update filter state
+                    currentFilters[filterType] = filterValue;
+
+                    // Re-render papers
+                    renderPapers();
+                    updateStats();
+                });
+            });
+
+            // Clear filters
+            document.getElementById('clearFilters').addEventListener('click', function () {
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.dataset.value === 'all') {
+                        btn.classList.add('active');
+                    }
+                });
+
+                currentFilters = {
+                    year: 'all',
+                    architecture: 'all',
+                    control: 'all',
+                    zeroShot: 'all'
+                };
+
+                renderPapers();
+                updateStats();
+            });
+        }
+
+        function renderPapers() {
+            const allPapersContainer = document.getElementById('allPapers');
+
+            // Clear container
+            allPapersContainer.innerHTML = '';
+
+            // Filter and render papers
+            const filteredPapers = filterPapers(papers.nonAutoregressive.concat(papers.autoregressive));
+
+            // Sort papers by year and month (newest first)
+            filteredPapers.sort((a, b) => {
+                // Extract year and month from releaseDate (format: "YYYY.MM")
+                const [aYear, aMonth] = a.releaseDate.split('.').map(Number);
+                const [bYear, bMonth] = b.releaseDate.split('.').map(Number);
+
+                // Compare years first
+                if (aYear !== bYear) {
+                    return bYear - aYear; // Newer year first
+                }
+
+                // If years are the same, compare months
+                return bMonth - aMonth; // Newer month first
+            });
+
+            filteredPapers.forEach(paper => {
+                allPapersContainer.appendChild(createPaperCard(paper));
+            });
+
+            // Hide loading
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function filterPapers(paperList) {
+            return paperList.filter(paper => {
+                // Year filter
+                if (currentFilters.year !== 'all' && paper.year !== parseInt(currentFilters.year)) {
+                    return false;
+                }
+
+                // Architecture filter
+                if (currentFilters.architecture !== 'all' && paper.architecture !== currentFilters.architecture) {
+                    return false;
+                }
+
+                // Controllability filter
+                if (currentFilters.control !== 'all') {
+                    if (!paper.controllability.includes(currentFilters.control)) {
+                        return false;
+                    }
+                }
+
+                // Zero-shot filter
+                if (currentFilters.zeroShot !== 'all') {
+                    if (currentFilters.zeroShot === 'yes' && !paper.zeroShot) return false;
+                    if (currentFilters.zeroShot === 'no' && paper.zeroShot) return false;
+                }
+
+                return true;
+            });
+        }
+
+        function createPaperCard(paper) {
+            const card = document.createElement('div');
+            card.className = 'paper-card fade-in';
+
+            const controllabilityBadges = paper.controllability.map(control =>
+                `<span class="badge control-badge bg-primary">${control}</span>`
+            ).join('');
+
+            const zeroShotBadge = paper.zeroShot ?
+                '<span class="badge zero-shot-badge">Zero-shot (✓)</span>' :
+                '<span class="badge non-zero-shot-badge">Non-zero-shot (✗)</span>';
+
+            const architectureBadge = paper.architecture === 'non-autoregressive' ?
+                '<span class="badge bg-warning text-white">Non-autoregressive</span>' :
+                '<span class="badge bg-info text-white">Autoregressive</span>';
+
+            const links = [];
+            if (paper.code) links.push(`<a href="${paper.code}" target="_blank"><i class="bi bi-code-slash"></i> Code</a>`);
+            if (paper.demo) links.push(`<a href="${paper.demo}" target="_blank"><i class="bi bi-play-circle"></i> Demo</a>`);
+
+            card.innerHTML = `
+                <div class="d-flex justify-content-between align-items-start mb-0">
+                    <h6 class="paper-title mb-1">
+                        <a href="${paper.url}" target="_blank">${paper.title}</a>
+                    </h6>
+                    <span class="badge year-badge">${paper.year}</span>
+                </div>
+                
+                <div class="mb-1">
+                    <small class="text-muted">
+                        <i class="bi bi-people me-1"></i>${paper.authors}
+                    </small>
+                </div>
+                
+                <div class="mb-0">
+                    ${architectureBadge}
+                    ${zeroShotBadge}
+                    ${controllabilityBadges}
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="paper-meta">
+                        <strong>Model:</strong> ${paper.acousticModel} | 
+                        <strong>Vocoder:</strong> ${paper.vocoder} | 
+                        <strong>Feature:</strong> ${paper.acousticFeature} | 
+                        <strong>Release:</strong> ${paper.releaseDate}
+                    </div>
+                    ${links.length > 0 ? `<div class="paper-links">${links.join('')}</div>` : ''}
+                </div>
+            `;
+
+            return card;
+        }
+
+        function updateStats() {
+            const allPapers = papers.nonAutoregressive.concat(papers.autoregressive);
+            const filteredPapers = filterPapers(allPapers);
+            const zeroShotPapers = filteredPapers.filter(p => p.zeroShot);
+            const nonAutoregressivePapers = filteredPapers.filter(p => p.architecture === 'non-autoregressive');
+            const autoregressivePapers = filteredPapers.filter(p => p.architecture === 'autoregressive');
+
+            document.getElementById('totalPapers').textContent = filteredPapers.length;
+            document.getElementById('zeroShotPapers').textContent = zeroShotPapers.length;
+            document.getElementById('nonAutoregressivePapers').textContent = nonAutoregressivePapers.length;
+            document.getElementById('autoregressivePapers').textContent = autoregressivePapers.length;
+        }
+    </script>
+</body>
+
+</html>
