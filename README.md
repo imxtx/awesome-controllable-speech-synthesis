@@ -1,4 +1,4 @@
-# Awesome Controllabe Speech Synthesis
+# Awesome Controllable Speech Synthesis
 
 This is an evolving repo for the survey: [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602). If you find our survey useful for your research, please 📚cite📚 the following paper:
 
@@ -16,17 +16,20 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 <p align="center">
     <img src="./images/sec1_summary.jpg" width="1000"/>
 </p>
-<p align="center">
-    <img src="./images/sec2_pipeline.jpg" width="1000"/>
-</p>
-<p align="center">
-    <img src="./images/sec5_control_strategies.jpg" width="1000"/>
-</p>
-<p align="center">
-<img src="./images/sec6_challenges.jpg" width="500"/>
-</p>
 
-## 🚀 Non-autoregressive Controllable TTS
+## Follow-up Papers 🔥🔥🔥 (Newest First)
+
+* Xie, Tianxin, Shan Yang, Chenxing Li, Dong Yu, and Li Liu. "EmoSteer-TTS: Fine-Grained and Training-Free Emotion-Controllable Text-to-Speech via Activation Steering." arXiv preprint arXiv:2508.03543 (2025). [Demo](https://emosteer-tts.pages.dev/) \[2025.08\]
+  * Control: activation steering
+* Niu, Rui, Weihao Wu, Jie Chen, Long Ma, and Zhiyong Wu. "A Multi-Stage Framework for Multimodal Controllable Speech Synthesis." arXiv preprint arXiv:2506.20945 (2025). [Demo](https://thuhcsi.github.io/icme2025-MMTTS/) \[2025.06\]
+  * Control: multimodal (image, reference speech, textual description)
+* Zhou, Siyi, Yiquan Zhou, Yi He, Xun Zhou, Jinchao Wang, Wei Deng, and Jingchen Shu. "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech." arXiv preprint arXiv:2506.21619 (2025). [Demo](https://index-tts.github.io/index-tts2.github.io/) \[2025.06\]
+  * Control: reference speech, duration input
+
+
+## The following are the works included in our paper.
+
+### 🚀 Non-autoregressive Controllable TTS
 
 Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo**.
 
@@ -86,7 +89,7 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 - [FastSpeech 2](https://arxiv.org/abs/2006.04558), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody), Transformer, [Parallel WaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN), MelS, 2020.06, [Code (unofficial)](https://github.com/ming024/FastSpeech2)
 - [FastSpeech](https://proceedings.neurips.cc/paper_files/paper/2019/hash/f63f65b503e22cb970527f23c9ad7db1-Abstract.html), Zero-shot (✗), Controllability (Speed, Prosody), Transformer, [WaveGlow](https://github.com/NVIDIA/waveglow), MelS, 2019.05, [Code (unofficial)](https://github.com/xcmyz/FastSpeech)
 
-## 🎞️ Autoregressive Controllable TTS
+### 🎞️ Autoregressive Controllable TTS
 
 Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo**.
 
