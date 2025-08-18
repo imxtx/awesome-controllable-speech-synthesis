@@ -19,12 +19,18 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Zhu, Boyu, Cheng Gong, Muyang Wu, Ruihao Jing, Fan Liu, Xiaolei Zhang, Chi Zhang, and Xuelong Li. "$\text {M}^ 3\text {PDB} $: A Multimodal, Multi-Label, Multilingual Prompt Database for Speech Generation." arXiv preprint arXiv:2508.09702 (2025). [Dataset](https://github.com/hizening/M3PDB) [2025.08]
 * Xie, Tianxin, Shan Yang, Chenxing Li, Dong Yu, and Li Liu. "EmoSteer-TTS: Fine-Grained and Training-Free Emotion-Controllable Text-to-Speech via Activation Steering." arXiv preprint arXiv:2508.03543 (2025). [Demo](https://emosteer-tts.pages.dev/) [2025.08]
   * Control: activation steering
+* Wu, Zhuojun, Dong Liu, Juan Liu, Yechen Wang, Linxi Li, Liwei Jin, Hui Bu, Pengyuan Zhang, and Ming Li. "SMIIP-NV: A Multi-Annotation Non-Verbal Expressive Speech Corpus in Mandarin for LLM-Based Speech Synthesis." ACM Multimedia, 2025. [Dataset](https://axunyii.github.io/SMIIP-NV/) [2025.07]
 * Niu, Rui, Weihao Wu, Jie Chen, Long Ma, and Zhiyong Wu. "A Multi-Stage Framework for Multimodal Controllable Speech Synthesis." arXiv preprint arXiv:2506.20945 (2025). [Demo](https://thuhcsi.github.io/icme2025-MMTTS/) [2025.06]
   * Control: multimodal (image, reference speech, textual description)
 * Zhou, Siyi, Yiquan Zhou, Yi He, Xun Zhou, Jinchao Wang, Wei Deng, and Jingchen Shu. "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech." arXiv preprint arXiv:2506.21619 (2025). [Demo](https://index-tts.github.io/index-tts2.github.io/) [2025.06]
   * Control: reference speech, duration input
+* Rong, Yan, Jinting Wang, Shan Yang, Guangzhi Lei, and Li Liu. "AudioGenie: A Training-Free Multi-Agent Framework for Diverse Multimodality-to-Multiaudio Generation." arXiv preprint arXiv:2505.22053 (2025). [Demo](https://audiogenie.github.io/) [2025.05]
+  * Control: multimodal (image, reference speech, textual description)
+* Rong, Yan, Shan Yang, Guangzhi Lei, and Li Liu. "Dopamine Audiobook: A Training-free MLLM Agent for Emotional and Human-like Audiobook Generation." arXiv preprint arXiv:2504.11002 (2025). [Demo](https://dopamine-audiobook.github.io/) [2025.04]
+  * Control: multimodal (image, reference speech, textual description)
 
 ## The following are the works included in our paper
 
