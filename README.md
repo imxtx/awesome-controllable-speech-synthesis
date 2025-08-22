@@ -19,6 +19,12 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Park, Joonyong, and Kenichi Nakamura. "EmoSSLSphere: Multilingual Emotional Speech Synthesis with Spherical Vectors and Discrete Speech Tokens." arXiv preprint arXiv:2508.11273 (2025). [2025.08]
+  * Control: spherical emotion vector
+* Bauer, Judith, Frank Zalkow, Meinard Müller, and Christian Dittmar. "Explicit Emphasis Control in Text-to-Speech Synthesis." In Proc. SSW 2025, pp. 21-27. 2025. [Demo](https://www.audiolabs-erlangen.de/resources/NLUI/2025-EmphasisControl)
+  * Control: scalar input
+* Lemerle, Théodor, Nicolas Obin, and Axel Roebel. "Lina-Style: Word-Level Style Control in TTS via Interleaved Synthetic Data." In Proc. SSW 2025, pp. 35-39. 2025. [2025.08]
+  * Control: classifier-free guidance
 * Zhu, Boyu, Cheng Gong, Muyang Wu, Ruihao Jing, Fan Liu, Xiaolei Zhang, Chi Zhang, and Xuelong Li. "$\text {M}^ 3\text {PDB} $: A Multimodal, Multi-Label, Multilingual Prompt Database for Speech Generation." arXiv preprint arXiv:2508.09702 (2025). [Dataset](https://github.com/hizening/M3PDB) [2025.08]
 * Xie, Tianxin, Shan Yang, Chenxing Li, Dong Yu, and Li Liu. "EmoSteer-TTS: Fine-Grained and Training-Free Emotion-Controllable Text-to-Speech via Activation Steering." arXiv preprint arXiv:2508.03543 (2025). [Demo](https://emosteer-tts.pages.dev/) [2025.08]
   * Control: activation steering
