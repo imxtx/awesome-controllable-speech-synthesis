@@ -13,9 +13,7 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 **If you find any mistakes, please don’t hesitate to open an issue.**
 
-<p align="center">
-    <img src="./images/sec1_summary.jpg" width="1000"/>
-</p>
+![summary](./images/summary.png)
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
@@ -149,7 +147,7 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 
 A summary of open-source datasets for controllable TTS:
 
-|Dataset|Hours|#Speakers|Labels|||||||||||Lang|Release<br>Time|
+|Dataset|Hours|#Speakers|Labels|||||||||||Lang|Release|
 |:---:|:---:|:---:|:----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:---:|
 ||||Pit.|Ene.|Spe.|Age|Gen.|Emo.|Emp.|Acc.|Top.|Des.|Dia.|||
 |[SpeechCraft](https://dl.acm.org/doi/abs/10.1145/3664647.3681674)|2,391|3,200|✓|✓|✓|✓|✓|✓|✓||✓|✓||en,zh|2024|
