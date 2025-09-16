@@ -26,8 +26,8 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 * Wu, Zhuojun, Dong Liu, Juan Liu, Yechen Wang, Linxi Li, Liwei Jin, Hui Bu, Pengyuan Zhang, and Ming Li. "SMIIP-NV: A Multi-Annotation Non-Verbal Expressive Speech Corpus in Mandarin for LLM-Based Speech Synthesis." ACM Multimedia, 2025. [Dataset](https://axunyii.github.io/SMIIP-NV/) [2025.07]
 * Niu, Rui, Weihao Wu, Jie Chen, Long Ma, and Zhiyong Wu. "A Multi-Stage Framework for Multimodal Controllable Speech Synthesis." arXiv preprint arXiv:2506.20945 (2025). [Demo](https://thuhcsi.github.io/icme2025-MMTTS/) [2025.06]
 * Zhou, Siyi, Yiquan Zhou, Yi He, Xun Zhou, Jinchao Wang, Wei Deng, and Jingchen Shu. "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech." arXiv preprint arXiv:2506.21619 (2025). [Demo](https://index-tts.github.io/index-tts2.github.io/) [2025.06]
-* Rong, Yan, Jinting Wang, Shan Yang, Guangzhi Lei, and Li Liu. "AudioGenie: A Training-Free Multi-Agent Framework for Diverse Multimodality-to-Multiaudio Generation." arXiv preprint arXiv:2505.22053 (2025). [Demo](https://audiogenie.github.io/) [2025.05]
-* Rong, Yan, Shan Yang, Guangzhi Lei, and Li Liu. "Dopamine Audiobook: A Training-free MLLM Agent for Emotional and Human-like Audiobook Generation." arXiv preprint arXiv:2504.11002 (2025). [Demo](https://dopamine-audiobook.github.io/) [2025.04]
+* Rong, Yan, Jinting Wang, Guangzhi Lei, Shan Yang, and Li Liu. "AudioGenie: A Training-Free Multi-Agent Framework for Diverse Multimodality-to-Multiaudio Generation." arXiv preprint arXiv:2505.22053 (2025). [Demo](https://audiogenie.github.io/) [2025.05]
+* Rong, Yan, Shan Yang, Guangzhi Lei, and Li Liu. "Dopamine Audiobook: A Training-free MLLM Agent for Emotional and Immersive Audiobook Generation." arXiv preprint arXiv:2504.11002 (2025). [Demo](https://dopamine-audiobook.github.io/) [2025.04]
 
 ## The following are the works included in our paper
 
