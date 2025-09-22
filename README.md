@@ -17,6 +17,7 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Lu, Ye-Xin, Yu Gu, Kun Wei, Hui-Peng Du, Yang Ai, and Zhen-Hua Ling. "DAIEN-TTS: Disentangled Audio Infilling for Environment-Aware Text-to-Speech Synthesis." arXiv preprint arXiv:2509.14684 (2025). [Demo](https://yxlu-0102.github.io/DAIEN-TTS/) [2025.09]
 * Zhang, Xueyao, Junan Zhang, Yuancheng Wang, Chaoren Wang, Yuanzhe Chen, Dongya Jia, Zhuo Chen, and Zhizheng Wu. "Vevo2: Bridging Controllable Speech and Singing Voice Generation via Unified Prosody Learning." arXiv preprint arXiv:2508.16332 (2025). [Demo](https://versasinger.github.io/) [2025.08]
 * Park, Joonyong, and Kenichi Nakamura. "EmoSSLSphere: Multilingual Emotional Speech Synthesis with Spherical Vectors and Discrete Speech Tokens." arXiv preprint arXiv:2508.11273 (2025). [2025.08]
 * Bauer, Judith, Frank Zalkow, Meinard Müller, and Christian Dittmar. "Explicit Emphasis Control in Text-to-Speech Synthesis." In Proc. SSW 2025, pp. 21-27. 2025. [Demo](https://www.audiolabs-erlangen.de/resources/NLUI/2025-EmphasisControl)
