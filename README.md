@@ -17,6 +17,7 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Wang, Sirui, Andong Chen, and Tiejun Zhao. "Beyond Global Emotion: Fine-Grained Emotional Speech Synthesis with Dynamic Word-Level Modulation." arXiv preprint arXiv:2509.20378 (2025). [2025.09]
 * Liu, Min, JingJing Yin, Xiang Zhang, Siyu Hao, Yanni Hu, Bin Lin, Yuan Feng, Hongbin Zhou, and Jianhao Ye. "Audiobook-CC: Controllable Long-context Speech Generation for Multicast Audiobook." arXiv preprint arXiv:2509.17516 (2025). [Demo](https://everest-ai.github.io/) [2025.09]
 * Lu, Ye-Xin, Yu Gu, Kun Wei, Hui-Peng Du, Yang Ai, and Zhen-Hua Ling. "DAIEN-TTS: Disentangled Audio Infilling for Environment-Aware Text-to-Speech Synthesis." arXiv preprint arXiv:2509.14684 (2025). [Demo](https://yxlu-0102.github.io/DAIEN-TTS/) [2025.09]
 * Zhang, Xueyao, Junan Zhang, Yuancheng Wang, Chaoren Wang, Yuanzhe Chen, Dongya Jia, Zhuo Chen, and Zhizheng Wu. "Vevo2: Bridging Controllable Speech and Singing Voice Generation via Unified Prosody Learning." arXiv preprint arXiv:2508.16332 (2025). [Demo](https://versasinger.github.io/) [2025.08]
