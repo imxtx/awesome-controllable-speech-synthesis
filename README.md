@@ -1,6 +1,6 @@
 # Awesome Controllable Speech Synthesis
 
-This is an evolving repo for the survey: [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602). If you find our survey useful for your research, please 📚cite📚 the following paper:
+This is an evolving repo for the survey: [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2412.06602). If you find our survey useful for your research, please consider 📚citing📚 the following paper:
 
 ```latex
 @article{xie2024towards,
@@ -14,6 +14,10 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 **If you find any mistakes, please don’t hesitate to open an issue.**
 
 ![summary](./images/summary.png)
+
+## News
+
+* [2025-09-29] Our paper has been accepted to the EMNLP 2025 Main Conference. We look forward to seeing you in Suzhou, China!
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
