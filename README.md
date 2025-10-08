@@ -21,6 +21,8 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Zhang, Ziyu, Hanzhao Li, Jingbin Hu, Wenhao Li, and Lei Xie. "HiStyle: Hierarchical Style Embedding Predictor for Text-Prompt-Guided Controllable Speech Synthesis." arXiv preprint arXiv:2509.25842 (2025). [Demo](https://anonymous.4open.science/w/HiStyle-2517/) [2025.09]
+* Wang, Tianrui, Haoyu Wang, Meng Ge, Cheng Gong, Chunyu Qiang, Ziyang Ma, Zikang Huang et al. "Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis." arXiv preprint arXiv:2509.24629 (2025). [Demo](https://anonymousdemo999.github.io/) [2025.09]
 * Wang, Sirui, Andong Chen, and Tiejun Zhao. "Beyond Global Emotion: Fine-Grained Emotional Speech Synthesis with Dynamic Word-Level Modulation." arXiv preprint arXiv:2509.20378 (2025). [2025.09]
 * Liu, Min, JingJing Yin, Xiang Zhang, Siyu Hao, Yanni Hu, Bin Lin, Yuan Feng, Hongbin Zhou, and Jianhao Ye. "Audiobook-CC: Controllable Long-context Speech Generation for Multicast Audiobook." arXiv preprint arXiv:2509.17516 (2025). [Demo](https://everest-ai.github.io/) [2025.09]
 * Lu, Ye-Xin, Yu Gu, Kun Wei, Hui-Peng Du, Yang Ai, and Zhen-Hua Ling. "DAIEN-TTS: Disentangled Audio Infilling for Environment-Aware Text-to-Speech Synthesis." arXiv preprint arXiv:2509.14684 (2025). [Demo](https://yxlu-0102.github.io/DAIEN-TTS/) [2025.09]
