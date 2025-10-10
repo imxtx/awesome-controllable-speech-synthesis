@@ -11,6 +11,8 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 }
 ```
 
+🎞️ **Videos for our paper**: [YouTube (English)](https://youtu.be/xheiAT6_-rA), [Bilibili (Chinese)](https://www.bilibili.com/video/BV1WD4EzLEHC)
+
 **If you find any mistakes, please don’t hesitate to open an issue.**
 
 ![summary](./images/summary.png)
