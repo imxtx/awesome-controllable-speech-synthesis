@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Peng, Yizhou, Yukun Ma, Chong Zhang, Yi-Wen Chao, Chongjia Ni, and Bin Ma. "Mismatch Aware Guidance for Robust Emotion Control in Auto-Regressive TTS Models." arXiv preprint arXiv:2510.13293 (2025).
 * Li, Haoxun, Yu Liu, Yuqing Sun, Hanlei Shi, Leyuan Qu, and Taihao Li. "EMORL-TTS: Reinforcement Learning for Fine-Grained Emotion Control in LLM-based TTS." arXiv preprint arXiv:2510.05758 (2025). [Demo](https://wd-233.github.io/EMORL-TTS_DEMO/) [2025.10]
 * Wang, Yue, Ruotian Ma, Xingyu Chen, Zhengliang Shi, Wanshun Chen, Huang Liu, Jiadi Yao et al. "BatonVoice: An Operationalist Framework for Enhancing Controllable Speech Synthesis with Linguistic Intelligence from LLMs." arXiv preprint arXiv:2509.26514 (2025). [Demo & Code](https://github.com/Tencent/digitalhuman/tree/main/BatonVoice) [2025.09]
 * Zhang, Ziyu, Hanzhao Li, Jingbin Hu, Wenhao Li, and Lei Xie. "HiStyle: Hierarchical Style Embedding Predictor for Text-Prompt-Guided Controllable Speech Synthesis." arXiv preprint arXiv:2509.25842 (2025). [Demo](https://anonymous.4open.science/w/HiStyle-2517/) [2025.09]
