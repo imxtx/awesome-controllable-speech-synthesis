@@ -216,3 +216,7 @@ A summary of open-source datasets for controllable TTS:
 | ABX Test | Subjective | Perceptual similarity | ✓ |
 
 GT: Ground truth, $\downarrow$: Lower is better, $\uparrow$: Higher is better.
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=imxtx/awesome-controllable-speech-synthesis&type=date&legend=top-left)](https://www.star-history.com/#imxtx/awesome-controllable-speech-synthesis&type=date&legend=top-left)
