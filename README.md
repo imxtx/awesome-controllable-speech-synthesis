@@ -19,7 +19,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 🎞️ **Video introductions for our paper**: [YouTube (English)](https://youtu.be/xheiAT6_-rA), [Bilibili (Chinese)](https://www.bilibili.com/video/BV1WD4EzLEHC)
 
-💖 **Let’s make it even better together**:
+💖 **Let’s make it better together**:
 
 * If you find any mistakes, please don’t hesitate to open an issue.
 * If you find this project helpful, please consider giving it a ⭐ on GitHub to stay updated.
@@ -27,15 +27,25 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 <figure style="text-align: center;">
   <img src="./images/summary.png" alt="summary" width="100%">
-  <figcaption><em>Figure 1: Recent trends in controllable TTS regarding architectures, feature representations, and control abilities.</em></figcaption>
+  <figcaption><em>Figure 1: Recent trends in controllable TTS regarding architectures, feature representations, and control abilities (till 2025.03).</em></figcaption>
 </figure>
 
 ## News
 
 * [2025-09-29] Our paper has been accepted to the EMNLP 2025 Main Conference. We look forward to seeing you in Suzhou, China!
 
+## Table of Contents
+
+* [Follow-up Papers](#follow-up-papers--newest-first)
+* [Non-autoregressive Controllable TTS](#non-autoregressive-controllable-tts)
+* [Autoregressive Controllable TTS](#autoregressive-controllable-tts)
+* [Datasets](#datsets)
+* [Evaluation](#evaluation)
+* [Star History](#star-history)
+
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Tu, Wenming, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen, and Zilong Zheng. "UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models." arXiv preprint arXiv:2510.22588 (2025). [Demo](https://bigai-nlco.github.io/UltraVoice/), [Code](https://github.com/bigai-nlco/UltraVoice) [2025.10]
 * Lou, Haowei, Hye-Young Paik, Wen Hu, and Lina Yao. "ParaStyleTTS: Toward Efficient and Robust Paralinguistic Style Control for Expressive Text-to-Speech Generation." arXiv preprint arXiv:2510.18308 (2025). [Code](https://github.com/haoweilou/ParaStyleTTS) [2025.10]
 * Peng, Yizhou, Yukun Ma, Chong Zhang, Yi-Wen Chao, Chongjia Ni, and Bin Ma. "Mismatch Aware Guidance for Robust Emotion Control in Auto-Regressive TTS Models." arXiv preprint arXiv:2510.13293 (2025).
 * Li, Haoxun, Yu Liu, Yuqing Sun, Hanlei Shi, Leyuan Qu, and Taihao Li. "EMORL-TTS: Reinforcement Learning for Fine-Grained Emotion Control in LLM-based TTS." arXiv preprint arXiv:2510.05758 (2025). [Demo](https://wd-233.github.io/EMORL-TTS_DEMO/) [2025.10]
@@ -58,9 +68,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Rong, Yan, Jinting Wang, Guangzhi Lei, Shan Yang, and Li Liu. "AudioGenie: A Training-Free Multi-Agent Framework for Diverse Multimodality-to-Multiaudio Generation." arXiv preprint arXiv:2505.22053 (2025). [Demo](https://audiogenie.github.io/) [2025.05]
 * Rong, Yan, Shan Yang, Guangzhi Lei, and Li Liu. "Dopamine Audiobook: A Training-free MLLM Agent for Emotional and Immersive Audiobook Generation." arXiv preprint arXiv:2504.11002 (2025). [Demo](https://dopamine-audiobook.github.io/) [2025.04]
 
-## The following are the works included in our paper
-
-### 🚀 Non-autoregressive Controllable TTS
+## Non-autoregressive Controllable TTS
 
 Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo**.
 
@@ -120,7 +128,7 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 * [FastSpeech 2](https://arxiv.org/abs/2006.04558), Zero-shot (✗), Controllability (Pitch, Energy, Speed, Prosody), Transformer, [Parallel WaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN), MelS, 2020.06, [Code (unofficial)](https://github.com/ming024/FastSpeech2)
 * [FastSpeech](https://proceedings.neurips.cc/paper_files/paper/2019/hash/f63f65b503e22cb970527f23c9ad7db1-Abstract.html), Zero-shot (✗), Controllability (Speed, Prosody), Transformer, [WaveGlow](https://github.com/NVIDIA/waveglow), MelS, 2019.05, [Code (unofficial)](https://github.com/xcmyz/FastSpeech)
 
-### 🎞️ Autoregressive Controllable TTS
+## Autoregressive Controllable TTS
 
 Below are representative non-autoregressive controllable TTS methods. Each entry follows this format: **method name, zero-shot capability, controllability, acoustic model, vocoder, acoustic feature, release date, and code/demo**.
 
@@ -172,7 +180,7 @@ Below are representative non-autoregressive controllable TTS methods. Each entry
 * [GST-Tacotron](https://ieeexplore.ieee.org/abstract/document/8639682), Zero-shot (✗), Controllability (Pitch, Prosody), CNN + RNN, [Griffin-Lim](https://pytorch.org/audio/main/generated/torchaudio.transforms.GriffinLim.html), LinS, 2018.03, [Demo](https://google.github.io/tacotron/publications/global_style_tokens/), [Code (unofficial)](https://github.com/KinglittleQ/GST-Tacotron)
 * [Prosody-Tacotron](https://proceedings.mlr.press/v80/skerry-ryan18a.html), Zero-shot (✗), Controllability (Pitch, Prosody), RNN, [WaveNet](https://arxiv.org/abs/1609.03499), MelS, 2018.03, [Demo](https://google.github.io/tacotron/publications/end_to_end_prosody_transfer/)
 
-## 💾 Datsets
+## Datsets
 
 A summary of open-source datasets for controllable TTS:
 
@@ -201,7 +209,7 @@ A summary of open-source datasets for controllable TTS:
 
 *Abbreviations*: Pit(ch), Ene(rgy)=volume, Spe(ed), Gen(der), Emo(tion), Emp(hasis), Acc(ent), Top(ic), Des(cription), Env(ironment), Dia(logue).
 
-## 📏 Evaluation Metrics
+## Evaluation
 
 | Metric | Type | Eval Target | GT Required |
 |:---:|:---:|:---:|:---:|
@@ -218,6 +226,6 @@ A summary of open-source datasets for controllable TTS:
 
 GT: Ground truth, $\downarrow$: Lower is better, $\uparrow$: Higher is better.
 
-## ⭐ Star History
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=imxtx/awesome-controllable-speech-synthesis&type=date&legend=top-left)](https://www.star-history.com/#imxtx/awesome-controllable-speech-synthesis&type=date&legend=top-left)
