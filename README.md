@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Zhao, Yiwen, Jiatong Shi, Jinchuan Tian, Yuxun Tang, Jiarui Hai, Jionghao Han, and Shinji Watanabe. "Adapting Speech Language Model to Singing Voice Synthesis." In AI for Music Workshop. [Demo](https://tsukasane.github.io/SLMSVS/) [2025.11]
 * Yan, Chao, Boyong Wu, Peng Yang, Pengfei Tan, Guoqiang Hu, Yuxin Zhang, Fei Tian et al. "Step-Audio-EditX Technical Report." arXiv preprint arXiv:2511.03601 (2025). [Code](https://github.com/stepfun-ai/Step-Audio-EditX) [2025.11]
 * Tu, Wenming, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen, and Zilong Zheng. "UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models." arXiv preprint arXiv:2510.22588 (2025). [Demo](https://bigai-nlco.github.io/UltraVoice/), [Code](https://github.com/bigai-nlco/UltraVoice) [2025.10]
 * Lou, Haowei, Hye-Young Paik, Wen Hu, and Lina Yao. "ParaStyleTTS: Toward Efficient and Robust Paralinguistic Style Control for Expressive Text-to-Speech Generation." arXiv preprint arXiv:2510.18308 (2025). [Code](https://github.com/haoweilou/ParaStyleTTS) [2025.10]
