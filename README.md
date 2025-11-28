@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Qiang, Chunyu, et al. "InstructAudio: Unified speech and music generation with natural language instruction." arXiv preprint arXiv:2511.18487 (2025). [Demo](https://qiangchunyu.github.io/InstructAudio/) [2025.11]
 * Seung-Bin Kim, Jun-Hyeok Cha, Hyung-Seok Oh, Heejin Choi, and Seong-Whan Lee. 2025. FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control. EMNLP 2025. [Demo](https://fillerspeech.github.io/main/) [2025.11]
 * Yejin Jeon, Youngjae Kim, Jihyun Lee, Hyounghun Kim, and Gary Lee. 2025. Progressive Facial Granularity Aggregation with Bilateral Attribute-based Enhancement for Face-to-Speech Synthesis. EMNLP 2025 Findings. [2025.11]
 * Yifu Chen, Shengpeng Ji, Ziqing Wang, Hanting Wang, and Zhou Zhao. 2025. InteractSpeech: A Speech Dialogue Interaction Corpus for Spoken Dialogue Model. EMNLP 2025 Findings. [Demo](https://interactspeech.github.io/) [2025.11]
