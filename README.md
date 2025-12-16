@@ -36,8 +36,11 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
-* 
-* Wang, Cong, Changfeng Gao, Yang Xiang, Zhihao Du, Keyu An, Han Zhao, Qian Chen, Xiangang Li, Yingming Gao, and Ya Li. "RRPO: Robust Reward Policy Optimization for LLM-based Emotional TTS." arXiv preprint arXiv:2512.04552 (2025).
+* Kojima, Atsushi, Yusuke Fujita, Hao Shi, Tomoya Mizumoto, Mengjie Zhao, and Yui Sudo. "Conversation Context-aware Direct Preference Optimization for Style-Controlled Speech Synthesis." APSIPA ASC25. [2025.12]
+* Okamoto, Umi, Sei Ueno, and Akinobu Lee. "Face-conditioned Large-scale Text-to-Speech via Speaker Embedding Prediction from Facial Images." APSIPA ASC25. [2025.12]
+* Yin, Kang, Chunyu Qiang, Sirui Zhao, Xiaopeng Wang, Yuzhe Liang, Pengfei Cai, Tong Xu, Chen Zhang and Enhong Chen. “DMP-TTS: Disentangled multi-modal Prompting for Controllable Text-to-Speech with Chained Guidance.” (2025). [Demo](https://y61329697.github.io/DMP-TTS/) [2025.12]
+* Wang, Cong, Changfeng Gao, Yang Xiang, Zhihao Du, Keyu An, Han Zhao, Qian Chen, Xiangang Li, Yingming Gao, and Ya Li. "RRPO: Robust Reward Policy Optimization for LLM-based Emotional TTS." arXiv preprint arXiv:2512.04552 (2025). [2025.12]
+* R. -G. Bolborici and A. Neacşu, "Adding Emotion Conditioning in Speech Synthesis via Multi-Term Classifier-Free Guidance," 2025 International Conference on Speech Technology and Human-Computer Dialogue (SpeD), Cluj-Napoca, Romania, 2025, pp. 86-91. [Demo](https://github.com/RaduBolbo/F5-TTS-Emotional-CFG) [2025.11]
 * Qiang, Chunyu, Kang Yin, Xiaopeng Wang, Yuzhe Liang, Jiahui Zhao, Ruibo Fu, Tianrui Wang et al. "InstructAudio: Unified speech and music generation with natural language instruction." arXiv preprint arXiv:2511.18487 (2025). [Demo](https://qiangchunyu.github.io/InstructAudio/) [2025.11]
 * Seung-Bin Kim, Jun-Hyeok Cha, Hyung-Seok Oh, Heejin Choi, and Seong-Whan Lee. 2025. FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control. EMNLP 2025. [Demo](https://fillerspeech.github.io/main/) [2025.11]
 * Yejin Jeon, Youngjae Kim, Jihyun Lee, Hyounghun Kim, and Gary Lee. 2025. Progressive Facial Granularity Aggregation with Bilateral Attribute-based Enhancement for Face-to-Speech Synthesis. EMNLP 2025 Findings. [2025.11]
