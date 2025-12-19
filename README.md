@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Li, Tao, Wengshuo Ge, Zhichao Wang, Zihao Cui, Yong Ma, Yingying Gao, Chao Deng, Shilei Zhang, and Junlan Feng. "DisCo-Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec." arXiv preprint arXiv:2512.13251 (2025). [Demo](https://github.com/disco-speech/DisCo-Speech) [2025.12]
 * Kojima, Atsushi, Yusuke Fujita, Hao Shi, Tomoya Mizumoto, Mengjie Zhao, and Yui Sudo. "Conversation Context-aware Direct Preference Optimization for Style-Controlled Speech Synthesis." APSIPA ASC25. [2025.12]
 * Okamoto, Umi, Sei Ueno, and Akinobu Lee. "Face-conditioned Large-scale Text-to-Speech via Speaker Embedding Prediction from Facial Images." APSIPA ASC25. [2025.12]
 * Yin, Kang, Chunyu Qiang, Sirui Zhao, Xiaopeng Wang, Yuzhe Liang, Pengfei Cai, Tong Xu, Chen Zhang and Enhong Chen. “DMP-TTS: Disentangled multi-modal Prompting for Controllable Text-to-Speech with Chained Guidance.” (2025). [Demo](https://y61329697.github.io/DMP-TTS/) [2025.12]
