@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Zhou, Wangzixi, Bagus Tris Atmaja, and Sakriani Sakti. "TOWARD NATURAL EMOTIONAL TEXT-TO-SPEECH SYSTEM WITH FINE-GRAINED NON-VERBAL EXPRESSION CONTROL." [2025.12]
 * Li, Tao, Wengshuo Ge, Zhichao Wang, Zihao Cui, Yong Ma, Yingying Gao, Chao Deng, Shilei Zhang, and Junlan Feng. "DisCo-Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec." arXiv preprint arXiv:2512.13251 (2025). [Demo](https://github.com/disco-speech/DisCo-Speech) [2025.12]
 * Kojima, Atsushi, Yusuke Fujita, Hao Shi, Tomoya Mizumoto, Mengjie Zhao, and Yui Sudo. "Conversation Context-aware Direct Preference Optimization for Style-Controlled Speech Synthesis." APSIPA ASC25. [2025.12]
 * Okamoto, Umi, Sei Ueno, and Akinobu Lee. "Face-conditioned Large-scale Text-to-Speech via Speaker Embedding Prediction from Facial Images." APSIPA ASC25. [2025.12]
