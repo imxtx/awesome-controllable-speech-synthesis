@@ -36,6 +36,8 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Yu, Fan, Tao Wang, You Wu, Lin Zhu, Wei Deng, Weisheng Han, Wenchao Wang et al. "JoyVoice: Long-Context Conditioning for Anthropomorphic Multi-Speaker Conversational Synthesis." arXiv preprint arXiv:2512.19090 (2025). [Demo](https://jea-speech.github.io/JoyVoice/) [2015.12]
+* Feng, Pengchao, Yao Xiao, Ziyang Ma, Zhikang Niu, Shuai Fan, Yao Li, Sheng Wang, and Xie Chen. "Task Vector in TTS: Toward Emotionally Expressive Dialectal Speech Synthesis." arXiv preprint arXiv:2512.18699 (2025). [Demo](https://the-bird-f.github.io/Expressive-Vectors/), [Code](https://github.com/the-bird-F/Expressive-Vectors) [2025.12]
 * Zhou, Wangzixi, Bagus Tris Atmaja, and Sakriani Sakti. "TOWARD NATURAL EMOTIONAL TEXT-TO-SPEECH SYSTEM WITH FINE-GRAINED NON-VERBAL EXPRESSION CONTROL." [2025.12]
 * Li, Tao, Wengshuo Ge, Zhichao Wang, Zihao Cui, Yong Ma, Yingying Gao, Chao Deng, Shilei Zhang, and Junlan Feng. "DisCo-Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec." arXiv preprint arXiv:2512.13251 (2025). [Demo](https://github.com/disco-speech/DisCo-Speech) [2025.12]
 * Kojima, Atsushi, Yusuke Fujita, Hao Shi, Tomoya Mizumoto, Mengjie Zhao, and Yui Sudo. "Conversation Context-aware Direct Preference Optimization for Style-Controlled Speech Synthesis." APSIPA ASC25. [2025.12]
