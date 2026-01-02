@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Lan, Tianwei, Yuhang Guo, Mengyuan Deng, Jing Wang, Wenwu Wang, and Chong Feng. "Controllable timbre cloning and style replication with reference speech examples for multimodal human-computer interaction." Neurocomputing (2025): 132529. [Demo](https://progressivetts.github.io/Control_TTS/) [2015.12]
 * Yu, Fan, Tao Wang, You Wu, Lin Zhu, Wei Deng, Weisheng Han, Wenchao Wang et al. "JoyVoice: Long-Context Conditioning for Anthropomorphic Multi-Speaker Conversational Synthesis." arXiv preprint arXiv:2512.19090 (2025). [Demo](https://jea-speech.github.io/JoyVoice/) [2015.12]
 * Feng, Pengchao, Yao Xiao, Ziyang Ma, Zhikang Niu, Shuai Fan, Yao Li, Sheng Wang, and Xie Chen. "Task Vector in TTS: Toward Emotionally Expressive Dialectal Speech Synthesis." arXiv preprint arXiv:2512.18699 (2025). [Demo](https://the-bird-f.github.io/Expressive-Vectors/), [Code](https://github.com/the-bird-F/Expressive-Vectors) [2025.12]
 * Zhou, Wangzixi, Bagus Tris Atmaja, and Sakriani Sakti. "TOWARD NATURAL EMOTIONAL TEXT-TO-SPEECH SYSTEM WITH FINE-GRAINED NON-VERBAL EXPRESSION CONTROL." [2025.12]
