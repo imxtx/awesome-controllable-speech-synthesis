@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Zhou, Haiyang, Zhihua Huang, and Bowen Li. "CL-EDiff: Cross-Lingual Emotional TTS System Based on Diffusion Model." In Man-Machine Speech Communication: 20th National Conference, NCMMSC 2025, Zhenjiang, China, October 16–19, 2025, Proceedings, p. 152. Springer Nature. [Demo](https://cl-ediff.github.io/CL-EDiff/) [2015.12]
 * Lan, Tianwei, Yuhang Guo, Mengyuan Deng, Jing Wang, Wenwu Wang, and Chong Feng. "Controllable timbre cloning and style replication with reference speech examples for multimodal human-computer interaction." Neurocomputing (2025): 132529. [Demo](https://progressivetts.github.io/Control_TTS/) [2015.12]
 * Yu, Fan, Tao Wang, You Wu, Lin Zhu, Wei Deng, Weisheng Han, Wenchao Wang et al. "JoyVoice: Long-Context Conditioning for Anthropomorphic Multi-Speaker Conversational Synthesis." arXiv preprint arXiv:2512.19090 (2025). [Demo](https://jea-speech.github.io/JoyVoice/) [2015.12]
 * Feng, Pengchao, Yao Xiao, Ziyang Ma, Zhikang Niu, Shuai Fan, Yao Li, Sheng Wang, and Xie Chen. "Task Vector in TTS: Toward Emotionally Expressive Dialectal Speech Synthesis." arXiv preprint arXiv:2512.18699 (2025). [Demo](https://the-bird-f.github.io/Expressive-Vectors/), [Code](https://github.com/the-bird-F/Expressive-Vectors) [2025.12]
