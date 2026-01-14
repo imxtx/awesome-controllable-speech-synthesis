@@ -36,6 +36,11 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Chen, Dekun, Xueyao Zhang, Yuancheng Wang, Kenan Dai, Li Ma, and Zhizheng Wu. "FlexiVoice: Enabling Flexible Style Control in Zero-Shot TTS with Natural Language Instructions." arXiv preprint arXiv:2601.04656 (2026). [Demo](https://flexi-voice.github.io/) [2026.01]
+* Li, Haitao, Chunxiang Jin, Chenglin Li, Wenhao Guan, Zhengxing Huang, and Xie Chen. "ReStyle-TTS: Relative and Continuous Style Control for Zero-Shot Speech Synthesis." arXiv preprint arXiv:2601.03632 (2026). [2026.01]
+* Li, Yunpei, Xun Zhou, Jinchao Wang, Lu Wang, Yong Wu, Siyi Zhou, Yiquan Zhou, and Jingchen Shu. "IndexTTS 2.5 Technical Report." arXiv preprint arXiv:2601.03888 (2026). [Demo](https://index-tts.github.io/index-tts2-5.github.io/) [2026.01]
+* Liang, Qifan, Yuansen Liu, Ruixin Wei, Nan Lu, Junchuan Zhao, and Ye Wang. "Segment-Aware Conditioning for Training-Free Intra-Utterance Emotion and Duration Control in Text-to-Speech." arXiv preprint arXiv:2601.03170 (2026). [Demo](https://aclanonymous111.github.io/TED-TTS-DemoPage/) [2026.01]
+* Ren, Yong, Jiangyan Yi, Jianhua Tao, Haiyang Sun, Zhengqi Wen, Hao Gu, Le Xu, and Ye Bai. "OV-InstructTTS: Towards Open-Vocabulary Instruct Text-to-Speech." arXiv preprint arXiv:2601.01459 (2026). [Demo](https://y-ren16.github.io/OV-InstructTTS/) [2026.01]
 * Zhou, Haiyang, Zhihua Huang, and Bowen Li. "CL-EDiff: Cross-Lingual Emotional TTS System Based on Diffusion Model." In Man-Machine Speech Communication: 20th National Conference, NCMMSC 2025, Zhenjiang, China, October 16–19, 2025, Proceedings, p. 152. Springer Nature. [Demo](https://cl-ediff.github.io/CL-EDiff/) [2015.12]
 * Lan, Tianwei, Yuhang Guo, Mengyuan Deng, Jing Wang, Wenwu Wang, and Chong Feng. "Controllable timbre cloning and style replication with reference speech examples for multimodal human-computer interaction." Neurocomputing (2025): 132529. [Demo](https://progressivetts.github.io/Control_TTS/) [2015.12]
 * Yu, Fan, Tao Wang, You Wu, Lin Zhu, Wei Deng, Weisheng Han, Wenchao Wang et al. "JoyVoice: Long-Context Conditioning for Anthropomorphic Multi-Speaker Conversational Synthesis." arXiv preprint arXiv:2512.19090 (2025). [Demo](https://jea-speech.github.io/JoyVoice/) [2015.12]
