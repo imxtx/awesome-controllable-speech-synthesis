@@ -36,6 +36,8 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Hu, Jingbin, Huakang Chen, Linhan Ma, Dake Guo, Qirui Zhan, Wenhao Li, Haoyu Zhang et al. "VoiceSculptor: Your Voice, Designed By You." arXiv preprint arXiv:2601.10629 (2026). [Demo](https://hujingbin1.github.io/VoiceSculptor-Demo/) [Code](https://github.com/ASLP-lab/VoiceSculptor) [2026.01]
+* Chen, Junyang, Yuhang Jia, Hui Wang, Jiaming Zhou, Yaxin Han, Mengying Feng, and Yong Qin. "CosyEdit: Unlocking End-to-End Speech Editing Capability from Zero-Shot Text-to-Speech Models." arXiv preprint arXiv:2601.05329 (2026). [2026.01]
 * Chen, Dekun, Xueyao Zhang, Yuancheng Wang, Kenan Dai, Li Ma, and Zhizheng Wu. "FlexiVoice: Enabling Flexible Style Control in Zero-Shot TTS with Natural Language Instructions." arXiv preprint arXiv:2601.04656 (2026). [Demo](https://flexi-voice.github.io/) [2026.01]
 * Li, Haitao, Chunxiang Jin, Chenglin Li, Wenhao Guan, Zhengxing Huang, and Xie Chen. "ReStyle-TTS: Relative and Continuous Style Control for Zero-Shot Speech Synthesis." arXiv preprint arXiv:2601.03632 (2026). [2026.01]
 * Li, Yunpei, Xun Zhou, Jinchao Wang, Lu Wang, Yong Wu, Siyi Zhou, Yiquan Zhou, and Jingchen Shu. "IndexTTS 2.5 Technical Report." arXiv preprint arXiv:2601.03888 (2026). [Demo](https://index-tts.github.io/index-tts2-5.github.io/) [2026.01]
