@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Singh, Ayush Pratap, Harshit Singh, Nityanand Mathur, Akshat Mandloi, and Sudarshan Kamath. "SonoEdit: Null-Space Constrained Knowledge Editing for Pronunciation Correction in LLM-Based TTS." arXiv preprint arXiv:2601.17086 (2026). [2026.01]
 * Pei, Hanchen, Shujie Liu, Yanqing Liu, Jianwei Yu, Yuanhang Qian, Gongping Huang, Sheng Zhao, and Yan Lu. "A Unified Neural Codec Language Model for Selective Editable Text to Speech Generation." arXiv preprint arXiv:2601.12480 (2026). [Demo](https://speech-editing.github.io/speech-editing/) [2026.01]
 * Hu, Hangrui, Xinfa Zhu, Ting He, Dake Guo, Bin Zhang, Xiong Wang, Zhifang Guo et al. "Qwen3-TTS Technical Report." arXiv preprint arXiv:2601.15621 (2026). [Code](https://github.com/QwenLM/Qwen3-TTS) [2026.01]
 * Zhang, Leying, Tingxiao Zhou, Haiyang Sun, Mengxiao Bi, and Yanmin Qian. "DeepASMR: LLM-Based Zero-Shot ASMR Speech Generation for Anyone of Any Voice." arXiv preprint arXiv:2601.15596 (2026). [Demo](https://vivian556123.github.io/deepasmr-demo/) [2026.01]
