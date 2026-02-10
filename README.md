@@ -36,6 +36,9 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Wang, Siyi, Shihong Tan, Siyi Liu, Hong Jia, Gongping Huang, James Bailey, and Ting Dang. "CoCoEmo: Composable and Controllable Human-Like Emotional TTS via Activation Steering." arXiv preprint arXiv:2602.03420 (2026). [2026.02]
+* Zhou, Li, Hao Jiang, Junjie Li, Tianrui Wang, and Haizhou Li. "EmoShift: Lightweight Activation Steering for Enhanced Emotion-Aware Speech Synthesis." arXiv preprint arXiv:2601.22873 (2026). [2026.02]
+* Ren, Yong, Jiangyan Yi, Jianhua Tao, Zhengqi Wen, and Tao Wang. "Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards." arXiv preprint arXiv:2602.00560 (2026). [Demo](https://icme26-speech-editing.netlify.app/) [2026.02]
 * Singh, Ayush Pratap, Harshit Singh, Nityanand Mathur, Akshat Mandloi, and Sudarshan Kamath. "SonoEdit: Null-Space Constrained Knowledge Editing for Pronunciation Correction in LLM-Based TTS." arXiv preprint arXiv:2601.17086 (2026). [2026.01]
 * Pei, Hanchen, Shujie Liu, Yanqing Liu, Jianwei Yu, Yuanhang Qian, Gongping Huang, Sheng Zhao, and Yan Lu. "A Unified Neural Codec Language Model for Selective Editable Text to Speech Generation." arXiv preprint arXiv:2601.12480 (2026). [Demo](https://speech-editing.github.io/speech-editing/) [2026.01]
 * Hu, Hangrui, Xinfa Zhu, Ting He, Dake Guo, Bin Zhang, Xiong Wang, Zhifang Guo et al. "Qwen3-TTS Technical Report." arXiv preprint arXiv:2601.15621 (2026). [Code](https://github.com/QwenLM/Qwen3-TTS) [2026.01]
