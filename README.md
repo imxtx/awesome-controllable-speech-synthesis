@@ -36,6 +36,8 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Khamis, Ahmed Khaled, and Hesham Ali. "LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models." arXiv preprint arXiv:2602.15675 (2026). [Code](https://github.com/KickItLikeShika/NileTTS) [2026.02]
+* Zhou, Qiangong, and Nagasaka Tomohiro. "UniTAF: A Modular Framework for Joint Text-to-Speech and Audio-to-Face Modeling." arXiv preprint arXiv:2602.15651 (2026). [Code](https://github.com/GoldenFishes/UniTAF) [2026.02]
 * Ren, Yong, Jiangyan Yi, Jianhua Tao, Zhengqi Wen, and Tao Wang. "Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards." arXiv preprint arXiv:2602.00560 (2026). [2026.02]
 * Roy, Rajarshi, Jonathan Raiman, Sang-gil Lee, Teodor-Dumitru Ene, Robert Kirby, Sungwon Kim, Jaehyeon Kim, and Bryan Catanzaro. "PersonaPlex: Voice and Role Control for Full Duplex Conversational Speech Models." arXiv preprint arXiv:2602.06053 (2026). [2026.02]
 * Lu, Q., Bai, B., Xue, J. et al. REA-TTS: Retrieval-Augmented Expressive Audiobook Text-to-Speech Generation with Contrastive Language-Audio Learning. J. Shanghai Jiaotong Univ. (Sci.) (2026). [2026.02]
