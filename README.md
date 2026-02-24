@@ -36,6 +36,9 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Ren, Yong, Jiangyan Yi, Jianhua Tao, Zhengqi Wen, and Tao Wang. "Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards." arXiv preprint arXiv:2602.00560 (2026). [2026.02]
+* Roy, Rajarshi, Jonathan Raiman, Sang-gil Lee, Teodor-Dumitru Ene, Robert Kirby, Sungwon Kim, Jaehyeon Kim, and Bryan Catanzaro. "PersonaPlex: Voice and Role Control for Full Duplex Conversational Speech Models." arXiv preprint arXiv:2602.06053 (2026). [2026.02]
+* Lu, Q., Bai, B., Xue, J. et al. REA-TTS: Retrieval-Augmented Expressive Audiobook Text-to-Speech Generation with Contrastive Language-Audio Learning. J. Shanghai Jiaotong Univ. (Sci.) (2026). [2026.02]
 * Wang, Siyi, Shihong Tan, Siyi Liu, Hong Jia, Gongping Huang, James Bailey, and Ting Dang. "CoCoEmo: Composable and Controllable Human-Like Emotional TTS via Activation Steering." arXiv preprint arXiv:2602.03420 (2026). [2026.02]
 * Zhou, Li, Hao Jiang, Junjie Li, Tianrui Wang, and Haizhou Li. "EmoShift: Lightweight Activation Steering for Enhanced Emotion-Aware Speech Synthesis." arXiv preprint arXiv:2601.22873 (2026). [2026.02]
 * Ren, Yong, Jiangyan Yi, Jianhua Tao, Zhengqi Wen, and Tao Wang. "Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards." arXiv preprint arXiv:2602.00560 (2026). [Demo](https://icme26-speech-editing.netlify.app/) [2026.02]
