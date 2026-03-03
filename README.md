@@ -36,6 +36,8 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* J. Kang, Y. Lee and K. Shim, "Encoder-Free Style-Controllable Text-to-Speech with Voice Attribute Vectors," 2026 International Conference on Electronics, Information, and Communication (ICEIC), Macau, China, 2026, pp. 1-4, doi: 10.1109/ICEIC69189.2026.11386084. [2026.02]
+* Bai, Qibing, Shuhao Shi, Shuai Wang, Yukai Ju, Yannan Wang, and Haizhou Li. "CosyAccent: Duration-Controllable Accent Normalization Using Source-Synthesis Training Data." arXiv preprint arXiv:2602.19166 (2026). [Demo](https://p1ping.github.io/CosyAccent-Demo/), [Code](https://github.com/P1ping/CosyAccent) [2026.02]
 * Khamis, Ahmed Khaled, and Hesham Ali. "LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models." arXiv preprint arXiv:2602.15675 (2026). [Code](https://github.com/KickItLikeShika/NileTTS) [2026.02]
 * Zhou, Qiangong, and Nagasaka Tomohiro. "UniTAF: A Modular Framework for Joint Text-to-Speech and Audio-to-Face Modeling." arXiv preprint arXiv:2602.15651 (2026). [Code](https://github.com/GoldenFishes/UniTAF) [2026.02]
 * Ren, Yong, Jiangyan Yi, Jianhua Tao, Zhengqi Wen, and Tao Wang. "Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards." arXiv preprint arXiv:2602.00560 (2026). [2026.02]
