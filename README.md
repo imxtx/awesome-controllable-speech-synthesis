@@ -36,6 +36,10 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Liu, Changsong, Tianrui Wang, Ye Ni, Yizhou Peng, and Eng Siong Chng. "Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input." arXiv preprint arXiv:2603.06444 (2026). [Demo](https://anonymous-demo-168.github.io/Prosodic-Boundary-Aware-Streaming-Text-TTS-demo/) [2026.03]
+* Yang, Mu, and John HL Hansen. "Activation Steering for Accent-Neutralized Zero-Shot Text-To-Speech." arXiv preprint arXiv:2603.05977 (2026). [Demo](https://accentsteer.github.io/) [2026.03]
+* Lertpetchpun, Thanathai, Thanapat Trachu, Jihwan Lee, Tiantian Feng, Dani Byrd, and Shrikanth Narayanan. "Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data." arXiv preprint arXiv:2603.07534 (2026). [2026.03]
+* Zhou, R., Zhu, Y. & Zhang, B. MTC-VC: A Multi-Task Contrastive Learning Method for Controllable and Efficiency-Balanced Voice Cloning. SIViP 20, 123 (2026). [2026.02]
 * J. Kang, Y. Lee and K. Shim, "Encoder-Free Style-Controllable Text-to-Speech with Voice Attribute Vectors," 2026 International Conference on Electronics, Information, and Communication (ICEIC), Macau, China, 2026, pp. 1-4, doi: 10.1109/ICEIC69189.2026.11386084. [2026.02]
 * Bai, Qibing, Shuhao Shi, Shuai Wang, Yukai Ju, Yannan Wang, and Haizhou Li. "CosyAccent: Duration-Controllable Accent Normalization Using Source-Synthesis Training Data." arXiv preprint arXiv:2602.19166 (2026). [Demo](https://p1ping.github.io/CosyAccent-Demo/), [Code](https://github.com/P1ping/CosyAccent) [2026.02]
 * Khamis, Ahmed Khaled, and Hesham Ali. "LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models." arXiv preprint arXiv:2602.15675 (2026). [Code](https://github.com/KickItLikeShika/NileTTS) [2026.02]
