@@ -36,6 +36,13 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Kumar, Lokesh, Nirmesh Shah, Ashishkumar P. Gudmalwar, and Pankaj Wasnik. "Gesture2Speech: How Far Can Hand Movements Shape Expressive Speech?." arXiv preprint arXiv:2603.19831 (2026). [Demo](https://research.sri-media-analysis.com/aaai26-beeu-gesture2speech/) [2026.03]
+* An, Xiaochun, Xu Zhang, Xiaoge Li, Ercheng Pei, Qingli Yan, and Lang He. "LLM-driven fine-grained emotion parsing and parameterized mapping for conversational TTS." Pattern Recognition (2026): 113544. [2026.03]
+* Kim, Seunghee, Bumkyu Park, Kyudan Jung, Joosung Lee, Soyoon Kim, Jeonghoon Kim, Taeuk Kim, and Hwiyeol Jo. "OmniACBench: A Benchmark for Evaluating Context-Grounded Acoustic Control in Omni-Modal Models." arXiv preprint arXiv:2603.23938 (2026). [2026.03]
+* Zhang, Yuqian, Donghua Yu, Zhengyuan Lin, Botian Jiang, Mingshu Chen, Yaozhou Jiang, Yiwei Zhao et al. "MOSS-TTSD: Text to Spoken Dialogue Generation." arXiv preprint arXiv:2603.19739 (2026). [Code](https://github.com/OpenMOSS/MOSS-TTSD) [2026.03]
+* Hao, Chunbo, Junjie Zheng, Guobin Ma, Yuepeng Jiang, Huakang Chen, Wenjie Tian, Gongyu Chen, Zihao Chen, and Lei Xie. "YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance." arXiv preprint arXiv:2603.24589 (2026). [Code](https://github.com/ASLP-lab/YingMusic-Singer) [2026.03]
+* Bai, Qibing, Yuhan Du, Tom Ko, Shuai Wang, Yannan Wang, and Haizhou Li. "Controllable Accent Normalization via Discrete Diffusion." arXiv preprint arXiv:2603.14275 (2026). [Demo](https://p1ping.github.io/dlman-demo/) [2026.03]
+* Ni, Qinke, Huan Liao, Dekun Chen, Yuxiang Wang, and Zhizheng Wu. "NV-Bench: Benchmark of Nonverbal Vocalization Synthesis for Expressive Text-to-Speech Generation." arXiv preprint arXiv:2603.15352 (2026). [Demo](https://nvbench.github.io/) [2026.03]
 * Liu, Changsong, Tianrui Wang, Ye Ni, Yizhou Peng, and Eng Siong Chng. "Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input." arXiv preprint arXiv:2603.06444 (2026). [Demo](https://anonymous-demo-168.github.io/Prosodic-Boundary-Aware-Streaming-Text-TTS-demo/) [2026.03]
 * Yang, Mu, and John HL Hansen. "Activation Steering for Accent-Neutralized Zero-Shot Text-To-Speech." arXiv preprint arXiv:2603.05977 (2026). [Demo](https://accentsteer.github.io/) [2026.03]
 * Lertpetchpun, Thanathai, Thanapat Trachu, Jihwan Lee, Tiantian Feng, Dani Byrd, and Shrikanth Narayanan. "Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data." arXiv preprint arXiv:2603.07534 (2026). [2026.03]
