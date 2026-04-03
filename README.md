@@ -36,6 +36,10 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Fan, Xiaoyu, Huizhi Xie, Wei Zou, and Yunzhang Chen. "LLaDA-TTS: Unifying Speech Synthesis and Zero-Shot Editing via Masked Diffusion Modeling." arXiv preprint arXiv:2603.26364 (2026). [Demo](https://deft-piroshki-b652b5.netlify.app/) [2026.03]
+* Diwan, Anuj, Eunsol Choi, and David Harwath. "ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining." arXiv preprint arXiv:2603.28737 (2026). [Code](https://github.com/ajd12342/paraspeechclap) [2026.03]
+* Khamis, Ahmed, and Hesham Ali Ahmed. "LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models." In Proceedings of the 2nd Workshop on NLP for Languages Using Arabic Script, pp. 47-54. 2026. [Dataset](https://huggingface.co/datasets/KickItLikeShika/NileTTS-dataset) [2026.03]
+* Huang, Kexin, Liwei Fan, Botian Jiang, Yaozhou Jiang, Qian Tu, Jie Zhu, Yuqian Zhang et al. "MOSS-VoiceGenerator: Create Realistic Voices with Natural Language Descriptions." arXiv preprint arXiv:2603.28086 (2026). [Code](https://mosi.cn/models/moss-voice-generator)
 * Kumar, Lokesh, Nirmesh Shah, Ashishkumar P. Gudmalwar, and Pankaj Wasnik. "Gesture2Speech: How Far Can Hand Movements Shape Expressive Speech?." arXiv preprint arXiv:2603.19831 (2026). [Demo](https://research.sri-media-analysis.com/aaai26-beeu-gesture2speech/) [2026.03]
 * An, Xiaochun, Xu Zhang, Xiaoge Li, Ercheng Pei, Qingli Yan, and Lang He. "LLM-driven fine-grained emotion parsing and parameterized mapping for conversational TTS." Pattern Recognition (2026): 113544. [2026.03]
 * Kim, Seunghee, Bumkyu Park, Kyudan Jung, Joosung Lee, Soyoon Kim, Jeonghoon Kim, Taeuk Kim, and Hwiyeol Jo. "OmniACBench: A Benchmark for Evaluating Context-Grounded Acoustic Control in Omni-Modal Models." arXiv preprint arXiv:2603.23938 (2026). [2026.03]
