@@ -36,6 +36,9 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Arata, Chihiro, and Kiyoshi Kurihara. "T5Gemma-TTS Technical Report." arXiv preprint arXiv:2604.01760 (2026). [Code](https://github.com/Aratako/T5Gemma-TTS) [2026.04]
+* Zhu, Han, Lingxuan Ye, Wei Kang, Zengwei Yao, Liyong Guo, Fangjun Kuang, Zhifeng Han, Weiji Zhuang, Long Lin, and Daniel Povey. "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models." arXiv preprint arXiv:2604.00688 (2026). [Code](https://github.com/k2-fsa/OmniVoice) [2026.04]
+* Xin, Detai, Shujie Hu, Chengzuo Yang, Chen Huang, Guoqiao Yu, Guanglu Wan, and Xunliang Cai. "LongCat-AudioDiT: High-Fidelity Diffusion Text-to-Speech in the Waveform Latent Space." arXiv preprint arXiv:2603.29339 (2026). [Code](https://github.com/meituan-longcat/LongCat-AudioDiT) [2026.03]
 * Fan, Xiaoyu, Huizhi Xie, Wei Zou, and Yunzhang Chen. "LLaDA-TTS: Unifying Speech Synthesis and Zero-Shot Editing via Masked Diffusion Modeling." arXiv preprint arXiv:2603.26364 (2026). [Demo](https://deft-piroshki-b652b5.netlify.app/) [2026.03]
 * Diwan, Anuj, Eunsol Choi, and David Harwath. "ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining." arXiv preprint arXiv:2603.28737 (2026). [Code](https://github.com/ajd12342/paraspeechclap) [2026.03]
 * Khamis, Ahmed, and Hesham Ali Ahmed. "LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models." In Proceedings of the 2nd Workshop on NLP for Languages Using Arabic Script, pp. 47-54. 2026. [Dataset](https://huggingface.co/datasets/KickItLikeShika/NileTTS-dataset) [2026.03]
