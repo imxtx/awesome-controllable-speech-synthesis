@@ -36,6 +36,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Su, Xiaosu, Zihan Sun, Peilei Jia, and Jun Gao. "CapTalk: Unified Voice Design for Single-Utterance and Dialogue Speech Generation." arXiv preprint arXiv:2604.08363 (2026). [2026.04]
 * Arata, Chihiro, and Kiyoshi Kurihara. "T5Gemma-TTS Technical Report." arXiv preprint arXiv:2604.01760 (2026). [Code](https://github.com/Aratako/T5Gemma-TTS) [2026.04]
 * Zhu, Han, Lingxuan Ye, Wei Kang, Zengwei Yao, Liyong Guo, Fangjun Kuang, Zhifeng Han, Weiji Zhuang, Long Lin, and Daniel Povey. "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models." arXiv preprint arXiv:2604.00688 (2026). [Code](https://github.com/k2-fsa/OmniVoice) [2026.04]
 * Xin, Detai, Shujie Hu, Chengzuo Yang, Chen Huang, Guoqiao Yu, Guanglu Wan, and Xunliang Cai. "LongCat-AudioDiT: High-Fidelity Diffusion Text-to-Speech in the Waveform Latent Space." arXiv preprint arXiv:2603.29339 (2026). [Code](https://github.com/meituan-longcat/LongCat-AudioDiT) [2026.03]
