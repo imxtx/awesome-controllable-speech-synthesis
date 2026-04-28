@@ -36,6 +36,15 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* Ma, Jianbo, and Richard Cartwright. "Text-To-Speech with Chain-of-Details: modeling temporal dynamics in speech generation." arXiv preprint arXiv:2604.19330 (2026). [2026.04]
+* Chen, H., Hu, J., Xue, L., Zhan, Q., Li, W., Ma, G., ... & Xie, L. (2026). MINT-Bench: A Comprehensive Multilingual Benchmark for Instruction-Following Text-to-Speech. arXiv preprint arXiv:2604.17958. [2026.04]
+* Tian, Fengping, Peng Bai, Xuanfan Ni, Haoqin Sun, Qingjuan Li, Zhiqiang Qian, Chenyang Lyu et al. "Marco-Voice: A Unified Framework for Expressive Speech Synthesis with Voice Cloning." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 3256-3260. IEEE, 2026. [2026.04]
+* Fang, Jingyi, Yufei Tang, Zhiyu Wu, Yuanzhong Zheng, Yaoxuan Wang, and Haojun Fei. "QFOCUS: Controllable Synthesis for Automated Speech Stress Editing to Deliver Human-Like Emphatic Intent." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 17277-17281. IEEE, 2026. [2026.04]
+* Chen, Yihang, Hualei Wang, Na Li, and Zhifeng Li. "F5E-TTS: Enhancing Speech Synthesis by Aligning Text with Rich Semantic Representations." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 18627-18631. IEEE, 2026. [2026.04]
+* Lee, Joun Yeop, Heejin Choi, Min-Kyung Kim, Ji-Hyun Lee, and Hoon-Young Cho. "Hierarchical Discrete Flow Matching For Multi-Codebook Codec-Based Text-To-Speech." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 18347-18351. IEEE, 2026. [2026.04]
+* Shi, Yan, Jin Shi, Minchuan Chen, Ziyang Zhuang, Peng Qi, Shaojun Wang, and Jing Xiao. "NCF-TTS: Enhancing Flow Matching Based Text-To-Speech with Neighborhood Consistency Flow." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 18327-18331. IEEE, 2026. [2026.04]
+* Mai, Jialong, Xiaofen Xing, and Xiangmin Xu. "MAGIC-TTS: Fine-Grained Controllable Speech Synthesis with Explicit Local Duration and Pause Control." arXiv preprint arXiv:2604.21164 (2026). [2026.04]
+* Ma, Jianbo, and Richard Cartwright. "Text-To-Speech with Chain-of-Details: modeling temporal dynamics in speech generation." arXiv preprint arXiv:2604.19330 (2026). [2026.04]
 * Ouyang, Zhicheng, Seong-Gyun Leem, Bach Viet Do, Haibin Wu, Ariya Rastrow, Yuzong Liu, and Florian Metze. "Enhancing Conversational TTS with Cascaded Prompting and ICL-Based Online Reinforcement Learning." arXiv preprint arXiv:2604.08709 (2026). [2026.04]
 * Su, Xiaosu, Zihan Sun, Peilei Jia, and Jun Gao. "CapTalk: Unified Voice Design for Single-Utterance and Dialogue Speech Generation." arXiv preprint arXiv:2604.08363 (2026). [2026.04]
 * Arata, Chihiro, and Kiyoshi Kurihara. "T5Gemma-TTS Technical Report." arXiv preprint arXiv:2604.01760 (2026). [Code](https://github.com/Aratako/T5Gemma-TTS) [2026.04]
