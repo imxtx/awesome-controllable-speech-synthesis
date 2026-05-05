@@ -36,6 +36,12 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+* H. -J. Guo et al., "QE-XVC: Zero-Shot Cross-Lingual Voice Conversion via Query-Enhancement and Conditional Flow Matching," ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2026, pp. 17342-17346. [2026.04]
+* Wang, Xi, et al. "TTS-PRISM: A Perceptual Reasoning and Interpretable Speech Model for Fine-Grained Diagnosis." arXiv preprint arXiv:2604.22225 (2026). [Code](https://github.com/xiaomi-research/tts-prism) [2026.04]
+* Qiang, Chunyu, et al. "UniSonate: A Unified Model for Speech, Music, and Sound Effect Generation with Text Instructions." arXiv preprint arXiv:2604.22209 (2026). [Demo](https://qiangchunyu.github.io/UniSonate/) [2026.04]
+* Cao, Jinglei, et al. "Composer: Learning to Orchestrate Generative Primitives for Controllable Speech Synthesis." [2026.04]
+* Tsai, Yun-Shao, et al. "The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation." arXiv preprint arXiv:2604.26347 (2026). [2026.04]
+* Halychanskyi, Yurii, Nimet Beyza Bozdag, Mark Hasegawa-Johnson, Dilek Hakkani-Tür, and Volodymyr Kindratenko. "Few-Shot Accent Synthesis for ASR with LLM-Guided Phoneme Editing." arXiv preprint arXiv:2604.27273 (2026). [Demo](https://claussss.github.io/few_shot_accent_synthesis_demo/) [2026.04]
 * Ma, Jianbo, and Richard Cartwright. "Text-To-Speech with Chain-of-Details: modeling temporal dynamics in speech generation." arXiv preprint arXiv:2604.19330 (2026). [2026.04]
 * Chen, H., Hu, J., Xue, L., Zhan, Q., Li, W., Ma, G., ... & Xie, L. (2026). MINT-Bench: A Comprehensive Multilingual Benchmark for Instruction-Following Text-to-Speech. arXiv preprint arXiv:2604.17958. [2026.04]
 * Tian, Fengping, Peng Bai, Xuanfan Ni, Haoqin Sun, Qingjuan Li, Zhiqiang Qian, Chenyang Lyu et al. "Marco-Voice: A Unified Framework for Expressive Speech Synthesis with Voice Cloning." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 3256-3260. IEEE, 2026. [2026.04]
