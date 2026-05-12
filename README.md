@@ -36,6 +36,16 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+### 2026-04
+
+* Wang, Kuang, et al. "Bridging What the Model Thinks and How It Speaks: Self-Aware Speech Language Models for Expressive Speech Generation." arXiv preprint arXiv:2604.11424 (2026). [Demo](https://wangkevin02.github.io//SASLM/)
+* Feng, Tao, et al. "MimicLM: Zero-Shot Voice Imitation through Autoregressive Modeling of Pseudo-Parallel Speech Corpora." arXiv preprint arXiv:2604.11552 (2026). [Demo](https://fff-ttt.github.io/MimicLM_demo/)
+* Zhu, Jian, et al. "AccompGen: Hierarchical Autoregressive Vocal Accompaniment Generation with Dual-Rate Codec Tokenization." arXiv preprint arXiv:2604.09054 (2026). [Code](https://github.com/HackerHyper/HAFM)
+* Cheng, Changhao, et al. "On the Distillation Loss Functions of Speech VAE for Unified Reconstruction, Understanding, and Generation." arXiv preprint arXiv:2604.12383 (2026). [Code](https://github.com/changhao-cheng/JMAS-VAE)
+* Cong, Gaoxiang, et al. "CoSyncDiT: Cognitive Synchronous Diffusion Transformer for Movie Dubbing." arXiv preprint arXiv:2604.12292 (2026).
+* Su, Tianhui, et al. "An Ultra-Low Latency, End-to-End Streaming Speech Synthesis Architecture via Block-Wise Generation and Depth-Wise Codec Decoding." arXiv preprint arXiv:2604.12438 (2026).
+* Jin, Haopeng. "ChronoVoice: Controllable Text-to-Speech with Explicit Time Planning, Speech-Rate Modulation, and Emotion Trajectory Control." (2026). [2026.04]
+* Zheng, Qixi, et al. "X-VC: Zero-shot Streaming Voice Conversion in Codec Space." arXiv preprint arXiv:2604.12456 (2026). [Code](https://github.com/Jerrister/X-VC) [2026.04]
 * H. -J. Guo et al., "QE-XVC: Zero-Shot Cross-Lingual Voice Conversion via Query-Enhancement and Conditional Flow Matching," ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2026, pp. 17342-17346. [2026.04]
 * Wang, Xi, et al. "TTS-PRISM: A Perceptual Reasoning and Interpretable Speech Model for Fine-Grained Diagnosis." arXiv preprint arXiv:2604.22225 (2026). [Code](https://github.com/xiaomi-research/tts-prism) [2026.04]
 * Qiang, Chunyu, et al. "UniSonate: A Unified Model for Speech, Music, and Sound Effect Generation with Text Instructions." arXiv preprint arXiv:2604.22209 (2026). [Demo](https://qiangchunyu.github.io/UniSonate/) [2026.04]
@@ -44,7 +54,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Halychanskyi, Yurii, Nimet Beyza Bozdag, Mark Hasegawa-Johnson, Dilek Hakkani-Tür, and Volodymyr Kindratenko. "Few-Shot Accent Synthesis for ASR with LLM-Guided Phoneme Editing." arXiv preprint arXiv:2604.27273 (2026). [Demo](https://claussss.github.io/few_shot_accent_synthesis_demo/) [2026.04]
 * Ma, Jianbo, and Richard Cartwright. "Text-To-Speech with Chain-of-Details: modeling temporal dynamics in speech generation." arXiv preprint arXiv:2604.19330 (2026). [2026.04]
 * Chen, H., Hu, J., Xue, L., Zhan, Q., Li, W., Ma, G., ... & Xie, L. (2026). MINT-Bench: A Comprehensive Multilingual Benchmark for Instruction-Following Text-to-Speech. arXiv preprint arXiv:2604.17958. [2026.04]
-* Tian, Fengping, Peng Bai, Xuanfan Ni, Haoqin Sun, Qingjuan Li, Zhiqiang Qian, Chenyang Lyu et al. "Marco-Voice: A Unified Framework for Expressive Speech Synthesis with Voice Cloning." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 3256-3260. IEEE, 2026. [2026.04]
+* Tian, Fengping, Peng Bai, Xuanfan Ni, Haoqin Sun, Qingjuan Li, Zhiqiang Qian, Chenyang Lyu et al. "Marco-Voice: A Unified Framework for Expressive Speech Synthesis with Voice Cloning." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 3256-3260. IEEE, 2026. [Code](https://github.com/AIDC-AI/Marco-Voice) [2026.04]
 * Fang, Jingyi, Yufei Tang, Zhiyu Wu, Yuanzhong Zheng, Yaoxuan Wang, and Haojun Fei. "QFOCUS: Controllable Synthesis for Automated Speech Stress Editing to Deliver Human-Like Emphatic Intent." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 17277-17281. IEEE, 2026. [2026.04]
 * Chen, Yihang, Hualei Wang, Na Li, and Zhifeng Li. "F5E-TTS: Enhancing Speech Synthesis by Aligning Text with Rich Semantic Representations." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 18627-18631. IEEE, 2026. [2026.04]
 * Lee, Joun Yeop, Heejin Choi, Min-Kyung Kim, Ji-Hyun Lee, and Hoon-Young Cho. "Hierarchical Discrete Flow Matching For Multi-Codebook Codec-Based Text-To-Speech." In ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 18347-18351. IEEE, 2026. [2026.04]
@@ -52,9 +62,12 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Mai, Jialong, Xiaofen Xing, and Xiangmin Xu. "MAGIC-TTS: Fine-Grained Controllable Speech Synthesis with Explicit Local Duration and Pause Control." arXiv preprint arXiv:2604.21164 (2026). [2026.04]
 * Ma, Jianbo, and Richard Cartwright. "Text-To-Speech with Chain-of-Details: modeling temporal dynamics in speech generation." arXiv preprint arXiv:2604.19330 (2026). [2026.04]
 * Ouyang, Zhicheng, Seong-Gyun Leem, Bach Viet Do, Haibin Wu, Ariya Rastrow, Yuzong Liu, and Florian Metze. "Enhancing Conversational TTS with Cascaded Prompting and ICL-Based Online Reinforcement Learning." arXiv preprint arXiv:2604.08709 (2026). [2026.04]
-* Su, Xiaosu, Zihan Sun, Peilei Jia, and Jun Gao. "CapTalk: Unified Voice Design for Single-Utterance and Dialogue Speech Generation." arXiv preprint arXiv:2604.08363 (2026). [2026.04]
+* Su, Xiaosu, Zihan Sun, Peilei Jia, and Jun Gao. "CapTalk: Unified Voice Design for Single-Utterance and Dialogue Speech Generation." arXiv preprint arXiv:2604.08363 (2026). [Demo](https://anonymous.4open.science/api/repo/Captalk-D601/file/index.html) [2026.04]
 * Arata, Chihiro, and Kiyoshi Kurihara. "T5Gemma-TTS Technical Report." arXiv preprint arXiv:2604.01760 (2026). [Code](https://github.com/Aratako/T5Gemma-TTS) [2026.04]
 * Zhu, Han, Lingxuan Ye, Wei Kang, Zengwei Yao, Liyong Guo, Fangjun Kuang, Zhifeng Han, Weiji Zhuang, Long Lin, and Daniel Povey. "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models." arXiv preprint arXiv:2604.00688 (2026). [Code](https://github.com/k2-fsa/OmniVoice) [2026.04]
+
+### 2026-03
+
 * Xin, Detai, Shujie Hu, Chengzuo Yang, Chen Huang, Guoqiao Yu, Guanglu Wan, and Xunliang Cai. "LongCat-AudioDiT: High-Fidelity Diffusion Text-to-Speech in the Waveform Latent Space." arXiv preprint arXiv:2603.29339 (2026). [Code](https://github.com/meituan-longcat/LongCat-AudioDiT) [2026.03]
 * Fan, Xiaoyu, Huizhi Xie, Wei Zou, and Yunzhang Chen. "LLaDA-TTS: Unifying Speech Synthesis and Zero-Shot Editing via Masked Diffusion Modeling." arXiv preprint arXiv:2603.26364 (2026). [Demo](https://deft-piroshki-b652b5.netlify.app/) [2026.03]
 * Diwan, Anuj, Eunsol Choi, and David Harwath. "ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining." arXiv preprint arXiv:2603.28737 (2026). [Code](https://github.com/ajd12342/paraspeechclap) [2026.03]
@@ -70,6 +83,9 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Liu, Changsong, Tianrui Wang, Ye Ni, Yizhou Peng, and Eng Siong Chng. "Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input." arXiv preprint arXiv:2603.06444 (2026). [Demo](https://anonymous-demo-168.github.io/Prosodic-Boundary-Aware-Streaming-Text-TTS-demo/) [2026.03]
 * Yang, Mu, and John HL Hansen. "Activation Steering for Accent-Neutralized Zero-Shot Text-To-Speech." arXiv preprint arXiv:2603.05977 (2026). [Demo](https://accentsteer.github.io/) [2026.03]
 * Lertpetchpun, Thanathai, Thanapat Trachu, Jihwan Lee, Tiantian Feng, Dani Byrd, and Shrikanth Narayanan. "Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data." arXiv preprint arXiv:2603.07534 (2026). [2026.03]
+
+### 2026-02
+
 * Zhou, R., Zhu, Y. & Zhang, B. MTC-VC: A Multi-Task Contrastive Learning Method for Controllable and Efficiency-Balanced Voice Cloning. SIViP 20, 123 (2026). [2026.02]
 * J. Kang, Y. Lee and K. Shim, "Encoder-Free Style-Controllable Text-to-Speech with Voice Attribute Vectors," 2026 International Conference on Electronics, Information, and Communication (ICEIC), Macau, China, 2026, pp. 1-4, doi: 10.1109/ICEIC69189.2026.11386084. [2026.02]
 * Bai, Qibing, Shuhao Shi, Shuai Wang, Yukai Ju, Yannan Wang, and Haizhou Li. "CosyAccent: Duration-Controllable Accent Normalization Using Source-Synthesis Training Data." arXiv preprint arXiv:2602.19166 (2026). [Demo](https://p1ping.github.io/CosyAccent-Demo/), [Code](https://github.com/P1ping/CosyAccent) [2026.02]
@@ -81,6 +97,9 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Wang, Siyi, Shihong Tan, Siyi Liu, Hong Jia, Gongping Huang, James Bailey, and Ting Dang. "CoCoEmo: Composable and Controllable Human-Like Emotional TTS via Activation Steering." arXiv preprint arXiv:2602.03420 (2026). [2026.02]
 * Zhou, Li, Hao Jiang, Junjie Li, Tianrui Wang, and Haizhou Li. "EmoShift: Lightweight Activation Steering for Enhanced Emotion-Aware Speech Synthesis." arXiv preprint arXiv:2601.22873 (2026). [2026.02]
 * Ren, Yong, Jiangyan Yi, Jianhua Tao, Zhengqi Wen, and Tao Wang. "Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards." arXiv preprint arXiv:2602.00560 (2026). [Demo](https://icme26-speech-editing.netlify.app/) [2026.02]
+
+### 2026-01
+
 * Singh, Ayush Pratap, Harshit Singh, Nityanand Mathur, Akshat Mandloi, and Sudarshan Kamath. "SonoEdit: Null-Space Constrained Knowledge Editing for Pronunciation Correction in LLM-Based TTS." arXiv preprint arXiv:2601.17086 (2026). [2026.01]
 * Pei, Hanchen, Shujie Liu, Yanqing Liu, Jianwei Yu, Yuanhang Qian, Gongping Huang, Sheng Zhao, and Yan Lu. "A Unified Neural Codec Language Model for Selective Editable Text to Speech Generation." arXiv preprint arXiv:2601.12480 (2026). [Demo](https://speech-editing.github.io/speech-editing/) [2026.01]
 * Hu, Hangrui, Xinfa Zhu, Ting He, Dake Guo, Bin Zhang, Xiong Wang, Zhifang Guo et al. "Qwen3-TTS Technical Report." arXiv preprint arXiv:2601.15621 (2026). [Code](https://github.com/QwenLM/Qwen3-TTS) [2026.01]
@@ -93,6 +112,9 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Li, Yunpei, Xun Zhou, Jinchao Wang, Lu Wang, Yong Wu, Siyi Zhou, Yiquan Zhou, and Jingchen Shu. "IndexTTS 2.5 Technical Report." arXiv preprint arXiv:2601.03888 (2026). [Demo](https://index-tts.github.io/index-tts2-5.github.io/) [2026.01]
 * Liang, Qifan, Yuansen Liu, Ruixin Wei, Nan Lu, Junchuan Zhao, and Ye Wang. "Segment-Aware Conditioning for Training-Free Intra-Utterance Emotion and Duration Control in Text-to-Speech." arXiv preprint arXiv:2601.03170 (2026). [Demo](https://aclanonymous111.github.io/TED-TTS-DemoPage/) [2026.01]
 * Ren, Yong, Jiangyan Yi, Jianhua Tao, Haiyang Sun, Zhengqi Wen, Hao Gu, Le Xu, and Ye Bai. "OV-InstructTTS: Towards Open-Vocabulary Instruct Text-to-Speech." arXiv preprint arXiv:2601.01459 (2026). [Demo](https://y-ren16.github.io/OV-InstructTTS/) [2026.01]
+
+### 2025-12
+
 * Li, Weiqin, Qian Chen, Dan Luo, Tianjiao Du, Yafeng Chen, Zhiyong Wu, Xixin Wu, and Helen Meng. "PerTTS: Personalized and Controllable Zero-Shot Spontaneous Style Text-to-Speech Synthesis." IEEE Transactions on Audio, Speech and Language Processing 34 (2025): 545-556. [Demo](https://thuhcsi.github.io/PerTTS/) [2025.12]
 * Zhou, Haiyang, Zhihua Huang, and Bowen Li. "CL-EDiff: Cross-Lingual Emotional TTS System Based on Diffusion Model." In Man-Machine Speech Communication: 20th National Conference, NCMMSC 2025, Zhenjiang, China, October 16–19, 2025, Proceedings, p. 152. Springer Nature. [Demo](https://cl-ediff.github.io/CL-EDiff/) [2015.12]
 * Lan, Tianwei, Yuhang Guo, Mengyuan Deng, Jing Wang, Wenwu Wang, and Chong Feng. "Controllable timbre cloning and style replication with reference speech examples for multimodal human-computer interaction." Neurocomputing (2025): 132529. [Demo](https://progressivetts.github.io/Control_TTS/) [2015.12]
@@ -104,6 +126,9 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Okamoto, Umi, Sei Ueno, and Akinobu Lee. "Face-conditioned Large-scale Text-to-Speech via Speaker Embedding Prediction from Facial Images." APSIPA ASC25. [2025.12]
 * Yin, Kang, Chunyu Qiang, Sirui Zhao, Xiaopeng Wang, Yuzhe Liang, Pengfei Cai, Tong Xu, Chen Zhang and Enhong Chen. “DMP-TTS: Disentangled multi-modal Prompting for Controllable Text-to-Speech with Chained Guidance.” (2025). [Demo](https://y61329697.github.io/DMP-TTS/) [2025.12]
 * Wang, Cong, Changfeng Gao, Yang Xiang, Zhihao Du, Keyu An, Han Zhao, Qian Chen, Xiangang Li, Yingming Gao, and Ya Li. "RRPO: Robust Reward Policy Optimization for LLM-based Emotional TTS." arXiv preprint arXiv:2512.04552 (2025). [2025.12]
+
+### 2025-11
+
 * R. -G. Bolborici and A. Neacşu, "Adding Emotion Conditioning in Speech Synthesis via Multi-Term Classifier-Free Guidance," 2025 International Conference on Speech Technology and Human-Computer Dialogue (SpeD), Cluj-Napoca, Romania, 2025, pp. 86-91. [Demo](https://github.com/RaduBolbo/F5-TTS-Emotional-CFG) [2025.11]
 * Qiang, Chunyu, Kang Yin, Xiaopeng Wang, Yuzhe Liang, Jiahui Zhao, Ruibo Fu, Tianrui Wang et al. "InstructAudio: Unified speech and music generation with natural language instruction." arXiv preprint arXiv:2511.18487 (2025). [Demo](https://qiangchunyu.github.io/InstructAudio/) [2025.11]
 * Seung-Bin Kim, Jun-Hyeok Cha, Hyung-Seok Oh, Heejin Choi, and Seong-Whan Lee. 2025. FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control. EMNLP 2025. [Demo](https://fillerspeech.github.io/main/) [2025.11]
@@ -116,16 +141,25 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Zhisheng Zheng, Puyuan Peng, Anuj Diwan, Cong Phuoc Huynh, Xiaohang Sun, Zhu Liu, Vimal Bhat, and David Harwath. 2025. VoiceCraft-X: Unifying Multilingual, Voice-Cloning Speech Synthesis and Speech Editing. EMNLP 2025. [Demo](https://zhishengzheng.com/voicecraft-x/) [2025.11]
 * Zhao, Yiwen, Jiatong Shi, Jinchuan Tian, Yuxun Tang, Jiarui Hai, Jionghao Han, and Shinji Watanabe. "Adapting Speech Language Model to Singing Voice Synthesis." In AI for Music Workshop. [Demo](https://tsukasane.github.io/SLMSVS/) [2025.11]
 * Yan, Chao, Boyong Wu, Peng Yang, Pengfei Tan, Guoqiang Hu, Yuxin Zhang, Fei Tian et al. "Step-Audio-EditX Technical Report." arXiv preprint arXiv:2511.03601 (2025). [Code](https://github.com/stepfun-ai/Step-Audio-EditX) [2025.11]
+
+### 2025-10
+
 * Tu, Wenming, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen, and Zilong Zheng. "UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models." arXiv preprint arXiv:2510.22588 (2025). [Demo](https://bigai-nlco.github.io/UltraVoice/), [Code](https://github.com/bigai-nlco/UltraVoice) [2025.10]
 * Lou, Haowei, Hye-Young Paik, Wen Hu, and Lina Yao. "ParaStyleTTS: Toward Efficient and Robust Paralinguistic Style Control for Expressive Text-to-Speech Generation." arXiv preprint arXiv:2510.18308 (2025). [Code](https://github.com/haoweilou/ParaStyleTTS) [2025.10]
 * Peng, Yizhou, Yukun Ma, Chong Zhang, Yi-Wen Chao, Chongjia Ni, and Bin Ma. "Mismatch Aware Guidance for Robust Emotion Control in Auto-Regressive TTS Models." arXiv preprint arXiv:2510.13293 (2025).
 * Li, Haoxun, Yu Liu, Yuqing Sun, Hanlei Shi, Leyuan Qu, and Taihao Li. "EMORL-TTS: Reinforcement Learning for Fine-Grained Emotion Control in LLM-based TTS." arXiv preprint arXiv:2510.05758 (2025). [Demo](https://wd-233.github.io/EMORL-TTS_DEMO/) [2025.10]
+
+### 2025-09
+
 * Wang, Yue, Ruotian Ma, Xingyu Chen, Zhengliang Shi, Wanshun Chen, Huang Liu, Jiadi Yao et al. "BatonVoice: An Operationalist Framework for Enhancing Controllable Speech Synthesis with Linguistic Intelligence from LLMs." arXiv preprint arXiv:2509.26514 (2025). [Demo & Code](https://github.com/Tencent/digitalhuman/tree/main/BatonVoice) [2025.09]
 * Zhang, Ziyu, Hanzhao Li, Jingbin Hu, Wenhao Li, and Lei Xie. "HiStyle: Hierarchical Style Embedding Predictor for Text-Prompt-Guided Controllable Speech Synthesis." arXiv preprint arXiv:2509.25842 (2025). [Demo](https://anonymous.4open.science/w/HiStyle-2517/) [2025.09]
 * Wang, Tianrui, Haoyu Wang, Meng Ge, Cheng Gong, Chunyu Qiang, Ziyang Ma, Zikang Huang et al. "Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis." arXiv preprint arXiv:2509.24629 (2025). [Demo](https://anonymousdemo999.github.io/) [2025.09]
 * Wang, Sirui, Andong Chen, and Tiejun Zhao. "Beyond Global Emotion: Fine-Grained Emotional Speech Synthesis with Dynamic Word-Level Modulation." arXiv preprint arXiv:2509.20378 (2025). [2025.09]
 * Liu, Min, JingJing Yin, Xiang Zhang, Siyu Hao, Yanni Hu, Bin Lin, Yuan Feng, Hongbin Zhou, and Jianhao Ye. "Audiobook-CC: Controllable Long-context Speech Generation for Multicast Audiobook." arXiv preprint arXiv:2509.17516 (2025). [Demo](https://everest-ai.github.io/) [2025.09]
 * Lu, Ye-Xin, Yu Gu, Kun Wei, Hui-Peng Du, Yang Ai, and Zhen-Hua Ling. "DAIEN-TTS: Disentangled Audio Infilling for Environment-Aware Text-to-Speech Synthesis." arXiv preprint arXiv:2509.14684 (2025). [Demo](https://yxlu-0102.github.io/DAIEN-TTS/) [2025.09]
+
+### 2025-04 - 2025-08
+
 * Tian, Fengping, Chenyang Lyu, Xuanfan Ni, Haoqin Sun, Qingjuan Li, Zhiqiang Qian, Haijun Li et al. "Marco-voice technical report." arXiv preprint arXiv:2508.02038 (2025). [Demo & Code](https://github.com/AIDC-AI/Marco-Voice) [2025.08]
 * Zhang, Xueyao, Junan Zhang, Yuancheng Wang, Chaoren Wang, Yuanzhe Chen, Dongya Jia, Zhuo Chen, and Zhizheng Wu. "Vevo2: Bridging Controllable Speech and Singing Voice Generation via Unified Prosody Learning." arXiv preprint arXiv:2508.16332 (2025). [Demo](https://versasinger.github.io/) [2025.08]
 * Park, Joonyong, and Kenichi Nakamura. "EmoSSLSphere: Multilingual Emotional Speech Synthesis with Spherical Vectors and Discrete Speech Tokens." arXiv preprint arXiv:2508.11273 (2025). [2025.08]
