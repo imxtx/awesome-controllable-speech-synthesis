@@ -36,8 +36,14 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+### 2026-05
+
+* Zhu, Yan, Rui Zhou, and Gang Chen. "A Multi-Level Expressive Voice Cloning Method Based on Adaptive Grouped Code Modeling." IEEE Access (2026).
+* S. B. M, B. V. Victoria, B. R. L, M. Thirunavukkarasu, K. S and T. Dinesh Kumar, "A Novel Emotion-Aware Generative Adversarial Network for Fine-Grained and Controllable Speech Synthesis," 2026 9th International Conference on Intelligent Computing and Control Systems (ICICCS), Erode, India, 2026, pp. 1252-1257, doi: 10.1109/ICICCS67901.2026.11502912.
+
 ### 2026-04
 
+* Li, Aoduo, et al. "ATRIE: Adaptive Tuning for Robust Inference and Emotion in Persona-Driven Speech Synthesis." arXiv preprint arXiv:2604.19055 (2026).
 * Wang, Kuang, et al. "Bridging What the Model Thinks and How It Speaks: Self-Aware Speech Language Models for Expressive Speech Generation." arXiv preprint arXiv:2604.11424 (2026). [Demo](https://wangkevin02.github.io//SASLM/)
 * Feng, Tao, et al. "MimicLM: Zero-Shot Voice Imitation through Autoregressive Modeling of Pseudo-Parallel Speech Corpora." arXiv preprint arXiv:2604.11552 (2026). [Demo](https://fff-ttt.github.io/MimicLM_demo/)
 * Zhu, Jian, et al. "AccompGen: Hierarchical Autoregressive Vocal Accompaniment Generation with Dual-Rate Codec Tokenization." arXiv preprint arXiv:2604.09054 (2026). [Code](https://github.com/HackerHyper/HAFM)
