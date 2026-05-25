@@ -38,6 +38,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ### 2026-05
 
+* Kang, Bin, et al. "AgentSteerTTS: A Multi-Agent Closed-Loop Framework for Composite-Instruction Text-to-Speech." arXiv preprint arXiv:2605.17583 (2026). [Demo](https://kane2kang.github.io/AgentSteerTTS/)
 * Zhu, Yan, Rui Zhou, and Gang Chen. "A Multi-Level Expressive Voice Cloning Method Based on Adaptive Grouped Code Modeling." IEEE Access (2026).
 * S. B. M, B. V. Victoria, B. R. L, M. Thirunavukkarasu, K. S and T. Dinesh Kumar, "A Novel Emotion-Aware Generative Adversarial Network for Fine-Grained and Controllable Speech Synthesis," 2026 9th International Conference on Intelligent Computing and Control Systems (ICICCS), Erode, India, 2026, pp. 1252-1257, doi: 10.1109/ICICCS67901.2026.11502912.
 
