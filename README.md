@@ -38,6 +38,8 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ### 2026-05
 
+* Yun, Jun-Hak, Seung-Bin Kim, and Seong-Whan Lee. "ImmersiveTTS: Environment-Aware Text-to-Speech with Multimodal Diffusion Transformer and Domain-Specific Representation Alignment." arXiv preprint arXiv:2605.30965 (2026). [Demo](https://jjunak-yun.github.io/ImmersiveTTS/)
+* Li, Ruiqi, et al. "SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue and Dialogue." arXiv preprint arXiv:2605.30993 (2026). [Demo](https://swanaigc.github.io/#/swanvoice)
 * Li, Bowen, et al. "PilotTTS: A Disciplined Modular Recipe for Competitive Speech Synthesis." arXiv preprint arXiv:2605.27258 (2026). [Code](https://github.com/AMAPVOICE/PilotTTS)
 * Lee, Yoonhyung, et al. "FC-TTS: Style and Timbre Control in Zero-Shot Text-to-Speech with Disentangled Speech Representations." arXiv preprint arXiv:2605.24618 (2026). [Demo](https://qualcomm-ai-research.github.io/fc-tts/)
 * Lin, Bin, et al. "StepAudio 2.5 Technical Report." arXiv preprint arXiv:2605.23463 (2026).
