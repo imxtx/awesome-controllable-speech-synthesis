@@ -154,6 +154,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Zhisheng Zheng, Puyuan Peng, Anuj Diwan, Cong Phuoc Huynh, Xiaohang Sun, Zhu Liu, Vimal Bhat, and David Harwath. 2025. VoiceCraft-X: Unifying Multilingual, Voice-Cloning Speech Synthesis and Speech Editing. EMNLP 2025. [Demo](https://zhishengzheng.com/voicecraft-x/) [2025.11]
 * Zhao, Yiwen, Jiatong Shi, Jinchuan Tian, Yuxun Tang, Jiarui Hai, Jionghao Han, and Shinji Watanabe. "Adapting Speech Language Model to Singing Voice Synthesis." In AI for Music Workshop. [Demo](https://tsukasane.github.io/SLMSVS/) [2025.11]
 * Yan, Chao, Boyong Wu, Peng Yang, Pengfei Tan, Guoqiang Hu, Yuxin Zhang, Fei Tian et al. "Step-Audio-EditX Technical Report." arXiv preprint arXiv:2511.03601 (2025). [Code](https://github.com/stepfun-ai/Step-Audio-EditX) [2025.11]
+* * Yu, Xinyue, Youqing Fang, Pingyu Wu, Guoyang Ye, Wenbo Zhou, Weiming Zhang, and Song Xiao. "MF-Speech: Achieving Fine-Grained and Compositional Control in Speech Generation via Factor Disentanglement." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, no. 21, pp. 17966-17974. 2026. [Demo](https://guoyang25.github.io/mf-speech/)
 
 ### 2025-10
 
