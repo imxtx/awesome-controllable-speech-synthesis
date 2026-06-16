@@ -36,6 +36,12 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+### 2026-06
+
+* Lin, Yihang, et al. "Emo-LiPO: Listwise Preference Optimization for Fine-Grained Emotion Intensity Control in LLM-based Text-to-Speech." arXiv preprint arXiv:2606.13006 (2026).
+* Zhou, Yixuan, et al. "VoxCPM2 Technical Report." arXiv preprint arXiv:2606.06928 (2026). [Code](https://github.com/OpenBMB/VoxCPM/)
+* Lian, Shi, et al. "dots. tts Technical Report." arXiv preprint arXiv:2606.07080 (2026). [Code](https://github.com/rednote-hilab/dots.tts)
+
 ### 2026-05
 
 * Yun, Jun-Hak, Seung-Bin Kim, and Seong-Whan Lee. "ImmersiveTTS: Environment-Aware Text-to-Speech with Multimodal Diffusion Transformer and Domain-Specific Representation Alignment." arXiv preprint arXiv:2605.30965 (2026). [Demo](https://jjunak-yun.github.io/ImmersiveTTS/)
