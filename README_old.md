@@ -23,7 +23,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## News
 
-* [2025-09-29] Our paper has been accepted to the EMNLP 2025 Main Conference.
+* [2025-09-29] Our paper has been accepted to the EMNLP 2025 Main Conference. We look forward to seeing you in Suzhou, China!
 
 ## Table of Contents
 
@@ -38,12 +38,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ### 2026-06
 
-* Arigala, Adarsh, et al. "Pixel-TTS: Image based Text Rendering for Robust Text-to-Speech." arXiv preprint arXiv:2606.14750 (2026). #multi-modal
-* Quang, Vinh Dang, and Huy Ngo Quang. "An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis." arXiv preprint arXiv:2606.14922 (2026). #emotion
-* Mai, Jialong, et al. "NVMOS: Non-Verbal Vocalization Quality Assessment in Speech." arXiv preprint arXiv:2606.15888 (2026). #benchmark
-* Mou, Zhenwei, et al. "Dynamic Prosody Prediction in LLM-based TTS for Improving Speaker Similarity." arXiv preprint arXiv:2606.15267 (2026). [Demo](https://muzw.github.io/dynapros/) #timbre
-* Mou, Zhenwei, et al. "DuraMark: Duration-Embedded Watermarking in LLM-based TTS." arXiv preprint arXiv:2606.15264 (2026). [Demo](https://muzw.github.io/duramark_demo/) #safety
-* Lin, Yihang, et al. "Emo-LiPO: Listwise Preference Optimization for Fine-Grained Emotion Intensity Control in LLM-based Text-to-Speech." arXiv preprint arXiv:2606.13006 (2026). #emotion
+* Lin, Yihang, et al. "Emo-LiPO: Listwise Preference Optimization for Fine-Grained Emotion Intensity Control in LLM-based Text-to-Speech." arXiv preprint arXiv:2606.13006 (2026).
 * Zhou, Yixuan, et al. "VoxCPM2 Technical Report." arXiv preprint arXiv:2606.06928 (2026). [Code](https://github.com/OpenBMB/VoxCPM/)
 * Lian, Shi, et al. "dots. tts Technical Report." arXiv preprint arXiv:2606.07080 (2026). [Code](https://github.com/rednote-hilab/dots.tts)
 
@@ -161,7 +156,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 * Shehzeen Samarah Hussain, Paarth Neekhara, Xuesong Yang, Edresson Casanova, Subhankar Ghosh, Roy Fejgin, Mikyas T. Desta, Rafael Valle, and Jason Li. 2025. Koel-TTS: Enhancing LLM-based Speech Generation with Preference Alignment and Classifier Free Guidance. EMNLP 2025. [Demo](https://koeltts.github.io/) [2025.11]
 * Zhenqi Jia, Rui Liu, Berrak Sisman, and Haizhou Li. 2025. Multimodal Fine-grained Context Interaction Graph Modeling for Conversational Speech Synthesis. EMNLP 2025. [Demo & Code](https://github.com/AI-S2-Lab/MFCIG-CSS) [2025.11]
 * Jianxing Yu, Gou Zihao, Chen Li, Zhisheng Wang, Peiji Yang, Wenqing Chen, and Jian Yin. 2025. Eliciting Implicit Acoustic Styles from Open-domain Instructions to Facilitate Fine-grained Controllable Generation of Speech. EMNLP 2025. [Demo](https://opspch-demo.github.io/) [2025.11]
-* Anuj Diwan, Zhisheng Zheng, David Harwath, and Eunsol Choi. 2025. Scaling Rich Style-Prompted Text-to-Speech Datasets. EMNLP 2025. [Dataset & Model & Code](https://github.com/ajd12342/paraspeechcaps) [2025.11]
+* Anuj Diwan, Zhisheng Zheng, David Harwath, and Eunsol Choi. 2025. Scaling Rich Style-Prompted Text-to-Speech Datasets. EMNLP 2025. [Dataset & Model & Code](https://github.com/ajd12342/paraspeechcaps) [2025.11] 
 * Zhisheng Zheng, Puyuan Peng, Anuj Diwan, Cong Phuoc Huynh, Xiaohang Sun, Zhu Liu, Vimal Bhat, and David Harwath. 2025. VoiceCraft-X: Unifying Multilingual, Voice-Cloning Speech Synthesis and Speech Editing. EMNLP 2025. [Demo](https://zhishengzheng.com/voicecraft-x/) [2025.11]
 * Zhao, Yiwen, Jiatong Shi, Jinchuan Tian, Yuxun Tang, Jiarui Hai, Jionghao Han, and Shinji Watanabe. "Adapting Speech Language Model to Singing Voice Synthesis." In AI for Music Workshop. [Demo](https://tsukasane.github.io/SLMSVS/) [2025.11]
 * Yan, Chao, Boyong Wu, Peng Yang, Pengfei Tan, Guoqiang Hu, Yuxin Zhang, Fei Tian et al. "Step-Audio-EditX Technical Report." arXiv preprint arXiv:2511.03601 (2025). [Code](https://github.com/stepfun-ai/Step-Audio-EditX) [2025.11]
