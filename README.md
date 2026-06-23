@@ -38,6 +38,12 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ### 2026-06
 
+* Zhou, Shuoyi, et al. "FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech." arXiv preprint arXiv:2606.19209 (2026). ![tag](https://img.shields.io/badge/%23collaborative-cyan) ![tag](https://img.shields.io/badge/%23controllable-cyan)
+* Ghosh, Subhankar, et al. "MagpieTTS-LF: Inference-Time Long-Form Speech Generation Without Training on Long-Form data." arXiv preprint arXiv:2606.18485 (2026). ![tag](https://img.shields.io/badge/%23inference--time-cyan) ![tag](https://img.shields.io/badge/%23long--form-cyan)
+* Eom, SooHwan, et al. "Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning." arXiv preprint arXiv:2606.20266 (2026). ![tag](https://img.shields.io/badge/%23transcript--free-cyan) ![tag](https://img.shields.io/badge/%23flow--matching-cyan)
+* Singh, Harshit, Ayush Pratap Singh, and Nityanand Mathur. "FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS." arXiv preprint arXiv:2606.20518 (2026). ![tag](https://img.shields.io/badge/%23editing-cyan) ![tag](https://img.shields.io/badge/%23pronunciation-cyan)
+* Zhang, Fang, Anqi Gou, and Linli Xu. "ExpV2S: Zero-Shot Expressive Video-to-Speech Synthesis via Latent Diffusion Model." Proceedings of the 2026 International Conference on Multimedia Retrieval. 2026. ![tag](https://img.shields.io/badge/%23video-cyan) ![tag](https://img.shields.io/badge/%23multimodal-cyan)
+* Mathur, Nityanand, et al. "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech." arXiv preprint arXiv:2606.20532 (2026). ![tag](https://img.shields.io/badge/%23style-cyan)
 * Arigala, Adarsh, et al. "Pixel-TTS: Image based Text Rendering for Robust Text-to-Speech." arXiv preprint arXiv:2606.14750 (2026). ![tag](https://img.shields.io/badge/%23cross--lingual-cyan) ![tag](https://img.shields.io/badge/%23multimodal-cyan) ![tag](https://img.shields.io/badge/%23zero--shot-cyan)
 * Quang, Vinh Dang, and Huy Ngo Quang. "An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis." arXiv preprint arXiv:2606.14922 (2026). ![tag](https://img.shields.io/badge/%23emotion-cyan) ![tag](https://img.shields.io/badge/%23style-cyan)
 * Mai, Jialong, et al. "NVMOS: Non-Verbal Vocalization Quality Assessment in Speech." arXiv preprint arXiv:2606.15888 (2026). ![tag](https://img.shields.io/badge/%23benchmark-cyan) ![tag](https://img.shields.io/badge/%23evaluation-cyan) ![tag](https://img.shields.io/badge/%23nonverbal-cyan)
@@ -49,6 +55,7 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ### 2026-05
 
+* Pan, Changhao, et al. "Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios." arXiv preprint arXiv:2605.28618 (2026). ![tag](https://img.shields.io/badge/%23benchmark-cyan) ![tag](https://img.shields.io/badge/%23long--form-cyan)
 * Yun, Jun-Hak, Seung-Bin Kim, and Seong-Whan Lee. "ImmersiveTTS: Environment-Aware Text-to-Speech with Multimodal Diffusion Transformer and Domain-Specific Representation Alignment." arXiv preprint arXiv:2605.30965 (2026). [Demo](https://jjunak-yun.github.io/ImmersiveTTS/) ![tag](https://img.shields.io/badge/%23diffusion-cyan) ![tag](https://img.shields.io/badge/%23environment-cyan) ![tag](https://img.shields.io/badge/%23multimodal-cyan)
 * Li, Ruiqi, et al. "SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue and Dialogue." arXiv preprint arXiv:2605.30993 (2026). [Demo](https://swanaigc.github.io/#/swanvoice) ![tag](https://img.shields.io/badge/%23dialogue-cyan) ![tag](https://img.shields.io/badge/%23long--context-cyan) ![tag](https://img.shields.io/badge/%23zero--shot-cyan)
 * Li, Bowen, et al. "PilotTTS: A Disciplined Modular Recipe for Competitive Speech Synthesis." arXiv preprint arXiv:2605.27258 (2026). [Code](https://github.com/AMAPVOICE/PilotTTS) ![tag](https://img.shields.io/badge/%23framework-cyan) ![tag](https://img.shields.io/badge/%23voice--cloning-cyan) ![tag](https://img.shields.io/badge/%23zero--shot-cyan)
