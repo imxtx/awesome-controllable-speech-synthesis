@@ -6,7 +6,7 @@ This is an evolving repo for the survey: [Towards Controllable Speech Synthesis 
 
 Text-to-speech (TTS) has advanced from generating natural-sounding speech to enabling fine-grained control over attributes like emotion, timbre, and style. Driven by rising industrial demand and breakthroughs in deep learning, e.g., diffusion and large language models (LLMs), controllable TTS has become a rapidly growing research area. This survey provides the first comprehensive review of controllable TTS methods, from traditional control techniques to emerging approaches using natural language prompts. We categorize model architectures, control strategies, and feature representations, while also summarizing challenges, datasets, and evaluations in controllable TTS. This survey aims to guide researchers and practitioners by offering a clear taxonomy and highlighting future directions in this fast-evolving field.
 
-If you find our survey useful for your research, please consider 📚citing📚 our [EMNLP 2025 main conference paper](https://aclanthology.org/2025.emnlp-main.40/).
+📚 **If you find our survey useful for your research, please consider 📚citing📚 our [EMNLP 2025 main conference paper](https://aclanthology.org/2025.emnlp-main.40/).**
 
 🎞️ **Video introductions for our paper**: [YouTube (English)](https://youtu.be/xheiAT6_-rA), [Bilibili (Chinese)](https://www.bilibili.com/video/BV1WD4EzLEHC)
 
