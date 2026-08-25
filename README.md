@@ -36,6 +36,15 @@ If you find our survey useful for your research, please consider 📚citing📚 
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+### 2026-08
+
+* Wen, Rime, et al. "X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance." arXiv preprint arXiv:2608.18661 (2026). [Code](https://github.com/X-Square-Robot/X2Streaming-TTS) ![tag](https://img.shields.io/badge/%23streaming-cyan) ![tag](https://img.shields.io/badge/%23low--latency-cyan) ![tag](https://img.shields.io/badge/%23llm-cyan)
+* Shen, Feiyu, et al. "FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations." arXiv preprint arXiv:2608.17492 (2026). [Code](https://github.com/FireRedTeam/FireRedTTS3) ![tag](https://img.shields.io/badge/%23editing-cyan) ![tag](https://img.shields.io/badge/%23instruction-cyan) ![tag](https://img.shields.io/badge/%23voice--cloning-cyan)
+* Sanders, Nicholas, Gustav Eje Henter, Simon King, and Korin Richmond. "Iterative Self-Learning for Expressive Text-to-Speech Synthesis." arXiv preprint arXiv:2608.15910 (2026). ![tag](https://img.shields.io/badge/%23expressive-cyan) ![tag](https://img.shields.io/badge/%23emotion-cyan) ![tag](https://img.shields.io/badge/%23low--resource-cyan)
+* Casanova, Edresson, et al. "VoiceChat-TTS: A Low-Latency Continuous Speech Synthesis Model for Interactive Agents." arXiv preprint arXiv:2608.13831 (2026). ![tag](https://img.shields.io/badge/%23streaming-cyan) ![tag](https://img.shields.io/badge/%23low--latency-cyan) ![tag](https://img.shields.io/badge/%23dialogue-cyan)
+* Hai, Jiarui, et al. "VoiceDesigner: Text-to-Voice Generation and Editing via Unified Diffusion Modeling and Data Augmentation." arXiv preprint arXiv:2608.13613 (2026). [Demo](https://voicedesigner-demo.github.io/) ![tag](https://img.shields.io/badge/%23description-cyan) ![tag](https://img.shields.io/badge/%23editing-cyan) ![tag](https://img.shields.io/badge/%23diffusion-cyan)
+* Cardia, Marco, Letizia Angileri, Marina Buzzi, and Barbara Leporini. "Code-to-Speech: An Exploratory Study of AI Text-to-Speech for Source Code Readability." In Proceedings of the 28th ACM International Conference on Multimodal Interaction. ACM, 2026. ![tag](https://img.shields.io/badge/%23accessibility-cyan) ![tag](https://img.shields.io/badge/%23benchmark-cyan) ![tag](https://img.shields.io/badge/%23evaluation-cyan)
+
 ### 2026-07
 
 * Xiang, Bajian, et al. "Qwen-Audio-3.0-TTS: Freely Controllable and Highly Robust Speech Synthesis with Multi-Stage Training Paradigm." arXiv preprint arXiv:2607.23938 (2026). [Demo](https://qwenaudio.github.io/FunAudioLLM.github.io/qwen-audio-3.0-tts/) ![tag](https://img.shields.io/badge/%23control-cyan) ![tag](https://img.shields.io/badge/%23instruction-cyan) ![tag](https://img.shields.io/badge/%23multilingual-cyan)
