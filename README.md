@@ -36,8 +36,15 @@ Text-to-speech (TTS) has advanced from generating natural-sounding speech to ena
 
 ## Follow-up Papers 🔥🔥🔥 (Newest First)
 
+### 2026-09
+
+* Zhou, Chao, Yiling Chen, Qi Chu, Tao Gong, Nenghai Yu, and Tianyi Wei. "TimeSteer: Inference-Time Speech Scheduling in Joint Audio-Visual Diffusion Models." arXiv preprint arXiv:2609.01277 (2026). ![tag](https://img.shields.io/badge/%23temporal--control-cyan) ![tag](https://img.shields.io/badge/%23multimodal-cyan) ![tag](https://img.shields.io/badge/%23training--free-cyan)
+* Lee, Che Hyun, Sangkwon Park, Donghun Kang, Dongwook Lee, Youngho Cho, Heeseung Kim, and Sungroh Yoon. "Phrase-Localized Language-Contrastive Guidance: Training-Free Localized Accent Control for Code-Switching Text-to-Speech." arXiv preprint arXiv:2609.01016 (2026). [Demo](https://saga1214.github.io/PhraseLocalizedLCG/) ![tag](https://img.shields.io/badge/%23accent-cyan) ![tag](https://img.shields.io/badge/%23cross--lingual-cyan) ![tag](https://img.shields.io/badge/%23training--free-cyan)
+* Thonet, Thibaut, Jos Rozen, and Laurent Besacier. "Ready to Speak: Aligning LLMs for TTS-Friendly Text Generation." arXiv preprint arXiv:2609.01246 (2026). [Code](https://github.com/naver/tts-friendly-gen) ![tag](https://img.shields.io/badge/%23llm-cyan) ![tag](https://img.shields.io/badge/%23dataset-cyan) ![tag](https://img.shields.io/badge/%23evaluation-cyan)
+
 ### 2026-08
 
+* Zhang, Jiawei, Liumeng Xue, Xinyuan Qian, Tianhao Zhang, Xu-Cheng Yin, and Haizhou Li. "Prompt2Binaural: Multimodal Prompt-Guided Flow-Matching for Controllable Binaural Speech Synthesis." IEEE Transactions on Cognitive and Developmental Systems (2026). [Demo](https://Prompt2Binaural.github.io/) doi: 10.1109/TCDS.2026.3728163. ![tag](https://img.shields.io/badge/%23control-cyan) ![tag](https://img.shields.io/badge/%23multimodal-cyan) ![tag](https://img.shields.io/badge/%23flow--matching-cyan)
 * Seki, Kentaro, Yuki Saito, Shinnosuke Takamichi, Takaaki Saeki, and Hiroshi Saruwatari. "Efficient and Robust Data Sampling Strategy for Large-Scale In-the-Wild Text-to-Speech Training." IEEE Access (2026). doi: 10.1109/ACCESS.2026.3727233. ![tag](https://img.shields.io/badge/%23data--selection-cyan) ![tag](https://img.shields.io/badge/%23data--quality-cyan) ![tag](https://img.shields.io/badge/%23scalability-cyan)
 * Liu, Tianchi, et al. "EmoTra-TTS: Smooth Intra-Utterance Emotion Transitions for Speech Synthesis." arXiv preprint arXiv:2608.23791 (2026). [Demo](https://liu-tianchi.github.io/EmoTra_DemoPage/) [Code](https://github.com/Liu-Tianchi/EmoTra-TTS) ![tag](https://img.shields.io/badge/%23emotion-cyan) ![tag](https://img.shields.io/badge/%23fine--grained--control-cyan) ![tag](https://img.shields.io/badge/%23flow--matching-cyan)
 * Wen, Rime, et al. "X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance." arXiv preprint arXiv:2608.18661 (2026). [Code](https://github.com/X-Square-Robot/X2Streaming-TTS) ![tag](https://img.shields.io/badge/%23streaming-cyan) ![tag](https://img.shields.io/badge/%23low--latency-cyan) ![tag](https://img.shields.io/badge/%23llm-cyan)
